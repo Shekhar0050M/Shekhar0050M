@@ -38,30 +38,34 @@ Plug 'frazrepo/vim-rainbow'
 "Language specific
 Plug 'tmhedberg/SimpylFold', { 'for': 'python' }
 "Plug 'lervag/vimtex', { 'for': 'tex' }
-Plug 'vim-pandoc/vim-pandoc'
-Plug 'vim-pandoc/vim-pandoc-syntax'
-Plug 'yuezk/vim-js'
+"Plug 'vim-pandoc/vim-pandoc'
+"Plug 'vim-pandoc/vim-pandoc-syntax'
+"Plug 'yuezk/vim-js'
 Plug 'HerringtonDarkholme/yats.vim'
 "Plug 'leafgarland/typescript-vim'
-Plug 'maxmellon/vim-jsx-pretty'
-Plug 'tikhomirov/vim-glsl'
+"Plug 'maxmellon/vim-jsx-pretty'
+"Plug 'tikhomirov/vim-glsl'
 Plug 'vhdirk/vim-cmake'
-Plug 'ds26gte/scmindent'
-Plug 'udalov/kotlin-vim'
+"Plug 'ds26gte/scmindent'
+"Plug 'udalov/kotlin-vim'
 
 if isdirectory("~/dev/mitscript-syntax")
     Plug '~/dev/mitscript-syntax'
 endif
 
 "Note taking
-Plug 'vimwiki/vimwiki'
-Plug 'lukaszkorecki/workflowish'
+"Plug 'vimwiki/vimwiki'
+"Plug 'lukaszkorecki/workflowish'
 
 "Competitive Coding
 Plug 'searleser97/cpbooster.vim'
 
-call plug#end()
+"IDEs
+Plug 'mattn/ideone-vim'
+Plug 'mattn/webapi-vim'
 
+call plug#end()
+let g:ideone_browser_command = 'w3m %URL%'
 "map <C-x> :!time g++ -std=c++17 % && time ./a.out <CR>
 "nmap <C-o> :!./a.out<CR>
 map <C-x> :Test <CR>
@@ -94,7 +98,7 @@ set undofile
 set cindent cinoptions=N-s,g0,j1,(s,m1
 
 set splitright splitbelow
-
+"belowright terminal
 set ignorecase smartcase
 nnoremap * /\<<C-R>=expand('<cword>')<CR>\><CR>
 nnoremap # ?\<<C-R>=expand('<cword>')<CR>\><CR>
@@ -121,6 +125,14 @@ autocmd BufEnter,FocusGained * checktime
 set updatetime=200
 
 cmap w!! w !sudo tee > /dev/null %
+
+let g:gutentags_project_root_finder = 'projectroot#guess'
+let g:gutentags_generate_on_missing = 0
+let g:gutentags_generate_on_new = 0
+let g:gutentags_modules = ['ctags', 'cscope']
+let g:gutentags_cache_dir = $HOME . '/.cache/gutentags'
+let g:gutentags_ctags_tagfile = '.vimtags'
+set tags=./.vimtags;,.vimtags,./tags;,tags
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
