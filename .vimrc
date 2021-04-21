@@ -61,8 +61,8 @@ endif
 Plug 'searleser97/cpbooster.vim'
 
 "IDEs
-Plug 'mattn/ideone-vim'
-Plug 'mattn/webapi-vim'
+"Plug 'mattn/ideone-vim'
+"Plug 'mattn/webapi-vim'
 
 call plug#end()
 let g:ideone_browser_command = 'w3m %URL%'
