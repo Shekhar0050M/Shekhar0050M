@@ -1,10 +1,14 @@
 set nocompatible
 filetype off
+set termguicolors
+set secure
 
 let g:mapleader="\<Space>"
 let g:maplocalleader="\<Space>"
 
 call plug#begin()
+"'' Git Support ''"
+Plug 'rhysd/git-messenger.vim'
 
 "Navigation Plugins
 Plug 'rbgrouleff/bclose.vim'
@@ -18,7 +22,7 @@ Plug 'majutsushi/tagbar'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'bling/vim-bufferline'
-Plug 'lifepillar/vim-solarized8'
+"Plug 'lifepillar/vim-solarized8'
 "Editor plugins
 Plug 'Raimondi/delimitMate'
 Plug 'tibabit/vim-templates'
@@ -48,14 +52,23 @@ Plug 'HerringtonDarkholme/yats.vim'
 Plug 'vhdirk/vim-cmake'
 "Plug 'ds26gte/scmindent'
 "Plug 'udalov/kotlin-vim'
+Plug 'jparise/vim-graphql'
+
+"'' Themes ''"
+Plug 'ghifarit53/tokyonight-vim'
+
+"Utilities
+Plug 'itchyny/lightline.vim'
+Plug 'voldikss/vim-floaterm'
 
 if isdirectory("~/dev/mitscript-syntax")
     Plug '~/dev/mitscript-syntax'
 endif
 
 "Note taking
-"Plug 'vimwiki/vimwiki'
-"Plug 'lukaszkorecki/workflowish'
+Plug 'vimwiki/vimwiki'
+Plug 'lukaszkorecki/workflowish'
+Plug 'michal-h21/vim-zettel'
 
 "Competitive Coding
 Plug 'searleser97/cpbooster.vim'
@@ -65,6 +78,11 @@ Plug 'searleser97/cpbooster.vim'
 "Plug 'mattn/webapi-vim'
 
 call plug#end()
+let g:tokyonight_style = 'night' " available: night, storm
+let g:tokyonight_enable_italic = 1
+silent! colorscheme tokyonight
+let g:airline_powerline_fonts=1
+
 let g:ideone_browser_command = 'w3m %URL%'
 "map <C-x> :!time g++ -std=c++17 % && time ./a.out <CR>
 "nmap <C-o> :!./a.out<CR>
@@ -92,10 +110,13 @@ set errorformat^=%-GIn\ file\ included\ %.%#
 set foldmethod=syntax
 set conceallevel=2
 set list lcs=tab:»\ ,trail:␣,extends:▶,precedes:◀
-
 set undofile
-
+set noerrorbells
 set cindent cinoptions=N-s,g0,j1,(s,m1
+set noshowmode
+hi Normal guibg=NONE ctermbg=NONE
+hi EndOfBuffer guibg=NONE ctermbg=NONE
+
 
 set splitright splitbelow
 "belowright terminal
@@ -133,6 +154,36 @@ let g:gutentags_modules = ['ctags', 'cscope']
 let g:gutentags_cache_dir = $HOME . '/.cache/gutentags'
 let g:gutentags_ctags_tagfile = '.vimtags'
 set tags=./.vimtags;,.vimtags,./tags;,tags
+
+"'' Conquer of Completion (CoC) ''"
+if filereadable(expand("~/.vim/plugged/coc.nvim/plugin/coc.vim"))
+  let g:coc_global_extensions=[
+      \'coc-actions',
+      \'coc-angular',
+      \'coc-css',
+      \'coc-cssmodules',
+      \'coc-docker',
+      \'coc-elixir',
+      \'coc-floaterm',
+      \'coc-go',
+      \'coc-highlight',
+      \'coc-html',
+      \'coc-json',
+      \'coc-markdownlint',
+      \'coc-marketplace',
+      \'coc-prettier',
+      \'coc-python',
+      \'coc-rust-analyzer',
+      \'coc-sh',
+      \'coc-snippets',
+      \'coc-sql',
+      \'coc-tabnine',
+      \'coc-tailwindcss',
+      \'coc-tsserver',
+      \'coc-yaml',
+      \'coc-clangd',
+      \]
+endif
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
@@ -350,12 +401,6 @@ function ToggleWrap()
 endfunction
 call WrapOn()
 
-if $TERM =~ 'rxvt' || $TERM =~'termite'
-    let g:solarized_visibility='low'
-    set background=dark
-    colorscheme solarized
-endif
-
 highlight! link SignColumn LineNr
 
 set spellfile=~/.vim/spell/en.utf-8.add
@@ -367,6 +412,8 @@ let g:airline_powerline_fonts = 1
 let g:NERDAltDelims_c = 1
 
 let g:tex_flavor='latex'
+let &rtp  = '~/.vim/bundle/vimtex,' . &rtp
+let &rtp .= '~/.vim/bundle/vimtex/after'
 if has('nvim')
     let g:vimtex_compiler_progname='nvr'
 endif
@@ -498,3 +545,94 @@ function! <SID>SynStack()
 endfunc
 
 packadd termdebug
+
+"'' Floatterm ''"
+if filereadable(expand("~/.config/nvim/plugged/vim-floaterm/plugin/floaterm.vim"))
+  nnoremap <leader>fd :FloatermNew --autoclose=2 --height=0.9 --width=0.9 --wintype=floating lazydocker<CR>
+  nnoremap <leader>fg :FloatermNew --autoclose=2 --height=0.9 --width=0.9 --wintype=floating lazygit<CR>
+  nnoremap <leader>fr :FloatermNew --autoclose=2 --height=0.75 --width=0.75 --wintype=floating ranger<CR>
+  nnoremap <leader>ft :FloatermNew --autoclose=2 --height=0.9 --width=0.9 --wintype=floating<CR>
+endif
+
+
+"'' Git-worktree ''"
+if filereadable(expand("~/.config/nvim/plugged/git-worktree.nvim/lua/git-worktree/init.lua"))
+  lua require("git-worktree").setup()
+
+  nnoremap <leader>gc <CMD>lua require("git-worktree").create_worktree(vim.fn.input("Worktree name > "), vim.fn.input("Worktree upstream > "))<CR>
+endif
+
+
+"'' Gitsigns ''"
+if filereadable(expand("~/.config/nvim/plugged/gitsigns.nvim/lua/gitsigns.lua"))
+  lua require('gitsigns').setup()
+endif
+
+
+"'' Hardtime ''"
+if filereadable(expand("~/.config/nvim/plugged/vim-hardtime/plugin/hardtime.vim"))
+  let g:hardtime_default_on = 1
+  let g:hardtime_showmsg = 1
+endif
+
+
+"'' Hop ''"
+if filereadable(expand("~/.config/nvim/plugged/hop.nvim/plugin/hop.vim"))
+  nnoremap <leader>h1 :HopChar1<CR>
+  nnoremap <leader>h2 :HopChar2<CR>
+  nnoremap <leader>hh :HopPattern<CR>
+  nnoremap <leader>hw :HopWord<CR>
+endif
+
+
+"'' Lightline ''"
+if filereadable(expand("~/.config/nvim/plugged/lightline.vim/plugin/lightline.vim"))
+  let g:lightline = {'colorscheme' : 'tokyonight'}
+endif
+
+
+"'' Telescope ''"
+if filereadable(expand("~/.config/nvim/plugged/telescope.nvim/plugin/telescope.vim"))
+lua << EOF
+  require('telescope').setup{
+    defaults = {
+      file_ignore_patterns = {
+        "%.git/.*",
+        "node_modules/.*",
+        "secret.d/.*",
+        "%.pem"
+      }
+    }
+  }
+EOF
+  if filereadable(expand("~/.config/nvim/plugged/git-worktree.nvim/lua/git-worktree/init.lua"))
+    lua require("telescope").load_extension("git_worktree")
+  endif
+
+  nnoremap <leader>fe <CMD>lua require('telescope.builtin').file_browser{cwd = vim.fn.expand("%:p:h")}<CR>
+  nnoremap <leader>ff <CMD>lua require('telescope.builtin').find_files{ hidden = true }<CR>
+  nnoremap <leader>fs <CMD>lua require('telescope.builtin').live_grep()<CR>
+  nnoremap <leader>fb <CMD>lua require('telescope.builtin').buffers()<CR>
+  nnoremap <leader>fh <CMD>lua require('telescope.builtin').help_tags()<CR>
+  nnoremap <leader>fw <CMD>lua require('telescope').extensions.git_worktree.git_worktrees()<CR>
+endif
+
+
+"'' Treesitter ''"
+if filereadable(expand("~/.config/nvim/plugged/nvim-treesitter/plugin/nvim-treesitter.vim"))
+  lua require'nvim-treesitter.configs'.setup{ ensure_installed='all', highlight={ enable=true } }
+endif
+
+
+"'' VIM Zettel ''"
+if filereadable(expand("~/.config/nvim/plugged/vim-zettel/plugin/zettel.vim"))
+  nnoremap <leader>zn :ZettelNew<CR>
+  nnoremap <leader>zo :ZettelOpen<CR>
+  nnoremap <leader>zi :ZettelInsertNote<CR>
+  nnoremap <leader>zb :ZettelBackLinks<CR>
+  nnoremap <leader>zu :ZettelInbox<CR>
+  nnoremap <leader>zl :ZettelGenerateLinks<CR>
+  nnoremap <leader>zt :ZettelGenerateTags<CR>
+  nnoremap <leader>zs :ZettelSearch<CR>
+  nnoremap <leader>zy :ZettelYankName<CR>
+endif
