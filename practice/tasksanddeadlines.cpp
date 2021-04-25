@@ -21,20 +21,22 @@ using namespace std;
 #define watch2(x,y)	cout<<x<<" "<<y<<endl;
 #define loop(i,a,b)	for(int i=a;i<b;i++)
 //TEMPLATES
-typedef vector<int> vi;
-typedef set<int> si;
+typedef vector<int64_t> vi;
+typedef set<int64_t> si;
 
 
 inline void solve(){
-    int n=4;
-    for(int b=1;b<(1<<n);b++){
-        for(int k=1;k<n;k++){
-            if(b&(1<<k)){
-                cout<<k<<" ";
-            }
-        }
-        cout<<endl;
+    int64_t n,reward=0;cin>>n;
+    vector<pair<int64_t,int64_t>> deadlocks(n);
+    for(int i=0;i<n;i++){
+        cin>>deadlocks[i].first>>deadlocks[i].second;
     }
+    sort(all(deadlocks));
+    for(int i=0;i<n;i++){
+        reward+=deadlocks[i].se-deadlocks[i].fi;
+        deadlocks[i+1].fi+=deadlocks[i].fi;
+    }
+    cout<<reward<<endl;
 }
 
 int main(){
@@ -42,5 +44,6 @@ int main(){
     //int64_t t;cin>>t;while(t--)
     solve();
 }
+
 
 

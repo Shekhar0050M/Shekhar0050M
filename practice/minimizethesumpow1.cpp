@@ -26,15 +26,20 @@ typedef set<int> si;
 
 
 inline void solve(){
-    int n=4;
-    for(int b=1;b<(1<<n);b++){
-        for(int k=1;k<n;k++){
-            if(b&(1<<k)){
-                cout<<k<<" ";
-            }
-        }
-        cout<<endl;
+    int64_t n,mid=0,minval=0;cin>>n;
+    vector<int64_t> a(n);
+    for(auto &i:a) cin>>i;
+    sort(all(a));
+    if(n%2==0){
+        mid=n/2-1;
     }
+    else{
+        mid=n/2;
+    }
+    for(int i=0;i<n;i++){
+        minval+=abs(a[i]-a[mid]);
+    }
+    cout<<minval<<endl;
 }
 
 int main(){
@@ -42,5 +47,6 @@ int main(){
     //int64_t t;cin>>t;while(t--)
     solve();
 }
+
 
 
