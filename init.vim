@@ -18,33 +18,28 @@ let g:maplocalleader="\<Space>"
 call plug#begin('~/.config/nvim/plugged')
 "''Navigation Plugins''"
 Plug 'rbgrouleff/bclose.vim'
-Plug 'dbakker/vim-projectroot'
+"Plug 'dbakker/vim-projectroot'
 Plug 'majutsushi/tagbar'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 "'' Git Support ''"
-Plug 'rhysd/git-messenger.vim'
-Plug 'ThePrimeagen/git-worktree.nvim'
-Plug 'lewis6991/gitsigns.nvim'
+"Plug 'rhysd/git-messenger.vim'
+"Plug 'ThePrimeagen/git-worktree.nvim'
+"Plug 'lewis6991/gitsigns.nvim'
 
 "'' Language Support ''"
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 "Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'jparise/vim-graphql'
-
-"'' Telescope ''"
-Plug 'nvim-lua/popup.nvim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
+"Plug 'jparise/vim-graphql'
 
 "'' Themes ''"
 Plug 'ghifarit53/tokyonight-vim'
 
 "'' Utilities ''"
 Plug 'phaazon/hop.nvim'
-Plug 'itchyny/lightline.vim'
+"Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdcommenter'
 "Plug 'romgrk/nvim-treesitter-context'
 Plug 'ryanoasis/vim-devicons'
@@ -61,44 +56,44 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'frazrepo/vim-rainbow'
 Plug 'tmhedberg/SimpylFold', { 'for': 'python' }
-Plug 'vim-utils/vim-man'
-Plug 'mbbill/undotree'
-Plug 'tpope/vim-dispatch'
-Plug 'theprimeagen/vim-be-good'
+"Plug 'vim-utils/vim-man'
+"Plug 'mbbill/undotree'
+"Plug 'tpope/vim-dispatch'
+"Plug 'theprimeagen/vim-be-good'
 Plug 'octol/vim-cpp-enhanced-highlight'
-Plug 'tpope/vim-projectionist'
+"Plug 'tpope/vim-projectionist'
 
 
 
 "'' VimWiki + Zettelkasten ''"
-Plug 'vimwiki/vimwiki'
-Plug 'lukaszkorecki/workflowish'
+"Plug 'vimwiki/vimwiki'
+"Plug 'lukaszkorecki/workflowish'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'michal-h21/vim-zettel'
+"Plug 'michal-h21/vim-zettel'
 
 "''Cimpetitive Coding''"
 Plug 'searleser97/cpbooster.vim'
 
 " Debugger Plugins
-Plug 'puremourning/vimspector'
-Plug 'szw/vim-maximizer'
+"Plug 'puremourning/vimspector'
+"Plug 'szw/vim-maximizer'
 
 " telescope requirements...
-Plug 'nvim-lua/popup.nvim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-Plug 'nvim-telescope/telescope-fzy-native.nvim'
-Plug 'colepeters/spacemacs-theme.vim'
+"Plug 'nvim-lua/popup.nvim'
+"Plug 'nvim-lua/plenary.nvim'
+"Plug 'nvim-telescope/telescope.nvim'
+"Plug 'nvim-telescope/telescope-fzy-native.nvim'
+"Plug 'colepeters/spacemacs-theme.vim'
 
-Plug 'sainnhe/gruvbox-material'
-Plug 'phanviet/vim-monokai-pro'
+"Plug 'sainnhe/gruvbox-material'
+"Plug 'phanviet/vim-monokai-pro'
 Plug 'flazz/vim-colorschemes'
-Plug 'chriskempson/base16-vim'
-Plug 'dracula/vim', { 'as': 'dracula' }
+"Plug 'chriskempson/base16-vim'
+"Plug 'dracula/vim', { 'as': 'dracula' }
 
 " HARPOON!!
-Plug 'mhinz/vim-rfc'
+"Plug 'mhinz/vim-rfc'
 Plug 'ThePrimeagen/neovim-irc-ui'
 
 " should I try another status bar???
@@ -138,6 +133,7 @@ filetype plugin indent on
 
 autocmd BufRead,BufNewFile *.sage,*.pyx,*.spyx set filetype=python
 
+set mouse=a
 set backspace=indent,eol,start
 set softtabstop=4
 set shiftwidth=4
@@ -444,25 +440,25 @@ nnoremap <silent> <Leader>A :FzfWindows<CR>
 
 
 "'' Hardtime ''"
-if filereadable(expand("~/.config/nvim/plugged/vim-hardtime/plugin/hardtime.vim"))
-    let g:hardtime_default_on = 1
-    let g:hardtime_showmsg = 1
-endif
+"if filereadable(expand("~/.config/nvim/plugged/vim-hardtime/plugin/hardtime.vim"))
+    "let g:hardtime_default_on = 1
+    "let g:hardtime_showmsg = 1
+"endif
 
 
 "'' Hop ''"
-if filereadable(expand("~/.config/nvim/plugged/hop.nvim/plugin/hop.vim"))
-    nnoremap <leader>h1 :HopChar1<CR>
-    nnoremap <leader>h2 :HopChar2<CR>
-    nnoremap <leader>hh :HopPattern<CR>
-    nnoremap <leader>hw :HopWord<CR>
-endif
+"if filereadable(expand("~/.config/nvim/plugged/hop.nvim/plugin/hop.vim"))
+    "nnoremap <leader>h1 :HopChar1<CR>
+    "nnoremap <leader>h2 :HopChar2<CR>
+    "nnoremap <leader>hh :HopPattern<CR>
+    "nnoremap <leader>hw :HopWord<CR>
+"endif
 
 
 "'' Lightline ''"
-if filereadable(expand("~/.config/nvim/plugged/lightline.vim/plugin/lightline.vim"))
-    let g:lightline = {'colorscheme' : 'tokyonight'}
-endif
+"if filereadable(expand("~/.config/nvim/plugged/lightline.vim/plugin/lightline.vim"))
+    "let g:lightline = {'colorscheme' : 'tokyonight'}
+"endif
 
 
 ""'' Telescope ''"
@@ -499,14 +495,14 @@ endif
 
 
 "'' VIM Zettel ''"
-if filereadable(expand("~/.config/nvim/plugged/vim-zettel/plugin/zettel.vim"))
-    nnoremap <leader>zn :ZettelNew<CR>
-    nnoremap <leader>zo :ZettelOpen<CR>
-    nnoremap <leader>zi :ZettelInsertNote<CR>
-    nnoremap <leader>zb :ZettelBackLinks<CR>
-    nnoremap <leader>zu :ZettelInbox<CR>
-    nnoremap <leader>zl :ZettelGenerateLinks<CR>
-    nnoremap <leader>zt :ZettelGenerateTags<CR>
-    nnoremap <leader>zs :ZettelSearch<CR>
-    nnoremap <leader>zy :ZettelYankName<CR>
-endif
+"if filereadable(expand("~/.config/nvim/plugged/vim-zettel/plugin/zettel.vim"))
+    "nnoremap <leader>zn :ZettelNew<CR>
+    "nnoremap <leader>zo :ZettelOpen<CR>
+    "nnoremap <leader>zi :ZettelInsertNote<CR>
+    "nnoremap <leader>zb :ZettelBackLinks<CR>
+    "nnoremap <leader>zu :ZettelInbox<CR>
+    "nnoremap <leader>zl :ZettelGenerateLinks<CR>
+    "nnoremap <leader>zt :ZettelGenerateTags<CR>
+    "nnoremap <leader>zs :ZettelSearch<CR>
+    "nnoremap <leader>zy :ZettelYankName<CR>
+"endif

@@ -1,32 +1,37 @@
-//alias accumulate(all(a),0)-->accumulate(all(a),0LL)
-//EXCLUDE DOING OPERATION ON SAME ARRAY WE HAVE ENOUGH STORAGE
 //KEEP CALM AND TRY TO SOLVE ATLEAST ONE PROBLEM
-
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
+#include<set>
+#include<algorithm>
+#include<numeric>
+//#include<bits/stdc++.h>
 
 using namespace std;
 
-#define FIO	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-#define int	long long
-#define ld	long double
-#define fi	first
-#define se	second
-#define mp	make_pair
-#define pb	push_back
-#define all(a)	a.begin(),a.end()
+#define FIO		ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define ld		long double
+#define endl		"\n"
+#define fi		first
+#define se		second
+#define mp		make_pair
+#define pb		push_back
+#define all(a)		a.begin(),a.end()
 #define CASE(t)         cout<<"Case #"<<(t)<<": ";
-#define mset(a,val)     memset(a,val,sizeof(a))
-
+#define watch(x)	cout<<x<<endl;
+#define watch2(x,y)	cout<<x<<" "<<y<<endl;
+#define loop(i,a,b)	for(int i=a;i<b;i++)
+#define loopr(i,a,b) for(int i=a,i>=b;i--)
+//TEMPLATES
+typedef vector<int> vi;
+typedef set<int> si;
 
 inline void solve(){
-
+    
 }
 
-signed main(){
+int main(){
     FIO;
-    int t;cin>>t;for(int x=1;x<t+1;x++)
-        solve();
+    //int64_t t;cin>>t;while(t--)
+		solve();
 }
-
-
 
