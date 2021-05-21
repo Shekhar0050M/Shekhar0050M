@@ -38,24 +38,24 @@ Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'ghifarit53/tokyonight-vim'
 
 "'' Utilities ''"
-Plug 'phaazon/hop.nvim'
+"Plug 'phaazon/hop.nvim'
 "Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdcommenter'
 "Plug 'romgrk/nvim-treesitter-context'
 Plug 'ryanoasis/vim-devicons'
 " Plug 'vim-scripts/ReplaceWithRegister'
-Plug 'voldikss/vim-floaterm'
+"Plug 'voldikss/vim-floaterm'
 "Plug 'takac/vim-hardtime' " see http://vimcasts.org/blog/2013/02/habit-breaking-habit-making/
 " Plug 'mg979/vim-visual-multi', { 'branch': 'master' }
 Plug 'bling/vim-bufferline'
-Plug 'tibabit/vim-templates'
+"Plug 'tibabit/vim-templates'
 Plug 'scrooloose/nerdcommenter'
-Plug 'tpope/vim-fugitive'
-Plug 'airblade/vim-gitgutter'
+"Plug 'tpope/vim-fugitive'
+"Plug 'airblade/vim-gitgutter'
 Plug 'jiangmiao/auto-pairs'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'frazrepo/vim-rainbow'
-Plug 'tmhedberg/SimpylFold', { 'for': 'python' }
+"Plug 'tmhedberg/SimpylFold', { 'for': 'python' }
 "Plug 'vim-utils/vim-man'
 "Plug 'mbbill/undotree'
 "Plug 'tpope/vim-dispatch'
@@ -88,13 +88,13 @@ Plug 'searleser97/cpbooster.vim'
 
 "Plug 'sainnhe/gruvbox-material'
 "Plug 'phanviet/vim-monokai-pro'
-Plug 'flazz/vim-colorschemes'
+"Plug 'flazz/vim-colorschemes'
 "Plug 'chriskempson/base16-vim'
 "Plug 'dracula/vim', { 'as': 'dracula' }
 
 " HARPOON!!
 "Plug 'mhinz/vim-rfc'
-Plug 'ThePrimeagen/neovim-irc-ui'
+"Plug 'ThePrimeagen/neovim-irc-ui'
 
 " should I try another status bar???
 "  Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
@@ -113,15 +113,15 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline_powerline_fonts = 1
 let g:airline_theme = "tokyonight"
 
-let g:tokyonight_style = 'storm' " available: night, storm
+let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 1
 silent! colorscheme tokyonight
 
 let g:vim_be_good_log_file = 1
 let g:vim_apm_log = 1
 
-let g:vimspector_enable_mappings = 'HUMAN'
 
+map <Esc><Esc> :qa <CR>
 map <C-x> :Test <CR>
 map <C-o> :Debug <CR>
 nmap <C-q> :q <CR>
@@ -139,7 +139,7 @@ set softtabstop=4
 set shiftwidth=4
 set tabstop=4
 set expandtab
-set number
+"set number
 set ruler
 set showcmd
 set errorformat^=%-GIn\ file\ included\ %.%#
@@ -327,62 +327,62 @@ let g:bufferline_rotate=1
 let g:bufferline_fixed_index=-1
 let g:bufferline_echo = 0
 
-com -range=% -nargs=1 P exe "<line1>,<line2>!".<q-args> | y | sil u | echom @"
-com -range=% Hash <line1>,<line2>P cpp -P -fpreprocessed | tr -d '[:space:]' | md5sum
-au FileType cpp com! -buffer -range=% Hash <line1>,<line2>P cpp -P -fpreprocessed | tr -d '[:space:]' | md5sum
+"com -range=% -nargs=1 P exe "<line1>,<line2>!".<q-args> | y | sil u | echom @"
+"com -range=% Hash <line1>,<line2>P cpp -P -fpreprocessed | tr -d '[:space:]' | md5sum
+"au FileType cpp com! -buffer -range=% Hash <line1>,<line2>P cpp -P -fpreprocessed | tr -d '[:space:]' | md5sum
 
-nmap <leader>sp :call <SID>SynStack()<CR>
-function! <SID>SynStack()
-    if !exists("*synstack")
-        return
-    endif
-    echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
-endfunc
+"nmap <leader>sp :call <SID>SynStack()<CR>
+"function! <SID>SynStack()
+    "if !exists("*synstack")
+        "return
+    "endif
+    "echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
+"endfunc
 
 "'' Floatterm ''"
-if filereadable(expand("~/.config/nvim/plugged/vim-floaterm/plugin/floaterm.vim"))
-    nnoremap <leader>fd :FloatermNew --autoclose=2 --height=0.9 --width=0.9 --wintype=floating lazydocker<CR>
-    nnoremap <leader>fg :FloatermNew --autoclose=2 --height=0.9 --width=0.9 --wintype=floating lazygit<CR>
-    nnoremap <leader>fr :FloatermNew --autoclose=2 --height=0.75 --width=0.75 --wintype=floating ranger<CR>
-    nnoremap <leader>ft :FloatermNew --autoclose=2 --height=0.9 --width=0.9 --wintype=floating<CR>
-endif
+"if filereadable(expand("~/.config/nvim/plugged/vim-floaterm/plugin/floaterm.vim"))
+    "nnoremap <leader>fd :FloatermNew --autoclose=2 --height=0.9 --width=0.9 --wintype=floating lazydocker<CR>
+    "nnoremap <leader>fg :FloatermNew --autoclose=2 --height=0.9 --width=0.9 --wintype=floating lazygit<CR>
+    "nnoremap <leader>fr :FloatermNew --autoclose=2 --height=0.75 --width=0.75 --wintype=floating ranger<CR>
+    "nnoremap <leader>ft :FloatermNew --autoclose=2 --height=0.9 --width=0.9 --wintype=floating<CR>
+"endif
 
-noremap <silent> <Leader>w :call ToggleWrap()<CR>
-function WrapOn()
-    setlocal wrap linebreak
-    set virtualedit=
-    setlocal display+=lastline
-    noremap  <buffer> <silent> <Up>   g<Up>
-    noremap  <buffer> <silent> <Down> g<Down>
-    noremap  <buffer> <silent> <Home> g<Home>
-    noremap  <buffer> <silent> <End>  g<End>
-    inoremap <buffer> <silent> <Up>   <C-o>gk
-    inoremap <buffer> <silent> <Down> <C-o>gj
-    inoremap <buffer> <silent> <Home> <C-o>g<Home>
-    inoremap <buffer> <silent> <End>  <C-o>g<End>
-endfunction
-function WrapOff()
-    setlocal nowrap
-    set virtualedit=
-    silent! nunmap <buffer> <Up>
-    silent! nunmap <buffer> <Down>
-    silent! nunmap <buffer> <Home>
-    silent! nunmap <buffer> <End>
-    silent! iunmap <buffer> <Up>
-    silent! iunmap <buffer> <Down>
-    silent! iunmap <buffer> <Home>
-    silent! iunmap <buffer> <End>
-endfunction
-function ToggleWrap()
-    if &wrap
-        echo "Wrap OFF"
-        call WrapOff()
-    else
-        echo "Wrap ON"
-        call WrapOn()
-    endif
-endfunction
-call WrapOn()
+"noremap <silent> <Leader>w :call ToggleWrap()<CR>
+"function WrapOn()
+    "setlocal wrap linebreak
+    "set virtualedit=
+    "setlocal display+=lastline
+    "noremap  <buffer> <silent> <Up>   g<Up>
+    "noremap  <buffer> <silent> <Down> g<Down>
+    "noremap  <buffer> <silent> <Home> g<Home>
+    "noremap  <buffer> <silent> <End>  g<End>
+    "inoremap <buffer> <silent> <Up>   <C-o>gk
+    "inoremap <buffer> <silent> <Down> <C-o>gj
+    "inoremap <buffer> <silent> <Home> <C-o>g<Home>
+    "inoremap <buffer> <silent> <End>  <C-o>g<End>
+"endfunction
+"function WrapOff()
+    "setlocal nowrap
+    "set virtualedit=
+    "silent! nunmap <buffer> <Up>
+    "silent! nunmap <buffer> <Down>
+    "silent! nunmap <buffer> <Home>
+    "silent! nunmap <buffer> <End>
+    "silent! iunmap <buffer> <Up>
+    "silent! iunmap <buffer> <Down>
+    "silent! iunmap <buffer> <Home>
+    "silent! iunmap <buffer> <End>
+"endfunction
+"function ToggleWrap()
+    "if &wrap
+        "echo "Wrap OFF"
+        "call WrapOff()
+    "else
+        "echo "Wrap ON"
+        "call WrapOn()
+    "endif
+"endfunction
+"call WrapOn()
 
 highlight! link SignColumn LineNr
 

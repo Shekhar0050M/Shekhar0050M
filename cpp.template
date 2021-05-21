@@ -8,22 +8,22 @@
 
 using namespace std;
 
-#define FIO		ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-#define ld		long double
-#define endl		"\n"
-#define fi		first
-#define se		second
-#define mp		make_pair
-#define pb		push_back
-#define all(a)		a.begin(),a.end()
+#define FIO		        ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define ld		        long double
+#define endl		    "\n"
+#define fi		        first
+#define se		        second
+#define mp		        make_pair
+#define pb		        push_back
+#define all(a)		    a.begin(),a.end()
 #define CASE(t)         cout<<"Case #"<<(t)<<": ";
-#define watch(x)	cout<<x<<endl;
-#define watch2(x,y)	cout<<x<<" "<<y<<endl;
-#define loop(i,a,b)	for(int i=a;i<b;i++)
-#define loopr(i,a,b) for(int i=a,i>=b;i--)
+#define watch(x)	    cout<<x<<endl;
+#define watch2(x,y)	    cout<<x<<" "<<y<<endl;
+#define loop(i,a,b)	    for(int64_t i=a;i<b;i++)
+#define loopr(i,a,b)    for(int64_t i=a,i>=b;i--)
 //TEMPLATES
-typedef vector<int> vi;
-typedef set<int> si;
+typedef vector<int64_t> vi;
+typedef set<int64_t> si;
 
 inline void solve(){
     
@@ -32,6 +32,5 @@ inline void solve(){
 int main(){
     FIO;
     //int64_t t;cin>>t;while(t--)
-		solve();
+    solve();
 }
-
