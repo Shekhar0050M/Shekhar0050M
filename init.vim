@@ -9,7 +9,6 @@ set termguicolors
 set updatetime=300
 filetype off
 syntax enable
-
 "'' Definitions ''"
 let g:mapleader="\<Space>"
 let g:maplocalleader="\<Space>"
@@ -48,7 +47,7 @@ Plug 'ryanoasis/vim-devicons'
 "Plug 'takac/vim-hardtime' " see http://vimcasts.org/blog/2013/02/habit-breaking-habit-making/
 " Plug 'mg979/vim-visual-multi', { 'branch': 'master' }
 Plug 'bling/vim-bufferline'
-"Plug 'tibabit/vim-templates'
+Plug 'tibabit/vim-templates'
 Plug 'scrooloose/nerdcommenter'
 "Plug 'tpope/vim-fugitive'
 "Plug 'airblade/vim-gitgutter'
@@ -100,10 +99,18 @@ Plug 'searleser97/cpbooster.vim'
 "  Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
 " Plug 'hoob3rt/lualine.nvim'
 
+" Web development
+Plug 'mattn/emmet-vim'
+Plug 'yuezk/vim-js'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'alvan/vim-closetag'
 
 call plug#end()
+
 "'' END PLUG ''"
 
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
 
 "'' VIM POST-PLUG ''"
 "''Airline''"
@@ -122,9 +129,10 @@ let g:vim_apm_log = 1
 
 
 map <Esc><Esc> :qa <CR>
-map <C-x> :Test <CR>
-map <C-o> :Debug <CR>
-nmap <C-q> :q <CR>
+map <F2> :Test <CR>
+map <F3> :Debug <CR>
+map <Esc> :q <CR>
+map <F4> :Termdebug <CR>
 autocmd CursorHold * update
 nmap <Leader>n :NERDTreeToggle<CR>
 set rtp^=/usr/share/vim/vimfiles
@@ -132,14 +140,14 @@ set rtp^=/usr/share/vim/vimfiles
 filetype plugin indent on
 
 autocmd BufRead,BufNewFile *.sage,*.pyx,*.spyx set filetype=python
-
+packadd termdebug
 set mouse=a
 set backspace=indent,eol,start
 set softtabstop=4
 set shiftwidth=4
 set tabstop=4
 set expandtab
-"set number
+set number
 set ruler
 set showcmd
 set errorformat^=%-GIn\ file\ included\ %.%#
