@@ -50,7 +50,7 @@ Plug 'bling/vim-bufferline'
 Plug 'tibabit/vim-templates'
 Plug 'scrooloose/nerdcommenter'
 "Plug 'tpope/vim-fugitive'
-"Plug 'airblade/vim-gitgutter'
+Plug 'airblade/vim-gitgutter'
 Plug 'jiangmiao/auto-pairs'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'frazrepo/vim-rainbow'
@@ -63,9 +63,8 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 "Plug 'tpope/vim-projectionist'
 
 
-
 "'' VimWiki + Zettelkasten ''"
-"Plug 'vimwiki/vimwiki'
+Plug 'vimwiki/vimwiki'
 "Plug 'lukaszkorecki/workflowish'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -83,7 +82,7 @@ Plug 'searleser97/cpbooster.vim'
 "Plug 'nvim-lua/plenary.nvim'
 "Plug 'nvim-telescope/telescope.nvim'
 "Plug 'nvim-telescope/telescope-fzy-native.nvim'
-"Plug 'colepeters/spacemacs-theme.vim'
+Plug 'colepeters/spacemacs-theme.vim'
 
 "Plug 'sainnhe/gruvbox-material'
 "Plug 'phanviet/vim-monokai-pro'
@@ -103,7 +102,7 @@ Plug 'searleser97/cpbooster.vim'
 Plug 'mattn/emmet-vim'
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
-Plug 'alvan/vim-closetag'
+"Plug 'alvan/vim-closetag'
 
 call plug#end()
 
@@ -141,7 +140,7 @@ filetype plugin indent on
 
 autocmd BufRead,BufNewFile *.sage,*.pyx,*.spyx set filetype=python
 packadd termdebug
-set mouse=a
+"set mouse=a
 set backspace=indent,eol,start
 set softtabstop=4
 set shiftwidth=4
@@ -182,7 +181,12 @@ if filereadable(expand("~/.config/nvim/plugged/coc.nvim/plugin/coc.vim"))
     let g:coc_global_extensions=[
                 \'coc-actions',
                 \'coc-clangd',
-                \]
+                \'coc-emmet',
+                \'coc-html',
+                \'coc-css',
+                \'coc-tsserver',
+                \'coc-marketplace',
+                \'']
 
     " Always show the signcolumn, otherwise it would shift the text each time
     set encoding=UTF-8
@@ -334,6 +338,9 @@ endif
 let g:bufferline_rotate=1
 let g:bufferline_fixed_index=-1
 let g:bufferline_echo = 0
+
+let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'default'},
+                     \ {'path': '~/projectwiki/', 'syntax': 'default'}]
 
 "com -range=% -nargs=1 P exe "<line1>,<line2>!".<q-args> | y | sil u | echom @"
 "com -range=% Hash <line1>,<line2>P cpp -P -fpreprocessed | tr -d '[:space:]' | md5sum
