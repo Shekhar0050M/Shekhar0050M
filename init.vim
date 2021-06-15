@@ -186,7 +186,7 @@ if filereadable(expand("~/.config/nvim/plugged/coc.nvim/plugin/coc.vim"))
                 \'coc-css',
                 \'coc-tsserver',
                 \'coc-marketplace',
-                \'']
+                \'coc-highlight']
 
     " Always show the signcolumn, otherwise it would shift the text each time
     set encoding=UTF-8
