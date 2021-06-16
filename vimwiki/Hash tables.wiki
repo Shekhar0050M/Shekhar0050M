@@ -1,0 +1,2 @@
+Time complexity : O(1)
+                    in worst senario it can be O(n)

@@ -1,0 +1,6 @@
+= Endianness =
+= 1 byte = 8 bits =
+32 bit architecture means each variable will take 4 byte 
+int is 32 - bit.
+64 bit architecture means each variable will take 8 byte
+long is 64 bit

@@ -1,0 +1,9 @@
+= Notations =
+    * O(1)
+    * O(logn)
+    * O(n)
+    * O(nlogn)
+    * O(n²), O(n³), O(n⁴)
+    * O(2ⁿ)
+    * O(n!)
+    * O(N(any form)+M(any form))

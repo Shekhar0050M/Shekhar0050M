@@ -1,0 +1,12 @@
+= <TR> =
+    Table row<TR></TR>
+    
+= <TD> =
+    Table data
+    
+= <THEAD> =
+    table head
+    
+=.<TFOOT> =
+    table foot
+

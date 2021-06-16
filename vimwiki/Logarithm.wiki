@@ -1,0 +1,2 @@
+log₂ N = y
+log₂ 2N = y+1

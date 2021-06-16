@@ -1,0 +1,4 @@
+We can solve this problem by three ways
+1. running the nested loop of n square and for each first loop we will iterate through the entire second loop to find the sum. O(n²)
+2. We can use hash mapping in which we will first store the value for example x + y = 10 so y equals to 10 - x and here we can check the value of 10 - x that is y in the array we can use hash mapping to find the element in array in constant time. O(nlogn)
+3. we can use 2 pointer theorem to find the sum in which we will first sort the array in nlog time using merge sort or quick sort and then we first point at the beginning and second in the end and keep adding and increment in the first and decrement in the last and keep going until we get the sum. O(n)

@@ -1,0 +1,17 @@
+= ALGOEXPERT JOB REQUIREMENTS =
+    = Data structures and Algorithms =
+        * [[Complexity Analysis]] -- Time amd space constraints
+        * [[Memory]]
+        * [[O notation]]
+        * [[Logarithm]]
+        * [[Array]]
+        * [[Linked list]]
+        * [[Hash tables]]
+        * [[Stacks and queues]]
+        * [[Strings]]
+        * [[Graphs]]
+        * [[Trees]]
+    = Becoming an algorithms expert =
+        * [[Two number sum]]
+        * [[Validate subsequence]]
+        * [[find closest value in bst]]

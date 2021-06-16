@@ -1,0 +1,3 @@
+1. This question is same as the coronavirus problem in tech gladiators prbpm 1 date 15 june
+2. this problem could also be solved by using two pointer in which we will declare four pointer first for string and second for the subsequence.
+

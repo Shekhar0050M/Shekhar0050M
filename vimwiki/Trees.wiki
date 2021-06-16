@@ -1,0 +1,10 @@
+1. Binary trees
+2. k-nary trees
+3. Heap
+4. min heap
+5. max heap
+6. tries
+7. Balanced trees
+8. Imbalanced trees
+9. AVL trees
+10. Full tree
