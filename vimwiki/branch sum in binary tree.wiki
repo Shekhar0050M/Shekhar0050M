@@ -1,0 +1,1 @@
+In this problem we are calculating the sum of all the elements till the leaf node of the tree the it is a summationn of elements that means the depth of two will have the data value added to it same for the depth three will have both elements added to it of second and first and this will continue till the last node and at the leaf node and then we will print.
