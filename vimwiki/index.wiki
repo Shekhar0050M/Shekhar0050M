@@ -16,3 +16,5 @@
         * [[Validate subsequence]]
         * [[find closest value in bst]]
         * [[branch sum in binary tree]]
+        * [[node depth in binary tree]]
+        * [[depth first search in binary tree]]

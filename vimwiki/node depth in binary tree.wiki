@@ -1,0 +1,3 @@
+In this problem we have to find the maximum depth of a tree so that the solution is simple just take each node and increase the value of the variable assigned to the function by 1 and just store it in some vector or in  anything else just represent the depth of node and depth of tree.
+
+O(N) T.C. / O(h) S.C

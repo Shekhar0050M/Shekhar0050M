@@ -39,7 +39,7 @@ Plug 'ghifarit53/tokyonight-vim'
 "'' Utilities ''"
 "Plug 'phaazon/hop.nvim'
 "Plug 'itchyny/lightline.vim'
-Plug 'preservim/nerdcommenter'
+"Plug 'preservim/nerdcommenter'
 "Plug 'romgrk/nvim-treesitter-context'
 Plug 'ryanoasis/vim-devicons'
 " Plug 'vim-scripts/ReplaceWithRegister'
@@ -47,7 +47,7 @@ Plug 'ryanoasis/vim-devicons'
 "Plug 'takac/vim-hardtime' " see http://vimcasts.org/blog/2013/02/habit-breaking-habit-making/
 " Plug 'mg979/vim-visual-multi', { 'branch': 'master' }
 Plug 'bling/vim-bufferline'
-Plug 'tibabit/vim-templates'
+"Plug 'tibabit/vim-templates'
 Plug 'scrooloose/nerdcommenter'
 "Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
@@ -61,8 +61,7 @@ Plug 'frazrepo/vim-rainbow'
 "Plug 'theprimeagen/vim-be-good'
 Plug 'octol/vim-cpp-enhanced-highlight'
 "Plug 'tpope/vim-projectionist'
-
-
+"Plug 'lifepillar/vim-solarized8'
 "'' VimWiki + Zettelkasten ''"
 Plug 'vimwiki/vimwiki'
 "Plug 'lukaszkorecki/workflowish'
@@ -82,11 +81,11 @@ Plug 'searleser97/cpbooster.vim'
 "Plug 'nvim-lua/plenary.nvim'
 "Plug 'nvim-telescope/telescope.nvim'
 "Plug 'nvim-telescope/telescope-fzy-native.nvim'
-Plug 'colepeters/spacemacs-theme.vim'
+"Plug 'colepeters/spacemacs-theme.vim'
 
 "Plug 'sainnhe/gruvbox-material'
 "Plug 'phanviet/vim-monokai-pro'
-"Plug 'flazz/vim-colorschemes'
+Plug 'flazz/vim-colorschemes'
 "Plug 'chriskempson/base16-vim'
 "Plug 'dracula/vim', { 'as': 'dracula' }
 
@@ -100,8 +99,8 @@ Plug 'colepeters/spacemacs-theme.vim'
 
 " Web development
 Plug 'mattn/emmet-vim'
-Plug 'yuezk/vim-js'
-Plug 'maxmellon/vim-jsx-pretty'
+"Plug 'yuezk/vim-js'
+"Plug 'maxmellon/vim-jsx-pretty'
 "Plug 'alvan/vim-closetag'
 
 call plug#end()
@@ -118,14 +117,13 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline_powerline_fonts = 1
 let g:airline_theme = "tokyonight"
-
-let g:tokyonight_style = 'night' " available: night, storm
+let g:tokyonight_style = 'storm' " available: night, storm
 let g:tokyonight_enable_italic = 1
-silent! colorscheme tokyonight
-
+autocmd FileType html,css colorscheme archery
+autocmd FileType html,css syntax on
 let g:vim_be_good_log_file = 1
 let g:vim_apm_log = 1
-
+autocmd FileType cpp,c++,c colorscheme tokyonight
 
 map <Esc><Esc> :qa <CR>
 map <F2> :Test <CR>
@@ -140,7 +138,7 @@ filetype plugin indent on
 
 autocmd BufRead,BufNewFile *.sage,*.pyx,*.spyx set filetype=python
 packadd termdebug
-"set mouse=a
+set mouse=a
 set backspace=indent,eol,start
 set softtabstop=4
 set shiftwidth=4
@@ -339,8 +337,8 @@ let g:bufferline_rotate=1
 let g:bufferline_fixed_index=-1
 let g:bufferline_echo = 0
 
-let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'default'},
-                     \ {'path': '~/projectwiki/', 'syntax': 'default'}]
+let g:vimwiki_list = [{'path': '~/Shekhar0050M/vimwiki/', 'syntax': 'default'},
+            \ {'path': '~/Shekhar0050M/projectwiki/', 'syntax': 'default'}]
 
 "com -range=% -nargs=1 P exe "<line1>,<line2>!".<q-args> | y | sil u | echom @"
 "com -range=% Hash <line1>,<line2>P cpp -P -fpreprocessed | tr -d '[:space:]' | md5sum
@@ -348,54 +346,54 @@ let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'default'},
 
 "nmap <leader>sp :call <SID>SynStack()<CR>
 "function! <SID>SynStack()
-    "if !exists("*synstack")
-        "return
-    "endif
-    "echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
+"if !exists("*synstack")
+"return
+"endif
+"echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
 "endfunc
 
 "'' Floatterm ''"
 "if filereadable(expand("~/.config/nvim/plugged/vim-floaterm/plugin/floaterm.vim"))
-    "nnoremap <leader>fd :FloatermNew --autoclose=2 --height=0.9 --width=0.9 --wintype=floating lazydocker<CR>
-    "nnoremap <leader>fg :FloatermNew --autoclose=2 --height=0.9 --width=0.9 --wintype=floating lazygit<CR>
-    "nnoremap <leader>fr :FloatermNew --autoclose=2 --height=0.75 --width=0.75 --wintype=floating ranger<CR>
-    "nnoremap <leader>ft :FloatermNew --autoclose=2 --height=0.9 --width=0.9 --wintype=floating<CR>
+"nnoremap <leader>fd :FloatermNew --autoclose=2 --height=0.9 --width=0.9 --wintype=floating lazydocker<CR>
+"nnoremap <leader>fg :FloatermNew --autoclose=2 --height=0.9 --width=0.9 --wintype=floating lazygit<CR>
+"nnoremap <leader>fr :FloatermNew --autoclose=2 --height=0.75 --width=0.75 --wintype=floating ranger<CR>
+"nnoremap <leader>ft :FloatermNew --autoclose=2 --height=0.9 --width=0.9 --wintype=floating<CR>
 "endif
 
 "noremap <silent> <Leader>w :call ToggleWrap()<CR>
 "function WrapOn()
-    "setlocal wrap linebreak
-    "set virtualedit=
-    "setlocal display+=lastline
-    "noremap  <buffer> <silent> <Up>   g<Up>
-    "noremap  <buffer> <silent> <Down> g<Down>
-    "noremap  <buffer> <silent> <Home> g<Home>
-    "noremap  <buffer> <silent> <End>  g<End>
-    "inoremap <buffer> <silent> <Up>   <C-o>gk
-    "inoremap <buffer> <silent> <Down> <C-o>gj
-    "inoremap <buffer> <silent> <Home> <C-o>g<Home>
-    "inoremap <buffer> <silent> <End>  <C-o>g<End>
+"setlocal wrap linebreak
+"set virtualedit=
+"setlocal display+=lastline
+"noremap  <buffer> <silent> <Up>   g<Up>
+"noremap  <buffer> <silent> <Down> g<Down>
+"noremap  <buffer> <silent> <Home> g<Home>
+"noremap  <buffer> <silent> <End>  g<End>
+"inoremap <buffer> <silent> <Up>   <C-o>gk
+"inoremap <buffer> <silent> <Down> <C-o>gj
+"inoremap <buffer> <silent> <Home> <C-o>g<Home>
+"inoremap <buffer> <silent> <End>  <C-o>g<End>
 "endfunction
 "function WrapOff()
-    "setlocal nowrap
-    "set virtualedit=
-    "silent! nunmap <buffer> <Up>
-    "silent! nunmap <buffer> <Down>
-    "silent! nunmap <buffer> <Home>
-    "silent! nunmap <buffer> <End>
-    "silent! iunmap <buffer> <Up>
-    "silent! iunmap <buffer> <Down>
-    "silent! iunmap <buffer> <Home>
-    "silent! iunmap <buffer> <End>
+"setlocal nowrap
+"set virtualedit=
+"silent! nunmap <buffer> <Up>
+"silent! nunmap <buffer> <Down>
+"silent! nunmap <buffer> <Home>
+"silent! nunmap <buffer> <End>
+"silent! iunmap <buffer> <Up>
+"silent! iunmap <buffer> <Down>
+"silent! iunmap <buffer> <Home>
+"silent! iunmap <buffer> <End>
 "endfunction
 "function ToggleWrap()
-    "if &wrap
-        "echo "Wrap OFF"
-        "call WrapOff()
-    "else
-        "echo "Wrap ON"
-        "call WrapOn()
-    "endif
+"if &wrap
+"echo "Wrap OFF"
+"call WrapOff()
+"else
+"echo "Wrap ON"
+"call WrapOn()
+"endif
 "endfunction
 "call WrapOn()
 
@@ -456,23 +454,23 @@ nnoremap <silent> <Leader>A :FzfWindows<CR>
 
 "'' Hardtime ''"
 "if filereadable(expand("~/.config/nvim/plugged/vim-hardtime/plugin/hardtime.vim"))
-    "let g:hardtime_default_on = 1
-    "let g:hardtime_showmsg = 1
+"let g:hardtime_default_on = 1
+"let g:hardtime_showmsg = 1
 "endif
 
 
 "'' Hop ''"
 "if filereadable(expand("~/.config/nvim/plugged/hop.nvim/plugin/hop.vim"))
-    "nnoremap <leader>h1 :HopChar1<CR>
-    "nnoremap <leader>h2 :HopChar2<CR>
-    "nnoremap <leader>hh :HopPattern<CR>
-    "nnoremap <leader>hw :HopWord<CR>
+"nnoremap <leader>h1 :HopChar1<CR>
+"nnoremap <leader>h2 :HopChar2<CR>
+"nnoremap <leader>hh :HopPattern<CR>
+"nnoremap <leader>hw :HopWord<CR>
 "endif
 
 
 "'' Lightline ''"
 "if filereadable(expand("~/.config/nvim/plugged/lightline.vim/plugin/lightline.vim"))
-    "let g:lightline = {'colorscheme' : 'tokyonight'}
+"let g:lightline = {'colorscheme' : 'tokyonight'}
 "endif
 
 
@@ -511,13 +509,13 @@ nnoremap <silent> <Leader>A :FzfWindows<CR>
 
 "'' VIM Zettel ''"
 "if filereadable(expand("~/.config/nvim/plugged/vim-zettel/plugin/zettel.vim"))
-    "nnoremap <leader>zn :ZettelNew<CR>
-    "nnoremap <leader>zo :ZettelOpen<CR>
-    "nnoremap <leader>zi :ZettelInsertNote<CR>
-    "nnoremap <leader>zb :ZettelBackLinks<CR>
-    "nnoremap <leader>zu :ZettelInbox<CR>
-    "nnoremap <leader>zl :ZettelGenerateLinks<CR>
-    "nnoremap <leader>zt :ZettelGenerateTags<CR>
-    "nnoremap <leader>zs :ZettelSearch<CR>
-    "nnoremap <leader>zy :ZettelYankName<CR>
+"nnoremap <leader>zn :ZettelNew<CR>
+"nnoremap <leader>zo :ZettelOpen<CR>
+"nnoremap <leader>zi :ZettelInsertNote<CR>
+"nnoremap <leader>zb :ZettelBackLinks<CR>
+"nnoremap <leader>zu :ZettelInbox<CR>
+"nnoremap <leader>zl :ZettelGenerateLinks<CR>
+"nnoremap <leader>zt :ZettelGenerateTags<CR>
+"nnoremap <leader>zs :ZettelSearch<CR>
+"nnoremap <leader>zy :ZettelYankName<CR>
 "endif

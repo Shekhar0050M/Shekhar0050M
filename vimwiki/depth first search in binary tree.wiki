@@ -1,0 +1,3 @@
+depth first search is almost same as iterating through each not in place we don't print in just store it in a stack
+
+O(V+E) T.C. / O(V) S.C.
