@@ -1,0 +1,2 @@
+1. If you use recursive approach :: O(2ⁿ) T.C. / O(n) S.C.
+2. My approach : O(n) T.C. / O(n) S.C.

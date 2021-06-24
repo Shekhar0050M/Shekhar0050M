@@ -18,3 +18,7 @@
         * [[branch sum in binary tree]]
         * [[node depth in binary tree]]
         * [[depth first search in binary tree]]
+        * [[linked list construction]]
+        * [[nth fibonacci number]]
+        * [[**product sum**]]
+        * [[binary search]]

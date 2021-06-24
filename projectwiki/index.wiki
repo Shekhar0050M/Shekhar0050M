@@ -5,3 +5,5 @@
     - Input
     - Button
     - Highjacking searches
+= Week 6 =
+    - CSS --> font-weight, text-align, line-height, text-decoration, line-spacing, font-size, font-spacing, font-family

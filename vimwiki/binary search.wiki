@@ -1,0 +1,2 @@
+simple binary search you know
+O(logn) T.C. / O(2ⁿ) S.C.

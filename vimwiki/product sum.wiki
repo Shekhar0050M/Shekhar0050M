@@ -1,0 +1,3 @@
+this is a very peculiar problem in this problem we have an array which contains an array which contains in array and  a single could contain as much as array as possible so the algorithm is simple we have to find the sum of the total array for which if there is like a iteration from left to right and if we get a array inside array then we will increase our count by one and what ever be the products be the sum of all the elements we do multiplication of depth of that array into to accumulati9nnof all elements into that subarray so through this way we will iterate through the problem.
+
+O(n+d≈N) T.C. / O(d) S.C.
