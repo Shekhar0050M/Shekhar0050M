@@ -1,0 +1,3 @@
+We have to find three largest number stored in an array* .
+The process we use is that first store the first three elements of an array in ascending order in  a different array and if the value is greater than any element of the second array amd swap the value accordingly.
+T.C O(N) / S.C. O(1)

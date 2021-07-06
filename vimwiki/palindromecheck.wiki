@@ -1,0 +1,5 @@
+Simple palindrome check
+T.C. O(N)
+S.C. O(1)
+
+Second Method can be dynamic programming S.C. O(N)

@@ -1,0 +1,4 @@
+T.C. Worst O(n²)
+    Best O(n)
+    
+S.C. O(1)
