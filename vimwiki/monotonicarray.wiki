@@ -1,0 +1,3 @@
+In this problem we have to find that the given array is either monotonic increasing or monotonically decreasing monotonic increasing is strictly increasing and monotonically decreasing is strictly decreasing.
+T.C. O(N)
+S.C. O(1)

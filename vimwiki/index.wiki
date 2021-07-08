@@ -26,3 +26,8 @@
         * [[bubblesort]]
         * [[insertionsort]]
         * [[palindromecheck]]
+        * [[caesarcipherencrypter]]
+        * [[threenumbersum]]
+        * [[smallestdifference]]
+        * [[moveelementtoend]]
+        * [[monotonicarray]]

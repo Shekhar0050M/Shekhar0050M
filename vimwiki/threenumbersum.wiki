@@ -1,0 +1,4 @@
+Find sum by combination of three number.
+T.C. O(N²)
+S.C. O(1)
+If storing S.C. O(N)

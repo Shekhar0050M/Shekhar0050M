@@ -1,0 +1,3 @@
+In this method sort both array and declare two variables that will point at the beginning of the theories and use the process as given in the code to get the minimum difference accordingly.
+T.C. O(nlogn + mlogm)
+S.C. O(1)

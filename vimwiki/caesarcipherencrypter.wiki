@@ -1,0 +1,7 @@
+My method 
+T.C. O(N)
+S.C. O(1)
+
+Algoexpert  Method
+T.C. O(N)
+S.C. O(N)
