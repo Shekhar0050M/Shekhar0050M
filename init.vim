@@ -52,7 +52,7 @@ Plug 'scrooloose/nerdcommenter'
 "Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'jiangmiao/auto-pairs'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'frazrepo/vim-rainbow'
 "Plug 'tmhedberg/SimpylFold', { 'for': 'python' }
 "Plug 'vim-utils/vim-man'
@@ -103,6 +103,9 @@ Plug 'mattn/emmet-vim'
 "Plug 'maxmellon/vim-jsx-pretty'
 "Plug 'alvan/vim-closetag'
 
+" AutoCompletions...
+"Plug 'codota/tabnine-vim'
+
 call plug#end()
 
 "'' END PLUG ''"
@@ -118,13 +121,10 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline_powerline_fonts = 1
 let g:airline_theme = "tokyonight"
 let g:tokyonight_style = 'storm' " available: night, storm
-let g:tokyonight_enable_italic = 1
-autocmd FileType html,css colorscheme archery
-autocmd FileType html,css syntax on
+let g:tokyonight_enable_italic = 0
 let g:vim_be_good_log_file = 1
 let g:vim_apm_log = 1
-autocmd FileType cpp,c++,c colorscheme tokyonight
-
+colorscheme tokyonight
 map <Esc><Esc> :qa <CR>
 map <F2> :Test <CR>
 map <F3> :Debug <CR>
@@ -136,6 +136,7 @@ set rtp^=/usr/share/vim/vimfiles
 
 filetype plugin indent on
 
+autocmd FileType html,css syntax on
 autocmd BufRead,BufNewFile *.sage,*.pyx,*.spyx set filetype=python
 packadd termdebug
 set mouse=a
@@ -182,6 +183,7 @@ if filereadable(expand("~/.config/nvim/plugged/coc.nvim/plugin/coc.vim"))
                 \'coc-emmet',
                 \'coc-html',
                 \'coc-css',
+                \'coc-tabnine',
                 \'coc-tsserver',
                 \'coc-marketplace',
                 \'coc-highlight']

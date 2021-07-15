@@ -31,3 +31,5 @@
         * [[smallestdifference]]
         * [[moveelementtoend]]
         * [[monotonicarray]]
+        * [[spiraltransverse]]
+        * [[longestpeak]]

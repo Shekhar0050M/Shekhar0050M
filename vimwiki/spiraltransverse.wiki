@@ -1,0 +1,6 @@
+In this problem ,we have to transverse through all elements in the perimeter and print apl elements.    
+1. Iterative Method
+T.C.O(N) / S.C. O(1)
+Here, N is n*m.
+2. Recursive approach
+T.C. O(N) / S.C. O(N)
