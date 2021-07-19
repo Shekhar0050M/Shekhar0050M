@@ -32,6 +32,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 "Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 "Plug 'jparise/vim-graphql'
+"Plug 'ycm-core/YouCompleteMe'
 
 "'' Themes ''"
 Plug 'ghifarit53/tokyonight-vim'
@@ -113,6 +114,7 @@ call plug#end()
 let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
 
+let g:ycm_clangd_binary_path="/data/data/com.termux/files/usr/bin/clangd"
 "'' VIM POST-PLUG ''"
 "''Airline''"
 
@@ -183,7 +185,6 @@ if filereadable(expand("~/.config/nvim/plugged/coc.nvim/plugin/coc.vim"))
                 \'coc-emmet',
                 \'coc-html',
                 \'coc-css',
-                \'coc-tabnine',
                 \'coc-tsserver',
                 \'coc-marketplace',
                 \'coc-highlight']

@@ -10,3 +10,6 @@
 = Week 7 =
     - CSS -->
         - [[Selectors]]
+    - [[Specificity]]
+    - [[Inheritance]]
+    - [[CSS box models]]

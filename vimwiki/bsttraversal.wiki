@@ -1,0 +1,5 @@
+1. In-order - it is a form of representation of binary tree elements in which all elements are sorted and stored in ascending order i.e. store the smallest elemts as we iterate through the node..
+2. Pre-order - it is a form of representation of binary tree elements in which we store the elements in an array as we iterate through the nodes.
+3. Post-order - it is a form of representation of binary tree elements in which we store the greatest element of a tree in an array as we iterate to the node.
+T.C. O(N)
+S.C. O(d)->depth of the tree

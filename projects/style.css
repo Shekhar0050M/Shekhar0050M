@@ -1,3 +1,9 @@
-* {
-    color: red;
+#one {
+    width: 200px;
+    height: 200px;
+    border-color: #4895EF;
+    border-width: 5px;
+    border-radius: 5px;
+    background-color: #7209B7;
+    border-style: solid inset;
 }

@@ -1,0 +1,4 @@
+In this problem we have to create a balanced binary search tree in which the height will be minimum.
+T.C. Inorder :: O(NlogN)
+     Preorder :: O(N)
+S.C.O(N)

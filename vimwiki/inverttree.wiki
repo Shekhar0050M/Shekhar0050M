@@ -1,0 +1,8 @@
+there are two methods 
+First one is my method and second one is algoexpert method in my method I have just iterated oppositely that is not left to right but right to left and kept storing the value of the current node in another tree and at last printing new tree.
+T.C. O(N)
+S.C. O(d) d=depth
+Second method is based on bfs method.They are also following the same method instead of storing the nodes value in another tree they are storing them in a queue and just printing it.
+T.C.O(N)
+S.C.O(N)
+

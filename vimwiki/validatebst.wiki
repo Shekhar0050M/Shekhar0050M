@@ -1,0 +1,3 @@
+In this problem we have to validate our binary tree as a valid binary tree so to do this we have to pass three value in the function i.e prevprevnode, prevnode and current node and we have to make sure that our current node is less than prevprevnode and greater than equal to prevnode.
+T.C. O(N)
+S.C. O(N)

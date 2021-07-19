@@ -1,0 +1,9 @@
+T.C.Best case O(log(n))
+    Worst case O(N) singly linked list
+S.C. 
+    Recursive:
+     Insertion O(N)
+     Searching Average O(log(N))
+               Worst O(N)
+    Iterative:
+     O(1)

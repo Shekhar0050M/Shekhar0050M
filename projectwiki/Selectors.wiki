@@ -1,0 +1,54 @@
+id selector - #search {
+    background-color: #219EBC;
+    color: #F1FAEE;
+}
+class selector - .tag {
+
+}
+
+*** coolors - for color pallete
+
+descendents 
+li a {
+
+}
+
+adjacent descendents 
+li + a {
+
+}
+
+child descendents
+ul > li {
+
+}
+
+attribute selector
+input[type="text"] {
+
+}
+
+input[type*="text"]{
+    here * shows that text is not a property but more like a fuzzg finding of text among input.
+    $ for .org/.com/.etc.
+    
+}
+
+pseudo classes
+:active
+:checked
+:first
+:first-child
+:hover
+:not()
+:nth-child()
+:nth-of-type()
+
+pseudo elements
+
+::after
+::before
+::first-line
+::first-letter
+::selection
+

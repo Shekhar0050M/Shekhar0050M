@@ -8,7 +8,7 @@ setopt nonomatch
 setopt notify
 setopt numericglobsort
 setopt promptsubst
-fortune | cowsay
+fortune
 #neofetch --logo
 #tree -L 1 -p -s -h -A -C
 #exa --tree --level 2 --icons --long --no-user --time=accessed --git --no-filesize --no-time
@@ -19,13 +19,13 @@ export ZSH="/data/data/com.termux/files/home/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="random"
+ZSH_THEME="fino"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
 # If set to an empty array, this variable will have no effect.
-ZSH_THEME_RANDOM_CANDIDATES=( "mikeh" "simonoff" "jnrowe" "fino" "blinks" "suvash" "intheloop" "junkfood" "takashiyoshida" "adben" "sporty_256" "refined" "skaro" "bira" "cypher" "wedisagree" "smt" "crcandy" "dstufft" "ys" "steeef" "jaischeema" "pygmalion-virtualenv" "xiong-chiamiov-plus" "re5et" "kphoen" "gianu" "fletcherm" "mortalscumbag" "avit" "gentoo" "wezm+" "tjkirch" "nicoulaj" )
+ZSH_THEME_RANDOM_CANDIDATES=( "mikeh" "simonoff" "jnrowe" "fino" "blinks" "suvash" "intheloop" "junkfood" "takashiyoshida" "sporty_256" "refined" "skaro" "bira" "cypher" "wedisagree" "smt" "crcandy" "dstufft" "ys" "steeef" "jaischeema" "pygmalion-virtualenv" "xiong-chiamiov-plus" "re5et" "kphoen" "gianu" "fletcherm" "mortalscumbag" "avit" "gentoo" "wezm+" "tjkirch" "nicoulaj" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"

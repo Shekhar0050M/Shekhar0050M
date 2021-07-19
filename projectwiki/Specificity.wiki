@@ -1,0 +1,3 @@
+Inline(inside html as style) > Id > Class > Elements
+ !important
+Specificity Calculator
