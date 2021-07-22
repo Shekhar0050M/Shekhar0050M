@@ -1,9 +1,13 @@
-#one {
-    width: 200px;
-    height: 200px;
-    border-color: #4895EF;
-    border-width: 5px;
-    border-radius: 5px;
-    background-color: #7209B7;
-    border-style: solid inset;
+section {
+    background-color: #457B9D;
+    border: 1px solid #A8DADC;
+    height: 800px;
+    width: 800px;
+}
+
+div {
+    background-color: #F4A261;
+    height: 50%;
+    width: 50%;
+    border: 1px solid indianred;
 }

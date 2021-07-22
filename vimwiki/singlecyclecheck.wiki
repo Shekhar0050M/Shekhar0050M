@@ -1,0 +1,3 @@
+In this problem, we have to find the presemce of single cycle in our array in which the cycle constitutes all array.
+T.C. O(N)
+S.C. O(1)

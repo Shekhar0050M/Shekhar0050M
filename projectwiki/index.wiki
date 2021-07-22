@@ -13,3 +13,4 @@
     - [[Specificity]]
     - [[Inheritance]]
     - [[CSS box models]]
+    - [[Inline**]]
