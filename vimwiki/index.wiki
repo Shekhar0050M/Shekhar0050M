@@ -43,3 +43,4 @@
         * [[levenshteindistance]]
         * [[kadanealgorithm]]
         * [[singlecyclecheck]]
+        * [[riversizes]]
