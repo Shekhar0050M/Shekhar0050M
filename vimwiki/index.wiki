@@ -44,3 +44,4 @@
         * [[kadanealgorithm]]
         * [[singlecyclecheck]]
         * [[riversizes]]
+        * [[youngestcommonancestor]]

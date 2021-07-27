@@ -1,3 +1,5 @@
+Coolors, Unsplash
+
 = Week 5 =
     - [[Tables]]
     - [[Forms]]
@@ -14,3 +16,10 @@
     - [[Inheritance]]
     - [[CSS box models]]
     - [[Inline**]]
+= Week 8 =
+    - [[Opacity and Alpha Colors]]
+    - [[Position]]
+    - [[CSS transitions]]
+    - [[Transform]]
+    - [[Hover Effect]]
+    - [[Google Fonts]]

@@ -1,5 +1,5 @@
 block vs inline
 display-none
 inline-block
-relative-ems ,rems
+relative-ems-based on root tag ,rems-based on root html
 absolute

@@ -1,0 +1,6 @@
+In this problem, we have to find the largest youngest commom ancestor for 1,2 or more nodes in a graph and print the youngest ancestor.
+T.C. O(d=depth)
+S.C. O(1)
+my method 
+T.C. O(d)
+S.C. O(d)
