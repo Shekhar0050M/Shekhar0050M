@@ -1,0 +1,9 @@
+display: flex;
+flex-direction: ;
+justify-content: ;(main axis)
+flex-wrap: ;
+align-items: ;(cross-axis)
+align-self: ;
+flex-basis: ;
+flex-grow: ;
+flex-shrink: ;

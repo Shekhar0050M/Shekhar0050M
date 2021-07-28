@@ -23,3 +23,6 @@ Coolors, Unsplash
     - [[Transform]]
     - [[Hover Effect]]
     - [[Google Fonts]]
+= Section 10 =
+    - [[Flex]]
+    - [[Media Queries]]
