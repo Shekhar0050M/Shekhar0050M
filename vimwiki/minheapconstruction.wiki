@@ -1,0 +1,5 @@
+In this algorithm, we have to place the elements in sych a way that the parent node will be less than its child node and each node will have exact 2 nodes.
+T.C. O(logN)->Sift up && Sift down  \\ T.C. O(N) -> Build heap
+S.C. O(1)
+
+We generally use heap to keep track of smallest value and greatest value.
