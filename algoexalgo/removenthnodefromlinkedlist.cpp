@@ -23,14 +23,41 @@ node* createsll(){
 }
 
 void printll(node *root){
-    node *curnode;
-    for(int i=0;i<10;i++){
+    node *curnode=root;
+    while(curnode!=nullptr){
         printf("%ld ",curnode->data);
         curnode=curnode->next;
     }
 }
 
+void deletenode(node *bdel,node *todel,node *afdel){
+    node *temp;
+    temp=todel;
+    bdel->next=afdel;
+    todel->next=nullptr;
+    free(temp);
+}
+
+void posofdelnode(node *root){
+    node *prevnode,*ptr1=root,*ptr2=root,*curnnode;
+    int64_t k;
+    printf("Enter the node you want to delete:: ");
+    scanf("%ld",&k);
+    while(k--){
+        ptr2=ptr2->next;
+    }
+    while(ptr2!=nullptr){
+        prevnode=ptr1;
+        ptr1=ptr1->next;
+        curnnode=ptr1->next;
+        ptr2=ptr2->next;
+    }
+    deletenode(prevnode,ptr1,curnnode);
+}
+
 int main(){
     node *root=createsll();
-    
+    printll(root);
+    posofdelnode(root);
+    printll(root);
 }

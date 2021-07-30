@@ -46,3 +46,4 @@
         * [[riversizes]]
         * [[youngestcommonancestor]]
         * [[minheapconstruction]]
+        * [[removenthnodefromend]]

@@ -1,0 +1,2 @@
+Very intuitive and new approach to soove using two pointer.
+T.C. O(N) / S.C. O(1)
