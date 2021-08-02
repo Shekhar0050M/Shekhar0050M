@@ -1,0 +1,3 @@
+In this problem,we have to create an algorithm through which we can find a variable in array. The array is sorted manner
+T.C.O(N+M)
+S.C.O(1)

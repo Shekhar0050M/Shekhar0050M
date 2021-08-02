@@ -47,3 +47,6 @@
         * [[youngestcommonancestor]]
         * [[minheapconstruction]]
         * [[removenthnodefromend]]
+        * [[powerset]]
+        * [[minmaxstackconstruction]]
+        * [[searchinsortedmatrix]]

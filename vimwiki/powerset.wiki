@@ -1,0 +1,3 @@
+In this problem, we have to find all the subsets of the given array.
+Iterative method T.C. O(2ⁿ*n) \ S.C O(2ⁿ*n)
+Recursive method its garbage iterative is enough.
