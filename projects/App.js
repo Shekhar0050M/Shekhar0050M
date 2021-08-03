@@ -1,4 +1,3 @@
-let firsrname=prompt("Enter first name:: ");
-while(!firsrname){
-    firsrname=prompt("Try again");
-}
+let color = []
+color.push("hello")
+color.push(5)
