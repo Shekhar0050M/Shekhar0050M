@@ -51,3 +51,4 @@
         * [[minmaxstackconstruction]]
         * [[searchinsortedmatrix]]
         * [[balancedbrackets]]
+        * [[groupanagrams]]

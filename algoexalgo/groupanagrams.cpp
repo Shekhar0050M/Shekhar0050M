@@ -28,14 +28,21 @@ inline void mymethod(vector<string> &group,vector<vector<string>> &answer){
     }
 }
 
-int main(){
-    vector<string> group{"yo","act","flop","tac","cat","oy","olfp"};
-    vector<vector<string>> answer;
-    mymethod(group,answer);
+inline void myprintsets(vector<vector<string>> &answer){
     for(auto i:answer){
+        if(i.size()==0){
+            break;
+        }
         for(auto j:i){
             cout<<j<<" ";
         }
         cout<<endl;
     }
+}
+
+int main(){
+    vector<string> group{"yo","act","flop","tac","cat","oy","olfp"};
+    vector<vector<string>> answer(group.size());
+    mymethod(group,answer);
+    
 }
