@@ -4,6 +4,7 @@
 using namespace std;
 
 inline void fournumbersummymtd(int arr[],int value,int size){
+    sort(arr,arr+size);
     int k=0,l=size-1;
     for(int i=0;i<size;i++){
         for(int j=i+1;j<size;j++){
@@ -11,7 +12,7 @@ inline void fournumbersummymtd(int arr[],int value,int size){
             l=size-1;
             while(k<l){
                 if(arr[i]+arr[j]+arr[k]+arr[l]==value){
-                    printf("Position of coordinates are :: %d %d %d %d",i,j,k,l);
+                    printf("Values are :: %d %d %d %d",arr[i],arr[j],arr[k],arr[l]);
                     break;
                 }
                 else if(arr[i]+arr[j]+arr[k]+arr[l]>value){

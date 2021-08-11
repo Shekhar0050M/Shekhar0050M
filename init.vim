@@ -48,7 +48,7 @@ Plug 'ryanoasis/vim-devicons'
 "Plug 'takac/vim-hardtime' " see http://vimcasts.org/blog/2013/02/habit-breaking-habit-making/
 " Plug 'mg979/vim-visual-multi', { 'branch': 'master' }
 Plug 'bling/vim-bufferline'
-"Plug 'tibabit/vim-templates'
+Plug 'tibabit/vim-templates'
 Plug 'scrooloose/nerdcommenter'
 "Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
@@ -69,6 +69,7 @@ Plug 'vimwiki/vimwiki'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 "Plug 'michal-h21/vim-zettel'
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 "''Cimpetitive Coding''"
 Plug 'searleser97/cpbooster.vim'
@@ -128,10 +129,11 @@ let g:vim_be_good_log_file = 1
 let g:vim_apm_log = 1
 colorscheme tokyonight
 map <Esc><Esc> :qa <CR>
-map <F2> :Test <CR>
-map <F3> :Debug <CR>
+au FileType python,cpp map <F2> :Test <CR>
+au FileType python,cpp map <F3> :Debug <CR>
 map <Esc> :q <CR>
-map <F4> :Termdebug <CR>
+au FileType cpp map <F4> :Termdebug <CR>
+au FileType java map <F2> <bar> :!javac % && java %:r<CR>
 autocmd CursorHold * update
 nmap <Leader>n :NERDTreeToggle<CR>
 set rtp^=/usr/share/vim/vimfiles
@@ -169,7 +171,9 @@ augroup WrapInMarkdown
     autocmd FileType markdown setlocal wrap
 augroup END
 
-
+"'''VIM Templates''*
+let g:tmpl_author_name='Shekhar Suman'
+let g:tmpl_author_email='shekhar0050m@gmail.com'
 
 "'' VIM Keymaps ''"
 nmap <leader>h :wincmd h<CR>
@@ -185,9 +189,11 @@ if filereadable(expand("~/.config/nvim/plugged/coc.nvim/plugin/coc.vim"))
                 \'coc-emmet',
                 \'coc-html',
                 \'coc-css',
+                \'coc-html-css-support',
                 \'coc-tsserver',
                 \'coc-marketplace',
-                \'coc-highlight']
+                \'coc-highlight',
+                \'coc-java']
 
     " Always show the signcolumn, otherwise it would shift the text each time
     set encoding=UTF-8
