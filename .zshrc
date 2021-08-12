@@ -1,31 +1,20 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-#
-setopt autocd
-setopt interactivecomments
-setopt magicequalsubst
-setopt nonomatch
-setopt notify
-setopt numericglobsort
-setopt promptsubst
-fortune
-#neofetch --logo
-#tree -L 1 -p -s -h -A -C
-#exa --tree --level 2 --icons --long --no-user --time=accessed --git --no-filesize --no-time
+export PATH=$HOME/.local/bin:$PATH
+
 # Path to your oh-my-zsh installation.
-export ZSH="/data/data/com.termux/files/home/.oh-my-zsh"
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="fino"
+ZSH_THEME="aditya"
 
 # Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
+# Setting this variable when ZSH_THEME="aditya"
 # a theme from this variable instead of looking in $ZSH/themes/
 # If set to an empty array, this variable will have no effect.
-ZSH_THEME_RANDOM_CANDIDATES=( "mikeh" "simonoff" "jnrowe" "fino" "blinks" "suvash" "intheloop" "junkfood" "takashiyoshida" "sporty_256" "refined" "skaro" "bira" "cypher" "wedisagree" "smt" "crcandy" "dstufft" "ys" "steeef" "jaischeema" "pygmalion-virtualenv" "xiong-chiamiov-plus" "re5et" "kphoen" "gianu" "fletcherm" "mortalscumbag" "avit" "gentoo" "wezm+" "tjkirch" "nicoulaj" )
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -81,14 +70,7 @@ ZSH_THEME_RANDOM_CANDIDATES=( "mikeh" "simonoff" "jnrowe" "fino" "blinks" "suvas
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
-    git
-    zsh-autosuggestions
-    zsh-syntax-highlighting
-    zsh-completions
-    )
-
-autoload -U compinit && compinit
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -117,6 +99,29 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls="exa --icons"
-alias la='ls -la'
-alias vscode="code-server --auth none --disable-telemetry"
+#------------------------------------------
+alias l='ls -lh'
+alias ll='ls -lah'
+alias la='ls -a'
+alias ld='ls -lhd'
+alias p='pwd'
+
+#alias rm='rm -rf'
+alias u='cd /data/data/com.termux/files/usr'
+alias h='cd /data/data/com.termux/files/home'
+alias :q='exit'
+alias grep='grep --color=auto'
+alias open='termux-open'
+alias lc='lolcat'
+alias xx='chmod +x'
+alias rel='termux-reload-settings'
+
+#------------------------------------------
+
+# SSH Server Connections
+
+# linux (Arch)
+#alias arch='ssh UNAME@IP -i ~/.ssh/id_rsa.DEVICE'
+
+# linux sftp (Arch)
+#alias archfs='sftp -i ~/.ssh/id_rsa.DEVICE UNAME@IP'
