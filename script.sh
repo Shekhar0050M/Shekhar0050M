@@ -10,7 +10,7 @@
 
 
 pkg update && pkg upgrade -y
-pkg imstall unstable-repo unzip python proot-distro perl openssh openjdk-17 nodejs neovim neofetch mariadb make man git gdb gdbm fortune font-config exa curl cowsay clang -y
+pkg imstall unstable-repo unzip python proot-distro perl openssh openjdk-17 nodejs neovim neofetch mariadb make man git gdb gdbm fortune exa curl cowsay clang -y
 mkdir -p ~/.config/nvim/ 
 mkdir -p ~/.termux/ 
 cp init.vim ~/.config/nvim/ 
