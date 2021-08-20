@@ -28,3 +28,6 @@ Coolors, Unsplash
     - [[Media Queries]]
 = Section 11 =
     - [[Bootstrap]]
+= Section 20 =
+    - [[Functions]]
+    - [[Try / Catch]]
