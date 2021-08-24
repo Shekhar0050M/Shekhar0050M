@@ -52,3 +52,4 @@
         * [[searchinsortedmatrix]]
         * [[balancedbrackets]]
         * [[groupanagrams]]
+        * [[minrewards]]
