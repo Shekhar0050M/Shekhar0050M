@@ -53,3 +53,7 @@
         * [[balancedbrackets]]
         * [[groupanagrams]]
         * [[minrewards]]
+
+
+    = System Design =
+        * [[Relational database]]

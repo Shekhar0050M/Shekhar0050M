@@ -1,0 +1,6 @@
+[[
+A - admacity - transaction consists of sub operations.
+C - consistency - transaction is consistent.
+I - isolation - multiple tranaction done sequentially
+D - durability - permanent transaction for the time being.
+]]
