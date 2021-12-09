@@ -4,6 +4,7 @@
 #include<set>
 #include<algorithm>
 #include<numeric>
+#include<cmath>
 //#include<bits/stdc++.h>
 
 using namespace std;
@@ -25,12 +26,12 @@ using namespace std;
 typedef vector<int64_t> vi;
 typedef set<int64_t> si;
 
-inline void solve(){
+inline void solve(int t){
     
 }
 
 int main(){
     FIO;
-    //int64_t t;cin>>t;while(t--)
-    solve();
+    //int64_t t;cin>>t;for(int i=1;i<=t;i++)
+    solve(i);
 }
