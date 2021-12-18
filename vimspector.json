@@ -12,9 +12,7 @@
                 "debugOptions": [],
                 "cwd": "${cwd}",
                 "program": "${file}"
-
             }
-
         },
         "Perl - Launch": {
             "adapter": "vscode-perl-debug",
@@ -31,9 +29,7 @@
                 "debugOptions": [],
                 "cwd": "${cwd}",
                 "program": "${file}"
-
             }
-
         },
         "C - Launch": {
             "adapter": "vscode-cpptools",
@@ -44,33 +40,34 @@
                 "externalConsole": true,
                 "logging": {
                     "engineLogging": true
-
                 },
                 "stopOnEntry": true,
                 "stopAtEntry": true,
                 "debugOptions": [],
                 "MIMode": "gdb",
                 "cwd": "${cwd}",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ],
                 "program": "${fileDirname}/${fileBasenameNoExtension}"
-
             }
-
         },
-        "Java - Launch": {
+        "Java Attach": {
             "adapter": "vscode-java",
+            "filetypes": [ "java" ],
             "configuration": {
-                "name": "Java: Launch current file",
-                "request": "launch",
-                "mainClass": "com.vimspector.test.TestApplication",
-                "sourcePaths": [ "${workspaceRoot}/src/main/java"  ],
-                "classPaths": [ "${workspaceRoot}/target/classes"  ],
-                "args": "hello world!",
-                "stopOnEntry": true,
-                "console": "integratedTerminal"
-
+                "request": "attach",
+                "hostName": "${host}",
+                "port": "${port}",
+                "sourcePaths": [
+                    "${workspaceRoot}/src/main/java",
+                    "${workspaceRoot}/src/test/java"
+                ]
             }
-
         }
-
-    } 
+    }
 }

@@ -17,14 +17,13 @@ let g:maplocalleader="\<Space>"
 call plug#begin('~/.config/nvim/plugged')
 "''Navigation Plugins''"
 Plug 'rbgrouleff/bclose.vim'
-"Plug 'dbakker/vim-projectroot'
 Plug 'majutsushi/tagbar'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 "'' Git Support ''"
-"Plug 'rhysd/git-messenger.vim'
+Plug 'rhysd/git-messenger.vim'
 "Plug 'ThePrimeagen/git-worktree.nvim'
 "Plug 'lewis6991/gitsigns.nvim'
 
@@ -57,18 +56,12 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'frazrepo/vim-rainbow'
 "Plug 'tmhedberg/SimpylFold', { 'for': 'python' }
 "Plug 'vim-utils/vim-man'
-"Plug 'mbbill/undotree'
-"Plug 'tpope/vim-dispatch'
-"Plug 'theprimeagen/vim-be-good'
+Plug 'mbbill/undotree'
 Plug 'octol/vim-cpp-enhanced-highlight'
-"Plug 'tpope/vim-projectionist'
-"Plug 'lifepillar/vim-solarized8'
 "'' VimWiki + Zettelkasten ''"
 Plug 'vimwiki/vimwiki'
-"Plug 'lukaszkorecki/workflowish'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-"Plug 'michal-h21/vim-zettel'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 "''Cimpetitive Coding''"
@@ -76,28 +69,10 @@ Plug 'searleser97/cpbooster.vim'
 
 " Debugger Plugins
 "Plug 'puremourning/vimspector'
-"Plug 'szw/vim-maximizer'
 
 " telescope requirements...
-"Plug 'nvim-lua/popup.nvim'
-"Plug 'nvim-lua/plenary.nvim'
-"Plug 'nvim-telescope/telescope.nvim'
-"Plug 'nvim-telescope/telescope-fzy-native.nvim'
-"Plug 'colepeters/spacemacs-theme.vim'
-
-"Plug 'sainnhe/gruvbox-material'
-"Plug 'phanviet/vim-monokai-pro'
 Plug 'flazz/vim-colorschemes'
-"Plug 'chriskempson/base16-vim'
-"Plug 'dracula/vim', { 'as': 'dracula' }
 
-" HARPOON!!
-"Plug 'mhinz/vim-rfc'
-"Plug 'ThePrimeagen/neovim-irc-ui'
-
-" should I try another status bar???
-"  Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
-" Plug 'hoob3rt/lualine.nvim'
 
 " Web development
 Plug 'mattn/emmet-vim'
@@ -105,96 +80,7 @@ Plug 'mattn/emmet-vim'
 "Plug 'maxmellon/vim-jsx-pretty'
 "Plug 'alvan/vim-closetag'
 
-" AutoCompletions...
-"Plug 'codota/tabnine-vim'
-
 call plug#end()
-
-"'' END PLUG ''"
-
-"''Extras''"
-"noh
-"syntax on
-"set t_Co=16
-"set nocompatible
-"set showmode
-"set showcmd
-"set ruler
-"set number
-"set cursorline
-"set expandtab
-"set noshiftround
-"set lazyredraw
-"set magic
-"set hlsearch
-"set incsearch
-"set ignorecase
-"set smartcase
-"set encoding=utf-8
-"set modelines=0
-"set formatoptions=tqn1
-"set tabstop=4
-"set shiftwidth=4
-"set softtabstop=4
-"set cmdheight=1
-"set laststatus=2
-"set backspace=indent,eol,start
-"set list
-"set listchars=tab:\│\ 
-"set matchpairs+=<:>
-"set statusline=%1*\ file\ %3*\ %f\ %4*\ 
-"set statusline+=%=\ 
-"set statusline+=%3*\ %l\ of\ %L\ %2*\ line\ 
-"set scrolloff=8
-"nmap <C-S> :w<CR>
-"nmap <C-_> :noh<CR>
-"nmap <S-Left> v<Left>
-"nmap <S-Right> v<Right>
-"nmap <C-Up> 8k
-"nmap <C-Down> 8j
-"nmap <C-O> o<Esc>
-"nmap <C-Z> u
-"nmap <C-Y> <C-R>
-"nmap <C-F> /
-"nmap <C-H> i<C-W><Esc>
-"nmap <F3> :set invnumber<CR>
-"nmap <F4> :q<CR>
-"imap <C-S> <Esc>:w<CR>a
-"imap <C-_> <Esc>:noh<CR>a
-"imap <S-Left> <Esc>lv<Left>
-"imap <S-Right> <Esc>lv<Right>
-"imap <C-Up> <Esc>8ka
-"imap <C-Down> <Esc>8ja
-"imap <C-O> <Esc>o
-"imap <C-Z> <Esc>ua
-"imap <C-Y> <Esc><C-R>a
-"imap <Nul> <C-N>
-"imap <C-F> <Esc>/
-"imap <C-H> <C-W>
-"imap <C-V> <Esc>pa
-"imap <F3> <Esc>:set invnumber<CR>a
-"imap <F4> <Esc>:q<CR>
-"vmap <C-Up> 8k
-"vmap <C-Down> 8j
-"hi linenr ctermfg=8
-"hi cursorline cterm=NONE
-"hi cursorlinenr ctermfg=15
-"hi comment ctermfg=8
-"hi pmenu ctermbg=0 ctermfg=NONE
-"hi pmenusel ctermbg=4 ctermfg=0
-"hi pmenusbar ctermbg=0
-"hi pmenuthumb ctermbg=7
-"hi matchparen ctermbg=black ctermfg=NONE
-"hi search ctermbg=0
-"hi statusline ctermbg=0 ctermfg=NONE
-"hi statuslinenc ctermbg=0 ctermfg=0
-"hi user1 ctermbg=1 ctermfg=0
-"hi user2 ctermbg=4 ctermfg=0
-"hi user3 ctermbg=0 ctermfg=NONE
-"hi user4 ctermbg=NONE ctermfg=NONE
-"hi group1 ctermbg=NONE ctermfg=0
-"autocmd colorscheme * hi clear cursorline
-"match group1 /\t/
 
 let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
@@ -210,19 +96,18 @@ let g:tokyonight_style = 'storm' " available: night, storm
 let g:tokyonight_enable_italic = 0
 let g:vim_be_good_log_file = 1
 let g:vim_apm_log = 1
-colorscheme tokyonight
+autocmd filetype * colorscheme tokyonight
 map <Esc><Esc> :qa <CR>
-au FileType python,cpp map <F1> :Test <CR>
-au FileType python,cpp map <F2> :Debug <CR>
 map <Esc> :q <CR>
-au FileType cpp map <F3> :Termdebug <CR>
-au FileType java map <F1> <bar> :!javac % && java %:r<CR>
 autocmd CursorHold * update
 nmap <Leader>n :NERDTreeToggle<CR>
 set rtp^=/usr/share/vim/vimfiles
-
+autocmd filetype python,java.cpp,vim colorscheme tokyonight
+packadd! vimspector
+let g:vimspector_enable_mappings = 'HUMAN'
+let g:vimspector_base_dir=expand( '$HOME/.vim/vimspector-config'  )
 filetype plugin indent on
-
+nmap <F1> !java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=5005,suspend=y %:r <CR>
 autocmd FileType html,css syntax on
 autocmd BufRead,BufNewFile *.sage,*.pyx,*.spyx set filetype=python
 packadd termdebug
@@ -248,8 +133,6 @@ hi EndOfBuffer guibg=NONE ctermbg=NONE
 set splitright splitbelow
 "belowright terminal
 set ignorecase smartcase
-map <C-c> :! termux-clipboard-set $(cat %)<CR>
-
 
 augroup WrapInMarkdown
     autocmd!

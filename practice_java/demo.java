@@ -5,7 +5,7 @@ import java.util.LinkedList;
 class Solution {
     void function(int[] nums,List<Integer> d,List<List<Integer>> ans,int temp){
         if(d.size()==3){
-            ans.add(d);
+            ans.addAll(d);
             return;
         }
         for(int i=0;i<nums.length;i++){
