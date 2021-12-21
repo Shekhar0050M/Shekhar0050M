@@ -62,7 +62,7 @@
             "configuration": {
                 "request": "attach",
                 "hostName": "${host}",
-                "port": "${port}",
+                "port": "5005",
                 "sourcePaths": [
                     "${workspaceRoot}/src/main/java",
                     "${workspaceRoot}/src/test/java"
