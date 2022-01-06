@@ -48,6 +48,7 @@ set encoding=utf-8
 "let g:ycm_java_jdtls_extension_path = [
   "\ '</home/shekhar/.vim/vimspector-config/gadgets/linux'
   "\ ]
+nmap <Leader>qf :YcmCompleter FixIt<CR>
 
 "''Airline''"
 
