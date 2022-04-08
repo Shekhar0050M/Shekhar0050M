@@ -1,0 +1,19 @@
+package com.shekhar.product.bo;
+
+import com.shekhar.product.dto.Product;
+
+public class ProductBOImpl implements ProductBO {
+
+	@Override
+	public void create(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Product findProduct(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="com.shekhar.product.dto.Product"/>
+    <fullyQualifiedTypeName name="com.shekhar.product.dao.ProductDAO"/>
+    <fullyQualifiedTypeName name="com.shekhar.product.dao.ProductDAOImpl"/>
+</qualifiedTypeNameHistroy>

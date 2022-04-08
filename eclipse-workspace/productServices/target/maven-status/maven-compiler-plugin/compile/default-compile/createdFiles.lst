@@ -1,0 +1,5 @@
+com/shekhar/product/dto/Product.class
+com/shekhar/product/dao/ProductDAO.class
+com/shekhar/product/bo/ProductBO.class
+com/shekhar/product/dao/ProductDAOImpl.class
+com/shekhar/product/bo/ProductBOImpl.class

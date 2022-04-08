@@ -1,0 +1,5 @@
+package com.shekhar.product.dao;
+
+public interface ProductDAO {
+
+}
