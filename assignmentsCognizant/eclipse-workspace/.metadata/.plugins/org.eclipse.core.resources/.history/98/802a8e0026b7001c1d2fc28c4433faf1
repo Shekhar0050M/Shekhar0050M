@@ -1,0 +1,17 @@
+package com.shekhar.user;
+
+public class UserDAOImpl implements UserDAO {
+
+	@Override
+	public void create(User u) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public User read(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

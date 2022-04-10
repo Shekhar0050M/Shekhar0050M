@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="">
+Enter id: <input type="text" name="id" />
+Enter name: <input type="text" name="name" />
+Enter email: <input type="text" name="email" />
+<input type="submit" name="submit">
+</form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.shekhar.product.dao.ProductDAO"/>
+    <fullyQualifiedTypeName name="com.shekhar.product.dao.ProductDAOImpl"/>
+    <fullyQualifiedTypeName name="com.shekhar.product.bo.ProductBO"/>
+    <fullyQualifiedTypeName name="com.shekhar.product.bo.ProductBOImpl"/>
+    <fullyQualifiedTypeName name="com.shekhar.product.dto.Product"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="com.shekhar.user.UserDAOImpl"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="com.shekhar.user.User"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.shekhar.user.UserDAO"/>
+</qualifiedTypeNameHistroy>

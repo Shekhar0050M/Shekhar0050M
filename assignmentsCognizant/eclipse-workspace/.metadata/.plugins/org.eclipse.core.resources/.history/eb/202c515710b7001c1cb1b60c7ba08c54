@@ -1,0 +1,5 @@
+package com.shekhar.user;
+
+public interface UserDAO {
+
+}

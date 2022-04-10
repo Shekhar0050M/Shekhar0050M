@@ -1,0 +1,17 @@
+Info 0    [12:29:43.907] Format host information updated
+Info 1    [12:29:43.907] reload projects.
+Info 2    [12:29:43.908] Structure before ensureProjectForOpenFiles:
+Info 3    [12:29:43.908] Structure after ensureProjectForOpenFiles:
+Info 4    [12:29:43.908] Host file extension mappings updated
+Info 5    [12:29:44.62] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 6    [12:29:44.65] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 7    [12:29:44.72] Loading global plugin @angular/language-service
+Info 8    [12:29:44.72] Enabling plugin @angular/language-service from candidate paths: /home/shekhar/.eclipse/360744286_linux_gtk_x86_64/plugins/org.eclipse.wildwebdeveloper_0.5.2.201911072316/language-servers/node_modules/typescript/lib/tsserverlibrary.js/../../..,/home/shekhar/.eclipse/360744286_linux_gtk_x86_64/plugins/org.eclipse.wildwebdeveloper_0.5.2.201911072316/language-servers/node_modules/@angular/language-service
+Info 9    [12:29:44.72] Loading @angular/language-service from /home/shekhar/.eclipse/360744286_linux_gtk_x86_64/plugins/org.eclipse.wildwebdeveloper_0.5.2.201911072316/language-servers/node_modules/typescript/lib/tsserverlibrary.js/../../.. (resolved to /home/shekhar/.eclipse/360744286_linux_gtk_x86_64/plugins/org.eclipse.wildwebdeveloper_0.5.2.201911072316/language-servers/node_modules/node_modules)
+Info 10   [12:29:44.458] Plugin validation succeded
+Info 11   [12:29:44.470] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 12   [12:29:46.731] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 2261.1205460000783ms
+Info 13   [12:29:46.731] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 14   [12:29:46.731] 	Files (6)
+
+Info 15   [12:29:46.731] -----------------------------------------------

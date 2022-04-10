@@ -1,0 +1,1065 @@
+Info 0    [17:24:15.808] Format host information updated
+Info 1    [17:24:15.809] reload projects.
+Info 2    [17:24:15.809] Structure before ensureProjectForOpenFiles:
+Info 3    [17:24:15.809] Structure after ensureProjectForOpenFiles:
+Info 4    [17:24:15.809] Host file extension mappings updated
+Info 5    [17:24:15.915] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 6    [17:24:15.922] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 7    [17:24:15.929] Loading global plugin @angular/language-service
+Info 8    [17:24:15.930] Enabling plugin @angular/language-service from candidate paths: /home/shekhar/.eclipse/360744286_linux_gtk_x86_64/plugins/org.eclipse.wildwebdeveloper_0.5.2.201911072316/language-servers/node_modules/typescript/lib/tsserverlibrary.js/../../..,/home/shekhar/.eclipse/360744286_linux_gtk_x86_64/plugins/org.eclipse.wildwebdeveloper_0.5.2.201911072316/language-servers/node_modules/@angular/language-service
+Info 9    [17:24:15.930] Loading @angular/language-service from /home/shekhar/.eclipse/360744286_linux_gtk_x86_64/plugins/org.eclipse.wildwebdeveloper_0.5.2.201911072316/language-servers/node_modules/typescript/lib/tsserverlibrary.js/../../.. (resolved to /home/shekhar/.eclipse/360744286_linux_gtk_x86_64/plugins/org.eclipse.wildwebdeveloper_0.5.2.201911072316/language-servers/node_modules/node_modules)
+Info 10   [17:24:16.173] Plugin validation succeded
+Info 11   [17:24:16.177] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 12   [17:24:18.0] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 1823.3219529995695ms
+Info 13   [17:24:18.0] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 14   [17:24:18.1] 	Files (6)
+
+Info 15   [17:24:18.1] -----------------------------------------------
+Info 16   [17:24:36.297] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 17   [17:24:36.297] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 18   [17:24:36.297] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 19   [17:24:36.334] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false Elapsed: 36.93459000065923ms
+Info 20   [17:24:36.334] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 21   [17:24:36.334] 	Files (6)
+
+Info 22   [17:24:36.334] -----------------------------------------------
+Info 23   [17:24:44.916] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 24   [17:24:44.917] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 25   [17:24:44.917] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 26   [17:24:44.937] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false Elapsed: 20.379824000410736ms
+Info 27   [17:24:44.938] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 28   [17:24:44.938] 	Files (6)
+
+Info 29   [17:24:44.938] -----------------------------------------------
+Info 30   [17:24:48.191] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 31   [17:24:48.191] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 32   [17:24:48.191] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 33   [17:24:48.211] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false Elapsed: 19.19478899985552ms
+Info 34   [17:24:48.211] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 35   [17:24:48.211] 	Files (6)
+
+Info 36   [17:24:48.211] -----------------------------------------------
+Info 37   [17:24:49.157] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 38   [17:24:49.158] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 39   [17:24:49.158] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 40   [17:24:49.192] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false Elapsed: 33.998871999792755ms
+Info 41   [17:24:49.192] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 42   [17:24:49.192] 	Files (6)
+
+Info 43   [17:24:49.192] -----------------------------------------------
+Info 44   [17:24:49.448] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 45   [17:24:49.448] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 46   [17:24:49.449] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 47   [17:24:49.476] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: false Elapsed: 26.82875999994576ms
+Info 48   [17:24:49.476] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 49   [17:24:49.476] 	Files (6)
+
+Info 50   [17:24:49.476] -----------------------------------------------
+Info 51   [17:24:49.574] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 52   [17:24:49.575] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 53   [17:24:49.575] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 54   [17:24:49.596] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 7 structureChanged: false Elapsed: 20.857600000686944ms
+Info 55   [17:24:49.596] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 56   [17:24:49.596] 	Files (6)
+
+Info 57   [17:24:49.596] -----------------------------------------------
+Info 58   [17:24:50.704] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 59   [17:24:50.705] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 60   [17:24:50.705] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 61   [17:24:50.725] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 8 structureChanged: false Elapsed: 20.055328000336885ms
+Info 62   [17:24:50.725] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 63   [17:24:50.725] 	Files (6)
+
+Info 64   [17:24:50.725] -----------------------------------------------
+Info 65   [17:24:50.936] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 66   [17:24:50.936] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 67   [17:24:50.937] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 68   [17:24:50.953] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 9 structureChanged: false Elapsed: 16.147307999432087ms
+Info 69   [17:24:50.953] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 70   [17:24:50.953] 	Files (6)
+
+Info 71   [17:24:50.953] -----------------------------------------------
+Info 72   [17:24:51.768] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 73   [17:24:51.768] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 74   [17:24:51.768] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 75   [17:24:51.788] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 10 structureChanged: false Elapsed: 20.263394000008702ms
+Info 76   [17:24:51.789] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 77   [17:24:51.789] 	Files (6)
+
+Info 78   [17:24:51.789] -----------------------------------------------
+Info 79   [17:24:52.137] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 80   [17:24:52.137] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 81   [17:24:52.137] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 82   [17:24:52.156] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 11 structureChanged: false Elapsed: 18.885826000012457ms
+Info 83   [17:24:52.157] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 84   [17:24:52.157] 	Files (6)
+
+Info 85   [17:24:52.157] -----------------------------------------------
+Info 86   [17:24:52.497] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 87   [17:24:52.498] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 88   [17:24:52.498] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 89   [17:24:52.525] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 12 structureChanged: false Elapsed: 27.260482999496162ms
+Info 90   [17:24:52.525] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 91   [17:24:52.525] 	Files (6)
+
+Info 92   [17:24:52.525] -----------------------------------------------
+Info 93   [17:24:52.810] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 94   [17:24:52.810] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 95   [17:24:52.810] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 96   [17:24:52.820] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 13 structureChanged: false Elapsed: 9.802647999487817ms
+Info 97   [17:24:52.820] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 98   [17:24:52.820] 	Files (6)
+
+Info 99   [17:24:52.820] -----------------------------------------------
+Info 100  [17:24:53.33] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 101  [17:24:53.33] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 102  [17:24:53.33] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 103  [17:24:53.48] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 14 structureChanged: false Elapsed: 14.673737999983132ms
+Info 104  [17:24:53.48] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 105  [17:24:53.48] 	Files (6)
+
+Info 106  [17:24:53.48] -----------------------------------------------
+Info 107  [17:24:53.321] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 108  [17:24:53.322] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 109  [17:24:53.322] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 110  [17:24:53.338] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 15 structureChanged: false Elapsed: 15.982253999449313ms
+Info 111  [17:24:53.338] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 112  [17:24:53.338] 	Files (6)
+
+Info 113  [17:24:53.338] -----------------------------------------------
+Info 114  [17:24:54.44] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 115  [17:24:54.44] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 116  [17:24:54.44] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 117  [17:24:54.60] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 16 structureChanged: false Elapsed: 16.555513000115752ms
+Info 118  [17:24:54.61] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 119  [17:24:54.61] 	Files (6)
+
+Info 120  [17:24:54.61] -----------------------------------------------
+Info 121  [17:24:54.793] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 122  [17:24:54.793] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 123  [17:24:54.793] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 124  [17:24:54.807] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 17 structureChanged: false Elapsed: 13.525369999930263ms
+Info 125  [17:24:54.807] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 126  [17:24:54.807] 	Files (6)
+
+Info 127  [17:24:54.807] -----------------------------------------------
+Info 128  [17:24:57.621] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 129  [17:24:57.622] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 130  [17:24:57.622] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 131  [17:24:57.640] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 18 structureChanged: false Elapsed: 18.53153199981898ms
+Info 132  [17:24:57.640] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 133  [17:24:57.641] 	Files (6)
+
+Info 134  [17:24:57.641] -----------------------------------------------
+Info 135  [17:24:58.133] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 136  [17:24:58.133] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 137  [17:24:58.133] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 138  [17:24:58.163] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 19 structureChanged: false Elapsed: 30.26084200013429ms
+Info 139  [17:24:58.164] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 140  [17:24:58.164] 	Files (6)
+
+Info 141  [17:24:58.164] -----------------------------------------------
+Info 142  [17:24:58.413] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 143  [17:24:58.413] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 144  [17:24:58.413] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 145  [17:24:58.425] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 20 structureChanged: false Elapsed: 11.75256200041622ms
+Info 146  [17:24:58.425] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 147  [17:24:58.425] 	Files (6)
+
+Info 148  [17:24:58.425] -----------------------------------------------
+Info 149  [17:25:0.807] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 150  [17:25:0.807] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 151  [17:25:0.807] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 152  [17:25:0.826] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 21 structureChanged: false Elapsed: 18.86526000034064ms
+Info 153  [17:25:0.826] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 154  [17:25:0.826] 	Files (6)
+
+Info 155  [17:25:0.826] -----------------------------------------------
+Info 156  [17:25:1.725] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 157  [17:25:1.725] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 158  [17:25:1.725] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 159  [17:25:1.765] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 22 structureChanged: false Elapsed: 39.734608999453485ms
+Info 160  [17:25:1.765] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 161  [17:25:1.765] 	Files (6)
+
+Info 162  [17:25:1.765] -----------------------------------------------
+Info 163  [17:25:2.208] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 164  [17:25:2.208] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 165  [17:25:2.208] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 166  [17:25:2.221] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 23 structureChanged: false Elapsed: 12.32956900075078ms
+Info 167  [17:25:2.221] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 168  [17:25:2.221] 	Files (6)
+
+Info 169  [17:25:2.221] -----------------------------------------------
+Info 170  [17:25:2.455] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 171  [17:25:2.455] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 172  [17:25:2.455] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 173  [17:25:2.468] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 24 structureChanged: false Elapsed: 12.223755000159144ms
+Info 174  [17:25:2.468] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 175  [17:25:2.468] 	Files (6)
+
+Info 176  [17:25:2.468] -----------------------------------------------
+Info 177  [17:25:2.574] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 178  [17:25:2.587] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 179  [17:25:2.587] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 180  [17:25:2.600] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 25 structureChanged: false Elapsed: 13.1438760003075ms
+Info 181  [17:25:2.600] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 182  [17:25:2.600] 	Files (6)
+
+Info 183  [17:25:2.600] -----------------------------------------------
+Info 184  [17:25:2.922] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 185  [17:25:2.922] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 186  [17:25:2.922] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 187  [17:25:2.936] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 26 structureChanged: false Elapsed: 13.497255999594927ms
+Info 188  [17:25:2.936] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 189  [17:25:2.936] 	Files (6)
+
+Info 190  [17:25:2.936] -----------------------------------------------
+Info 191  [17:25:4.72] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 192  [17:25:4.72] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 193  [17:25:4.72] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 194  [17:25:4.80] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 27 structureChanged: false Elapsed: 7.972296999767423ms
+Info 195  [17:25:4.80] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 196  [17:25:4.80] 	Files (6)
+
+Info 197  [17:25:4.80] -----------------------------------------------
+Info 198  [17:25:4.306] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 199  [17:25:4.307] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 200  [17:25:4.307] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 201  [17:25:4.319] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 28 structureChanged: false Elapsed: 12.081764999777079ms
+Info 202  [17:25:4.319] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 203  [17:25:4.319] 	Files (6)
+
+Info 204  [17:25:4.319] -----------------------------------------------
+Info 205  [17:25:5.341] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 206  [17:25:5.341] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 207  [17:25:5.341] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 208  [17:25:5.353] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 29 structureChanged: false Elapsed: 12.051633999682963ms
+Info 209  [17:25:5.353] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 210  [17:25:5.353] 	Files (6)
+
+Info 211  [17:25:5.353] -----------------------------------------------
+Info 212  [17:25:5.843] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 213  [17:25:5.843] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 214  [17:25:5.843] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 215  [17:25:5.859] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 30 structureChanged: false Elapsed: 16.287565999664366ms
+Info 216  [17:25:5.859] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 217  [17:25:5.859] 	Files (6)
+
+Info 218  [17:25:5.859] -----------------------------------------------
+Info 219  [17:25:6.723] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 220  [17:25:6.723] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 221  [17:25:6.723] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 222  [17:25:6.743] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 31 structureChanged: false Elapsed: 19.36171399988234ms
+Info 223  [17:25:6.743] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 224  [17:25:6.743] 	Files (6)
+
+Info 225  [17:25:6.743] -----------------------------------------------
+Info 226  [17:25:7.826] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 227  [17:25:7.838] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 228  [17:25:7.838] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 229  [17:25:7.849] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 32 structureChanged: false Elapsed: 11.491941000334918ms
+Info 230  [17:25:7.849] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 231  [17:25:7.849] 	Files (6)
+
+Info 232  [17:25:7.850] -----------------------------------------------
+Info 233  [17:25:7.990] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 234  [17:25:7.990] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 235  [17:25:7.990] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 236  [17:25:8.1] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 33 structureChanged: false Elapsed: 11.232735000550747ms
+Info 237  [17:25:8.1] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 238  [17:25:8.1] 	Files (6)
+
+Info 239  [17:25:8.1] -----------------------------------------------
+Info 240  [17:25:8.363] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 241  [17:25:8.363] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 242  [17:25:8.364] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 243  [17:25:8.381] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 34 structureChanged: false Elapsed: 17.10450499970466ms
+Info 244  [17:25:8.381] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 245  [17:25:8.381] 	Files (6)
+
+Info 246  [17:25:8.381] -----------------------------------------------
+Info 247  [17:25:8.715] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 248  [17:25:8.715] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 249  [17:25:8.716] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 250  [17:25:8.750] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 35 structureChanged: false Elapsed: 34.53654200024903ms
+Info 251  [17:25:8.750] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 252  [17:25:8.750] 	Files (6)
+
+Info 253  [17:25:8.750] -----------------------------------------------
+Info 254  [17:25:9.45] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 255  [17:25:9.45] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 256  [17:25:9.45] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 257  [17:25:9.56] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 36 structureChanged: false Elapsed: 10.967981999740005ms
+Info 258  [17:25:9.56] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 259  [17:25:9.56] 	Files (6)
+
+Info 260  [17:25:9.56] -----------------------------------------------
+Info 261  [17:25:9.371] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 262  [17:25:9.371] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 263  [17:25:9.371] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 264  [17:25:9.384] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 37 structureChanged: false Elapsed: 12.515909000299871ms
+Info 265  [17:25:9.384] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 266  [17:25:9.384] 	Files (6)
+
+Info 267  [17:25:9.384] -----------------------------------------------
+Info 268  [17:25:10.986] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 269  [17:25:10.986] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 270  [17:25:10.986] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 271  [17:25:10.997] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 38 structureChanged: false Elapsed: 10.41376299969852ms
+Info 272  [17:25:10.997] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 273  [17:25:10.997] 	Files (6)
+
+Info 274  [17:25:10.997] -----------------------------------------------
+Info 275  [17:25:11.220] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 276  [17:25:11.221] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 277  [17:25:11.221] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 278  [17:25:11.235] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 39 structureChanged: false Elapsed: 14.225341000594199ms
+Info 279  [17:25:11.235] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 280  [17:25:11.235] 	Files (6)
+
+Info 281  [17:25:11.235] -----------------------------------------------
+Info 282  [17:25:11.444] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 283  [17:25:11.444] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 284  [17:25:11.444] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 285  [17:25:11.457] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 40 structureChanged: false Elapsed: 13.054018000140786ms
+Info 286  [17:25:11.459] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 287  [17:25:11.459] 	Files (6)
+
+Info 288  [17:25:11.459] -----------------------------------------------
+Info 289  [17:25:11.805] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 290  [17:25:11.806] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 291  [17:25:11.806] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 292  [17:25:11.820] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 41 structureChanged: false Elapsed: 14.164777000434697ms
+Info 293  [17:25:11.820] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 294  [17:25:11.820] 	Files (6)
+
+Info 295  [17:25:11.820] -----------------------------------------------
+Info 296  [17:25:12.109] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 297  [17:25:12.109] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 298  [17:25:12.109] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 299  [17:25:12.121] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 42 structureChanged: false Elapsed: 12.102421999908984ms
+Info 300  [17:25:12.121] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 301  [17:25:12.121] 	Files (6)
+
+Info 302  [17:25:12.121] -----------------------------------------------
+Info 303  [17:25:12.756] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 304  [17:25:12.756] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 305  [17:25:12.756] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 306  [17:25:12.774] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 43 structureChanged: false Elapsed: 17.24923999980092ms
+Info 307  [17:25:12.774] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 308  [17:25:12.774] 	Files (6)
+
+Info 309  [17:25:12.774] -----------------------------------------------
+Info 310  [17:25:14.95] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 311  [17:25:14.95] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 312  [17:25:14.95] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 313  [17:25:14.104] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 44 structureChanged: false Elapsed: 9.484122999943793ms
+Info 314  [17:25:14.105] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 315  [17:25:14.105] 	Files (6)
+
+Info 316  [17:25:14.105] -----------------------------------------------
+Info 317  [17:25:14.371] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 318  [17:25:14.372] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 319  [17:25:14.372] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 320  [17:25:14.381] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 45 structureChanged: false Elapsed: 9.294433999806643ms
+Info 321  [17:25:14.381] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 322  [17:25:14.381] 	Files (6)
+
+Info 323  [17:25:14.381] -----------------------------------------------
+Info 324  [17:25:14.726] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 325  [17:25:14.726] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 326  [17:25:14.726] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 327  [17:25:14.738] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 46 structureChanged: false Elapsed: 11.789936000481248ms
+Info 328  [17:25:14.738] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 329  [17:25:14.738] 	Files (6)
+
+Info 330  [17:25:14.738] -----------------------------------------------
+Info 331  [17:25:15.80] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 332  [17:25:15.80] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 333  [17:25:15.80] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 334  [17:25:15.91] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 47 structureChanged: false Elapsed: 10.37167300004512ms
+Info 335  [17:25:15.91] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 336  [17:25:15.91] 	Files (6)
+
+Info 337  [17:25:15.91] -----------------------------------------------
+Info 338  [17:25:16.120] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 339  [17:25:16.120] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 340  [17:25:16.120] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 341  [17:25:16.144] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 48 structureChanged: false Elapsed: 23.63112699985504ms
+Info 342  [17:25:16.145] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 343  [17:25:16.145] 	Files (6)
+
+Info 344  [17:25:16.145] -----------------------------------------------
+Info 345  [17:25:18.217] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 346  [17:25:18.217] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 347  [17:25:18.217] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 348  [17:25:18.244] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 49 structureChanged: false Elapsed: 26.669966000132263ms
+Info 349  [17:25:18.244] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 350  [17:25:18.244] 	Files (6)
+
+Info 351  [17:25:18.244] -----------------------------------------------
+Info 352  [17:25:18.921] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 353  [17:25:18.921] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 354  [17:25:18.921] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 355  [17:25:18.935] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 50 structureChanged: false Elapsed: 14.172291000373662ms
+Info 356  [17:25:18.935] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 357  [17:25:18.935] 	Files (6)
+
+Info 358  [17:25:18.935] -----------------------------------------------
+Info 359  [17:25:19.457] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 360  [17:25:19.457] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 361  [17:25:19.457] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 362  [17:25:19.468] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 51 structureChanged: false Elapsed: 10.651823000051081ms
+Info 363  [17:25:19.468] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 364  [17:25:19.468] 	Files (6)
+
+Info 365  [17:25:19.468] -----------------------------------------------
+Info 366  [17:25:20.331] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 367  [17:25:20.331] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 368  [17:25:20.331] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 369  [17:25:20.345] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 52 structureChanged: false Elapsed: 14.595843000337481ms
+Info 370  [17:25:20.346] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 371  [17:25:20.346] 	Files (6)
+
+Info 372  [17:25:20.346] -----------------------------------------------
+Info 373  [17:25:20.522] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 374  [17:25:20.522] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 375  [17:25:20.522] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 376  [17:25:20.537] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 53 structureChanged: false Elapsed: 14.991627999581397ms
+Info 377  [17:25:20.537] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 378  [17:25:20.537] 	Files (6)
+
+Info 379  [17:25:20.537] -----------------------------------------------
+Info 380  [17:25:20.658] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 381  [17:25:20.659] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 382  [17:25:20.659] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 383  [17:25:20.676] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 54 structureChanged: false Elapsed: 17.040777999907732ms
+Info 384  [17:25:20.676] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 385  [17:25:20.676] 	Files (6)
+
+Info 386  [17:25:20.676] -----------------------------------------------
+Info 387  [17:25:20.891] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 388  [17:25:20.892] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 389  [17:25:20.892] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 390  [17:25:20.905] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 55 structureChanged: false Elapsed: 13.230087999254465ms
+Info 391  [17:25:20.905] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 392  [17:25:20.905] 	Files (6)
+
+Info 393  [17:25:20.905] -----------------------------------------------
+Info 394  [17:25:21.116] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 395  [17:25:21.117] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 396  [17:25:21.117] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 397  [17:25:21.128] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 56 structureChanged: false Elapsed: 11.652456000447273ms
+Info 398  [17:25:21.128] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 399  [17:25:21.128] 	Files (6)
+
+Info 400  [17:25:21.128] -----------------------------------------------
+Info 401  [17:25:22.67] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 402  [17:25:22.67] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 403  [17:25:22.67] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 404  [17:25:22.79] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 57 structureChanged: false Elapsed: 11.71446100063622ms
+Info 405  [17:25:22.79] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 406  [17:25:22.79] 	Files (6)
+
+Info 407  [17:25:22.79] -----------------------------------------------
+Info 408  [17:25:23.437] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 409  [17:25:23.437] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 410  [17:25:23.437] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 411  [17:25:23.448] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 58 structureChanged: false Elapsed: 10.615965999662876ms
+Info 412  [17:25:23.448] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 413  [17:25:23.448] 	Files (6)
+
+Info 414  [17:25:23.448] -----------------------------------------------
+Info 415  [17:25:23.597] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 416  [17:25:23.597] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 417  [17:25:23.597] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 418  [17:25:23.612] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 59 structureChanged: false Elapsed: 15.299216999672353ms
+Info 419  [17:25:23.612] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 420  [17:25:23.612] 	Files (6)
+
+Info 421  [17:25:23.612] -----------------------------------------------
+Info 422  [17:25:25.557] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 423  [17:25:25.557] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 424  [17:25:25.557] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 425  [17:25:25.572] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 60 structureChanged: false Elapsed: 14.113530999980867ms
+Info 426  [17:25:25.572] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 427  [17:25:25.572] 	Files (6)
+
+Info 428  [17:25:25.572] -----------------------------------------------
+Info 429  [17:25:26.301] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 430  [17:25:26.301] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 431  [17:25:26.301] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 432  [17:25:26.313] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 61 structureChanged: false Elapsed: 11.909541999921203ms
+Info 433  [17:25:26.314] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 434  [17:25:26.314] 	Files (6)
+
+Info 435  [17:25:26.314] -----------------------------------------------
+Info 436  [17:25:26.733] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 437  [17:25:26.733] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 438  [17:25:26.733] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 439  [17:25:26.743] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 62 structureChanged: false Elapsed: 9.592226000502706ms
+Info 440  [17:25:26.743] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 441  [17:25:26.743] 	Files (6)
+
+Info 442  [17:25:26.743] -----------------------------------------------
+Info 443  [17:25:27.111] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 444  [17:25:27.111] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 445  [17:25:27.111] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 446  [17:25:27.122] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 63 structureChanged: false Elapsed: 10.735775000415742ms
+Info 447  [17:25:27.122] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 448  [17:25:27.122] 	Files (6)
+
+Info 449  [17:25:27.122] -----------------------------------------------
+Info 450  [17:25:28.193] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 451  [17:25:28.193] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 452  [17:25:28.193] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 453  [17:25:28.210] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 64 structureChanged: false Elapsed: 16.68246699962765ms
+Info 454  [17:25:28.210] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 455  [17:25:28.210] 	Files (6)
+
+Info 456  [17:25:28.210] -----------------------------------------------
+Info 457  [17:25:36.122] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 458  [17:25:36.122] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 459  [17:25:36.123] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 460  [17:25:36.131] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 65 structureChanged: false Elapsed: 8.912100999616086ms
+Info 461  [17:25:36.132] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 462  [17:25:36.132] 	Files (6)
+
+Info 463  [17:25:36.132] -----------------------------------------------
+Info 464  [17:25:37.221] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 465  [17:25:37.221] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 466  [17:25:37.221] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 467  [17:25:37.246] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 66 structureChanged: false Elapsed: 24.98239399958402ms
+Info 468  [17:25:37.246] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 469  [17:25:37.246] 	Files (6)
+
+Info 470  [17:25:37.246] -----------------------------------------------
+Info 471  [17:25:38.181] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 472  [17:25:38.182] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 473  [17:25:38.182] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 474  [17:25:38.193] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 67 structureChanged: false Elapsed: 11.53031099960208ms
+Info 475  [17:25:38.193] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 476  [17:25:38.193] 	Files (6)
+
+Info 477  [17:25:38.193] -----------------------------------------------
+Info 478  [17:25:38.990] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 479  [17:25:38.990] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 480  [17:25:38.990] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 481  [17:25:39.6] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 68 structureChanged: false Elapsed: 15.731274999678135ms
+Info 482  [17:25:39.6] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 483  [17:25:39.6] 	Files (6)
+
+Info 484  [17:25:39.6] -----------------------------------------------
+Info 485  [17:25:41.743] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 486  [17:25:41.743] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 487  [17:25:41.743] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 488  [17:25:41.765] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 69 structureChanged: false Elapsed: 21.3939299993217ms
+Info 489  [17:25:41.765] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 490  [17:25:41.765] 	Files (6)
+
+Info 491  [17:25:41.765] -----------------------------------------------
+Info 492  [17:25:41.959] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 493  [17:25:41.971] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 494  [17:25:41.971] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 495  [17:25:41.987] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 70 structureChanged: false Elapsed: 15.276433000341058ms
+Info 496  [17:25:41.987] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 497  [17:25:41.987] 	Files (6)
+
+Info 498  [17:25:41.987] -----------------------------------------------
+Info 499  [17:25:42.730] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 500  [17:25:42.730] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 501  [17:25:42.730] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 502  [17:25:42.745] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 71 structureChanged: false Elapsed: 14.933573000133038ms
+Info 503  [17:25:42.745] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 504  [17:25:42.745] 	Files (6)
+
+Info 505  [17:25:42.745] -----------------------------------------------
+Info 506  [17:25:42.917] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 507  [17:25:42.917] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 508  [17:25:42.917] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 509  [17:25:42.940] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 72 structureChanged: false Elapsed: 23.387167999520898ms
+Info 510  [17:25:42.940] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 511  [17:25:42.940] 	Files (6)
+
+Info 512  [17:25:42.940] -----------------------------------------------
+Info 513  [17:25:43.61] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 514  [17:25:43.61] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 515  [17:25:43.61] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 516  [17:25:43.80] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 73 structureChanged: false Elapsed: 18.65232599992305ms
+Info 517  [17:25:43.80] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 518  [17:25:43.80] 	Files (6)
+
+Info 519  [17:25:43.80] -----------------------------------------------
+Info 520  [17:25:43.251] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 521  [17:25:43.252] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 522  [17:25:43.252] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 523  [17:25:43.273] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 74 structureChanged: false Elapsed: 21.076129999943078ms
+Info 524  [17:25:43.273] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 525  [17:25:43.273] 	Files (6)
+
+Info 526  [17:25:43.273] -----------------------------------------------
+Info 527  [17:25:44.941] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 528  [17:25:44.941] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 529  [17:25:44.941] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 530  [17:25:44.960] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 75 structureChanged: false Elapsed: 18.616899999789894ms
+Info 531  [17:25:44.960] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 532  [17:25:44.960] 	Files (6)
+
+Info 533  [17:25:44.960] -----------------------------------------------
+Info 534  [17:25:45.183] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 535  [17:25:45.183] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 536  [17:25:45.183] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 537  [17:25:45.197] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 76 structureChanged: false Elapsed: 13.108955999836326ms
+Info 538  [17:25:45.197] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 539  [17:25:45.197] 	Files (6)
+
+Info 540  [17:25:45.197] -----------------------------------------------
+Info 541  [17:25:45.874] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 542  [17:25:45.874] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 543  [17:25:45.874] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 544  [17:25:45.885] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 77 structureChanged: false Elapsed: 10.63743400014937ms
+Info 545  [17:25:45.885] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 546  [17:25:45.885] 	Files (6)
+
+Info 547  [17:25:45.885] -----------------------------------------------
+Info 548  [17:25:46.157] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 549  [17:25:46.157] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 550  [17:25:46.157] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 551  [17:25:46.187] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 78 structureChanged: false Elapsed: 29.57954499963671ms
+Info 552  [17:25:46.187] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 553  [17:25:46.187] 	Files (6)
+
+Info 554  [17:25:46.187] -----------------------------------------------
+Info 555  [17:25:46.366] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 556  [17:25:46.366] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 557  [17:25:46.366] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 558  [17:25:46.374] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 79 structureChanged: false Elapsed: 7.378955000080168ms
+Info 559  [17:25:46.374] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 560  [17:25:46.374] 	Files (6)
+
+Info 561  [17:25:46.374] -----------------------------------------------
+Info 562  [17:25:46.541] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 563  [17:25:46.542] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 564  [17:25:46.542] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 565  [17:25:46.558] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 80 structureChanged: false Elapsed: 16.11281399987638ms
+Info 566  [17:25:46.558] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 567  [17:25:46.558] 	Files (6)
+
+Info 568  [17:25:46.558] -----------------------------------------------
+Info 569  [17:25:46.817] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 570  [17:25:46.817] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 571  [17:25:46.817] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 572  [17:25:46.835] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 81 structureChanged: false Elapsed: 17.76005000062287ms
+Info 573  [17:25:46.835] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 574  [17:25:46.835] 	Files (6)
+
+Info 575  [17:25:46.835] -----------------------------------------------
+Info 576  [17:25:50.887] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 577  [17:25:50.887] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 578  [17:25:50.887] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 579  [17:25:50.904] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 82 structureChanged: false Elapsed: 16.4730160003528ms
+Info 580  [17:25:50.904] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 581  [17:25:50.904] 	Files (6)
+
+Info 582  [17:25:50.904] -----------------------------------------------
+Info 583  [17:25:51.93] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 584  [17:25:51.93] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 585  [17:25:51.93] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 586  [17:25:51.105] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 83 structureChanged: false Elapsed: 11.940229999832809ms
+Info 587  [17:25:51.105] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 588  [17:25:51.105] 	Files (6)
+
+Info 589  [17:25:51.105] -----------------------------------------------
+Info 590  [17:25:51.877] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 591  [17:25:51.878] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 592  [17:25:51.878] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 593  [17:25:51.892] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 84 structureChanged: false Elapsed: 14.39852700009942ms
+Info 594  [17:25:51.892] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 595  [17:25:51.892] 	Files (6)
+
+Info 596  [17:25:51.892] -----------------------------------------------
+Info 597  [17:25:52.93] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 598  [17:25:52.93] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 599  [17:25:52.93] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 600  [17:25:52.106] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 85 structureChanged: false Elapsed: 12.723167999647558ms
+Info 601  [17:25:52.106] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 602  [17:25:52.106] 	Files (6)
+
+Info 603  [17:25:52.106] -----------------------------------------------
+Info 604  [17:25:52.219] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 605  [17:25:52.220] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 606  [17:25:52.220] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 607  [17:25:52.237] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 86 structureChanged: false Elapsed: 16.60539099946618ms
+Info 608  [17:25:52.237] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 609  [17:25:52.237] 	Files (6)
+
+Info 610  [17:25:52.237] -----------------------------------------------
+Info 611  [17:25:52.459] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 612  [17:25:52.459] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 613  [17:25:52.459] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 614  [17:25:52.473] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 87 structureChanged: false Elapsed: 14.362258999608457ms
+Info 615  [17:25:52.474] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 616  [17:25:52.474] 	Files (6)
+
+Info 617  [17:25:52.474] -----------------------------------------------
+Info 618  [17:25:53.840] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 619  [17:25:53.840] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 620  [17:25:53.840] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 621  [17:25:53.856] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 88 structureChanged: false Elapsed: 15.675857999362051ms
+Info 622  [17:25:53.856] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 623  [17:25:53.856] 	Files (6)
+
+Info 624  [17:25:53.856] -----------------------------------------------
+Info 625  [17:25:54.47] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 626  [17:25:54.48] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 627  [17:25:54.48] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 628  [17:25:54.65] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 89 structureChanged: false Elapsed: 16.93618500046432ms
+Info 629  [17:25:54.65] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 630  [17:25:54.65] 	Files (6)
+
+Info 631  [17:25:54.65] -----------------------------------------------
+Info 632  [17:25:54.937] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 633  [17:25:54.937] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 634  [17:25:54.937] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 635  [17:25:54.949] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 90 structureChanged: false Elapsed: 11.426413000561297ms
+Info 636  [17:25:54.949] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 637  [17:25:54.949] 	Files (6)
+
+Info 638  [17:25:54.949] -----------------------------------------------
+Info 639  [17:25:55.176] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 640  [17:25:55.176] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 641  [17:25:55.176] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 642  [17:25:55.186] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 91 structureChanged: false Elapsed: 10.00714800041169ms
+Info 643  [17:25:55.186] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 644  [17:25:55.186] 	Files (6)
+
+Info 645  [17:25:55.186] -----------------------------------------------
+Info 646  [17:25:55.398] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 647  [17:25:55.398] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 648  [17:25:55.398] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 649  [17:25:55.414] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 92 structureChanged: false Elapsed: 15.407541999593377ms
+Info 650  [17:25:55.414] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 651  [17:25:55.414] 	Files (6)
+
+Info 652  [17:25:55.414] -----------------------------------------------
+Info 653  [17:25:55.557] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 654  [17:25:55.558] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 655  [17:25:55.558] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 656  [17:25:55.570] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 93 structureChanged: false Elapsed: 12.527887000702322ms
+Info 657  [17:25:55.571] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 658  [17:25:55.571] 	Files (6)
+
+Info 659  [17:25:55.571] -----------------------------------------------
+Info 660  [17:25:55.853] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 661  [17:25:55.853] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 662  [17:25:55.854] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 663  [17:25:55.863] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 94 structureChanged: false Elapsed: 9.319294000044465ms
+Info 664  [17:25:55.863] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 665  [17:25:55.863] 	Files (6)
+
+Info 666  [17:25:55.863] -----------------------------------------------
+Info 667  [17:26:2.445] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 668  [17:26:2.445] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 669  [17:26:2.445] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 670  [17:26:2.469] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 95 structureChanged: false Elapsed: 23.492540000006557ms
+Info 671  [17:26:2.469] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 672  [17:26:2.469] 	Files (6)
+
+Info 673  [17:26:2.469] -----------------------------------------------
+Info 674  [17:26:4.210] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 675  [17:26:4.210] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 676  [17:26:4.210] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 677  [17:26:4.223] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 96 structureChanged: false Elapsed: 12.708766999654472ms
+Info 678  [17:26:4.223] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 679  [17:26:4.223] 	Files (6)
+
+Info 680  [17:26:4.223] -----------------------------------------------
+Info 681  [17:26:4.831] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 682  [17:26:4.832] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 683  [17:26:4.832] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 684  [17:26:4.856] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 97 structureChanged: false Elapsed: 24.179955000057817ms
+Info 685  [17:26:4.856] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 686  [17:26:4.856] 	Files (6)
+
+Info 687  [17:26:4.856] -----------------------------------------------
+Info 688  [17:26:5.520] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 689  [17:26:5.520] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 690  [17:26:5.520] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 691  [17:26:5.542] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 98 structureChanged: false Elapsed: 22.43492199946195ms
+Info 692  [17:26:5.543] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 693  [17:26:5.543] 	Files (6)
+
+Info 694  [17:26:5.543] -----------------------------------------------
+Info 695  [17:26:5.895] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 696  [17:26:5.895] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 697  [17:26:5.895] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 698  [17:26:5.913] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 99 structureChanged: false Elapsed: 17.394876999780536ms
+Info 699  [17:26:5.913] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 700  [17:26:5.913] 	Files (6)
+
+Info 701  [17:26:5.913] -----------------------------------------------
+Info 702  [17:26:6.147] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 703  [17:26:6.148] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 704  [17:26:6.148] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 705  [17:26:6.169] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 100 structureChanged: false Elapsed: 21.629590000025928ms
+Info 706  [17:26:6.170] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 707  [17:26:6.170] 	Files (6)
+
+Info 708  [17:26:6.170] -----------------------------------------------
+Info 709  [17:26:6.462] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 710  [17:26:6.462] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 711  [17:26:6.462] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 712  [17:26:6.480] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 101 structureChanged: false Elapsed: 17.231399000622332ms
+Info 713  [17:26:6.480] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 714  [17:26:6.480] 	Files (6)
+
+Info 715  [17:26:6.480] -----------------------------------------------
+Info 716  [17:26:6.814] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 717  [17:26:6.814] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 718  [17:26:6.815] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 719  [17:26:6.835] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 102 structureChanged: false Elapsed: 20.884724999777973ms
+Info 720  [17:26:6.836] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 721  [17:26:6.836] 	Files (6)
+
+Info 722  [17:26:6.836] -----------------------------------------------
+Info 723  [17:26:7.82] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 724  [17:26:7.82] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 725  [17:26:7.82] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 726  [17:26:7.94] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 103 structureChanged: false Elapsed: 11.456826999783516ms
+Info 727  [17:26:7.94] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 728  [17:26:7.94] 	Files (6)
+
+Info 729  [17:26:7.94] -----------------------------------------------
+Info 730  [17:26:7.300] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 731  [17:26:7.300] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 732  [17:26:7.300] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 733  [17:26:7.322] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 104 structureChanged: false Elapsed: 21.38633400015533ms
+Info 734  [17:26:7.322] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 735  [17:26:7.322] 	Files (6)
+
+Info 736  [17:26:7.322] -----------------------------------------------
+Info 737  [17:26:8.795] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 738  [17:26:8.795] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 739  [17:26:8.795] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 740  [17:26:8.811] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 105 structureChanged: false Elapsed: 15.736504999920726ms
+Info 741  [17:26:8.811] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 742  [17:26:8.811] 	Files (6)
+
+Info 743  [17:26:8.811] -----------------------------------------------
+Info 744  [17:26:9.34] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 745  [17:26:9.35] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 746  [17:26:9.35] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 747  [17:26:9.48] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 106 structureChanged: false Elapsed: 13.088793999515474ms
+Info 748  [17:26:9.48] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 749  [17:26:9.48] 	Files (6)
+
+Info 750  [17:26:9.48] -----------------------------------------------
+Info 751  [17:26:9.251] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 752  [17:26:9.251] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 753  [17:26:9.251] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 754  [17:26:9.261] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 107 structureChanged: false Elapsed: 10.064813000150025ms
+Info 755  [17:26:9.261] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 756  [17:26:9.261] 	Files (6)
+
+Info 757  [17:26:9.261] -----------------------------------------------
+Info 758  [17:26:9.540] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 759  [17:26:9.540] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 760  [17:26:9.540] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 761  [17:26:9.565] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 108 structureChanged: false Elapsed: 25.190986999310553ms
+Info 762  [17:26:9.565] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 763  [17:26:9.565] 	Files (6)
+
+Info 764  [17:26:9.565] -----------------------------------------------
+Info 765  [17:26:9.892] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 766  [17:26:9.892] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 767  [17:26:9.892] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 768  [17:26:9.907] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 109 structureChanged: false Elapsed: 15.331429000012577ms
+Info 769  [17:26:9.907] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 770  [17:26:9.907] 	Files (6)
+
+Info 771  [17:26:9.907] -----------------------------------------------
+Info 772  [17:26:10.719] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 773  [17:26:10.731] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 774  [17:26:10.731] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 775  [17:26:10.749] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 110 structureChanged: false Elapsed: 17.844390000216663ms
+Info 776  [17:26:10.749] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 777  [17:26:10.749] 	Files (6)
+
+Info 778  [17:26:10.749] -----------------------------------------------
+Info 779  [17:26:11.234] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 780  [17:26:11.234] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 781  [17:26:11.234] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 782  [17:26:11.273] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 111 structureChanged: false Elapsed: 39.280101999640465ms
+Info 783  [17:26:11.274] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 784  [17:26:11.274] 	Files (6)
+
+Info 785  [17:26:11.274] -----------------------------------------------
+Info 786  [17:26:11.440] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 787  [17:26:11.440] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 788  [17:26:11.440] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 789  [17:26:11.452] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 112 structureChanged: false Elapsed: 11.625293999910355ms
+Info 790  [17:26:11.452] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 791  [17:26:11.452] 	Files (6)
+
+Info 792  [17:26:11.452] -----------------------------------------------
+Info 793  [17:26:11.750] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 794  [17:26:11.750] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 795  [17:26:11.751] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 796  [17:26:11.768] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 113 structureChanged: false Elapsed: 17.618150000460446ms
+Info 797  [17:26:11.768] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 798  [17:26:11.768] 	Files (6)
+
+Info 799  [17:26:11.768] -----------------------------------------------
+Info 800  [17:26:12.63] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 801  [17:26:12.63] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 802  [17:26:12.63] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 803  [17:26:12.85] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 114 structureChanged: false Elapsed: 21.073215000331402ms
+Info 804  [17:26:12.85] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 805  [17:26:12.85] 	Files (6)
+
+Info 806  [17:26:12.85] -----------------------------------------------
+Info 807  [17:26:12.397] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 808  [17:26:12.398] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 809  [17:26:12.398] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 810  [17:26:12.416] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 115 structureChanged: false Elapsed: 17.83033400028944ms
+Info 811  [17:26:12.416] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 812  [17:26:12.416] 	Files (6)
+
+Info 813  [17:26:12.416] -----------------------------------------------
+Info 814  [17:26:12.775] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 815  [17:26:12.775] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 816  [17:26:12.776] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 817  [17:26:12.786] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 116 structureChanged: false Elapsed: 10.173485999926925ms
+Info 818  [17:26:12.786] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 819  [17:26:12.786] 	Files (6)
+
+Info 820  [17:26:12.786] -----------------------------------------------
+Info 821  [17:26:14.653] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 822  [17:26:14.653] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 823  [17:26:14.653] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 824  [17:26:14.664] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 117 structureChanged: false Elapsed: 10.768137000501156ms
+Info 825  [17:26:14.664] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 826  [17:26:14.664] 	Files (6)
+
+Info 827  [17:26:14.664] -----------------------------------------------
+Info 828  [17:26:16.683] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 829  [17:26:16.683] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 830  [17:26:16.683] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 831  [17:26:16.696] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 118 structureChanged: false Elapsed: 13.251920999959111ms
+Info 832  [17:26:16.696] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 833  [17:26:16.696] 	Files (6)
+
+Info 834  [17:26:16.697] -----------------------------------------------
+Info 835  [17:26:18.49] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 836  [17:26:18.50] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 837  [17:26:18.50] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 838  [17:26:18.63] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 119 structureChanged: false Elapsed: 12.782474000006914ms
+Info 839  [17:26:18.63] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 840  [17:26:18.63] 	Files (6)
+
+Info 841  [17:26:18.63] -----------------------------------------------
+Info 842  [17:26:18.321] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 843  [17:26:18.321] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 844  [17:26:18.321] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 845  [17:26:18.347] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 120 structureChanged: false Elapsed: 25.312579000368714ms
+Info 846  [17:26:18.347] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 847  [17:26:18.347] 	Files (6)
+
+Info 848  [17:26:18.347] -----------------------------------------------
+Info 849  [17:26:18.536] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 850  [17:26:18.536] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 851  [17:26:18.536] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 852  [17:26:18.554] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 121 structureChanged: false Elapsed: 17.82865499984473ms
+Info 853  [17:26:18.554] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 854  [17:26:18.554] 	Files (6)
+
+Info 855  [17:26:18.554] -----------------------------------------------
+Info 856  [17:26:18.658] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 857  [17:26:18.658] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 858  [17:26:18.658] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 859  [17:26:18.668] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 122 structureChanged: false Elapsed: 9.757449999451637ms
+Info 860  [17:26:18.668] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 861  [17:26:18.668] 	Files (6)
+
+Info 862  [17:26:18.668] -----------------------------------------------
+Info 863  [17:26:18.890] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 864  [17:26:18.891] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 865  [17:26:18.891] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 866  [17:26:18.899] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 123 structureChanged: false Elapsed: 8.753444000147283ms
+Info 867  [17:26:18.899] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 868  [17:26:18.900] 	Files (6)
+
+Info 869  [17:26:18.900] -----------------------------------------------
+Info 870  [17:26:19.153] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 871  [17:26:19.153] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 872  [17:26:19.153] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 873  [17:26:19.175] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 124 structureChanged: false Elapsed: 22.19486299995333ms
+Info 874  [17:26:19.176] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 875  [17:26:19.176] 	Files (6)
+
+Info 876  [17:26:19.176] -----------------------------------------------
+Info 877  [17:26:19.831] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 878  [17:26:19.832] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 879  [17:26:19.832] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 880  [17:26:19.844] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 125 structureChanged: false Elapsed: 12.004323000088334ms
+Info 881  [17:26:19.844] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 882  [17:26:19.844] 	Files (6)
+
+Info 883  [17:26:19.844] -----------------------------------------------
+Info 884  [17:26:20.815] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 885  [17:26:20.815] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 886  [17:26:20.815] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 887  [17:26:20.824] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 126 structureChanged: false Elapsed: 8.965300999581814ms
+Info 888  [17:26:20.832] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 889  [17:26:20.832] 	Files (6)
+
+Info 890  [17:26:20.832] -----------------------------------------------
+Info 891  [17:26:21.95] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 892  [17:26:21.95] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 893  [17:26:21.95] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 894  [17:26:21.114] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 127 structureChanged: false Elapsed: 18.072270999662578ms
+Info 895  [17:26:21.114] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 896  [17:26:21.114] 	Files (6)
+
+Info 897  [17:26:21.114] -----------------------------------------------
+Info 898  [17:26:21.438] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 899  [17:26:21.439] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 900  [17:26:21.439] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 901  [17:26:21.454] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 128 structureChanged: false Elapsed: 15.573791000060737ms
+Info 902  [17:26:21.454] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 903  [17:26:21.455] 	Files (6)
+
+Info 904  [17:26:21.455] -----------------------------------------------
+Info 905  [17:26:21.790] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 906  [17:26:21.791] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 907  [17:26:21.791] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 908  [17:26:21.806] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 129 structureChanged: false Elapsed: 15.288339000195265ms
+Info 909  [17:26:21.806] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 910  [17:26:21.806] 	Files (6)
+
+Info 911  [17:26:21.806] -----------------------------------------------
+Info 912  [17:26:22.79] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 913  [17:26:22.79] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 914  [17:26:22.79] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 915  [17:26:22.92] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 130 structureChanged: false Elapsed: 13.25898199994117ms
+Info 916  [17:26:22.93] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 917  [17:26:22.93] 	Files (6)
+
+Info 918  [17:26:22.93] -----------------------------------------------
+Info 919  [17:26:22.671] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 920  [17:26:22.671] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 921  [17:26:22.671] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 922  [17:26:22.684] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 131 structureChanged: false Elapsed: 12.370496000163257ms
+Info 923  [17:26:22.684] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 924  [17:26:22.684] 	Files (6)
+
+Info 925  [17:26:22.684] -----------------------------------------------
+Info 926  [17:26:23.846] Search path: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp
+Info 927  [17:26:23.847] For info: /home/shekhar/eclipse-workspace/userWeb/src/main/webapp/user.html :: No config files found.
+Info 928  [17:26:23.847] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 929  [17:26:23.864] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 132 structureChanged: false Elapsed: 17.14428900089115ms
+Info 930  [17:26:23.864] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 931  [17:26:23.864] 	Files (6)
+
+Info 932  [17:26:23.864] -----------------------------------------------
