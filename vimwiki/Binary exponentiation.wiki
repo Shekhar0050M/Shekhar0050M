@@ -1,0 +1,4 @@
+
+It is an optimised way to get value of a number upto n times in logarithmic time.
+
+The approach is simple simplify the power in terms of binary values initialise a value say tmp by the number and keep multiplying to itself for the given number of binary values and add the tmp to ans whenever 1 is fetched during iteration.

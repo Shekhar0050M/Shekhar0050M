@@ -57,3 +57,7 @@
 
     = System Design =
         * [[Relational database]]
+    
+    = cp-algorithms =
+        * [[Binary exponentiation]]
+    
