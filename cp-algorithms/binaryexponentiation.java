@@ -1,20 +1,34 @@
-import java.util.*;
-
-public class binaryexponentiation{
+public class binaryexponentiation
+{
     public static void main(String[] args){
-        int num=3,pow=13;
-
-        //Binary exponentiation
-
+        int n=3,power=13;
+        binaryexponentiation tt = new binaryexponentiation();
+        System.out.println(tt.logarithmic(n,power));
+        System.out.println(tt.multiplicative(n,power));
+    }
+    public long logarithmic(int n,int power){
         long ans=1;
-        int tmp=num,tmppow=13;
-        while(tmppow>0){
-            if(tmppow%2==1){
-                ans*=tmp;
+        while(power>0){
+            if(power%2==1){
+                ans*=n;
             }
-            tmp*=tmp;
-            tmppow/=2;
+            power/=2;
+            n*=n;
         }
-        System.out.println(ans);
+        return ans;
+    }
+    public long multiplicative(int n,int power){
+        if(power==0){
+            return 1L;
+        }
+        long tmp=multiplicative(n,power/2);
+        if(power%2==1){
+            return n*tmp*tmp;
+        }
+        else{
+            return tmp*tmp;
+        }
     }
 }
+
+
