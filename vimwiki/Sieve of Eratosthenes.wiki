@@ -1,0 +1,1 @@
+It is used to find the prime numbers from 0 to n in O(NloglogN) T.C. and O(N) S.C.

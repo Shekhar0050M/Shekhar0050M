@@ -60,4 +60,8 @@
     
     = cp-algorithms =
         * [[Binary exponentiation]]
-    
+        * [[Euclidean algorithm for computing the Greatest Common Divisor]]
+        * [[Euclidean Coefficient GCD]]
+        * [[Linear Diophantine Equations]]
+        * [[Sieve of Eratosthenes]]
+        * 

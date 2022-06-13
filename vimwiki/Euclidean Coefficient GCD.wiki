@@ -1,0 +1,3 @@
+It is used to find the value of x and y in ax+by=GCD(a,b) .
+
+It uses recursion where ax1+0=a;--> x1=1 & y1=0 and by setting x=y1 & y=x1-(a/b)y1 calculates the value of ax+by=GCD(a,b).

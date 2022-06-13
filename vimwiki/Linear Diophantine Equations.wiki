@@ -1,0 +1,1 @@
+It used the extndend euclidean algorithm to find value of ax+by=c where c is a multiple of GCD(a,b).
