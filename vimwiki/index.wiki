@@ -64,4 +64,4 @@
         * [[Euclidean Coefficient GCD]]
         * [[Linear Diophantine Equations]]
         * [[Sieve of Eratosthenes]]
-        * 
+        * [[Modular Multiplicative Inverse]]

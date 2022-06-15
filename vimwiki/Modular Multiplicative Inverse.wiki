@@ -1,0 +1,3 @@
+Modulo multiplicative inverse in defined as a*x = 1 mod M , where x is the modulo multiplicative inverse of a for modulo factor m.
+
+The a*x = 1 mod M can be written as ax + my = 1 and then can be further solved using extended euclidean method.
