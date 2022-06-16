@@ -65,3 +65,6 @@
         * [[Linear Diophantine Equations]]
         * [[Sieve of Eratosthenes]]
         * [[Modular Multiplicative Inverse]]
+        * [[Chinese Remainder Theorem]]
+        * [[Factorial Modulo P]]
+        * [[Balanced Ternary]]

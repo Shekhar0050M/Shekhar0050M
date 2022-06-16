@@ -1,0 +1,1 @@
+It is simple way of establishing and storing negative values as positive , incomplete but enough to understand the gist of logic.
