@@ -1,0 +1,3 @@
+Gray code is a binary numeral system in which two successive value differ by 1 bit.
+Just memorize the code and everything will be fine.
+Is useful in Tower of Hanoi problem.

@@ -68,3 +68,4 @@
         * [[Chinese Remainder Theorem]]
         * [[Factorial Modulo P]]
         * [[Balanced Ternary]]
+        * [[Gray Code]]
