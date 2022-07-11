@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="Stylesheet" type="text/css" href="style.css">
+    <title> Two number sum</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <p>
+        We can solve this problem by three ways
+    </p>
+    <ol>
+        <li>
+            running the nested loop of n square and for each first loop we will iterate through the entire second loop
+            to find the sum. O(n²)
+
+        <li>
+            We can use hash mapping in which we will first store the value for example x + y = 10 so y equals to 10 - x
+            and here we can check the value of 10 - x that is y in the array we can use hash mapping to find the element
+            in array in constant time. O(nlogn)
+
+        <li>
+            we can use 2 pointer theorem to find the sum in which we will first sort the array in nlog time using merge
+            sort or quick sort and then we first point at the beginning and second in the end and keep adding and
+            increment in the first and decrement in the last and keep going until we get the sum. O(n)
+
+    </ol>
+
+</body>
+
+</html>
