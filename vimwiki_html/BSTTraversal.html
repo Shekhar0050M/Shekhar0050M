@@ -1,28 +1,150 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="Stylesheet" type="text/css" href="style.css">
-<title>bsttraversal</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Stylesheet" type="text/css" href="style.css">
+    <title>bsttraversal</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
-<ol>
-<li>
-In-order - it is a form of representation of binary tree elements in which all elements are sorted and stored in ascending order i.e. store the smallest elemts as we iterate through the node..
+    <ol>
+        <li>
+            In-order - it is a form of representation of binary tree elements in which all elements are sorted and
+            stored in ascending order i.e. store the smallest elemts as we iterate through the node..
 
-<li>
-Pre-order - it is a form of representation of binary tree elements in which we store the elements in an array as we iterate through the nodes.
+        <li>
+            Pre-order - it is a form of representation of binary tree elements in which we store the elements in an
+            array as we iterate through the nodes.
 
-<li>
-Post-order - it is a form of representation of binary tree elements in which we store the greatest element of a tree in an array as we iterate to the node.
+        <li>
+            Post-order - it is a form of representation of binary tree elements in which we store the greatest element
+            of a tree in an array as we iterate to the node.
 
-</ol>
-<p>
-T.C. O(N)
-S.C. O(d)-&gt;depth of the tree
-</p>
+    </ol>
+    <p>
+        T.C. O(N)
+        S.C. O(d)-&gt;depth of the tree
+    </p>
+    <table>
+        <tr>
+            <td>
 
+                <head>
+                    <style>
+                        .keyword {
+                            color: rgb(0, 0, 255);
+                        }
+
+                        .comment {
+                            color: rgb(0, 128, 0);
+                        }
+
+                        .pp {
+                            color: rgb(0, 0, 255);
+                        }
+                    </style>
+                    <pre style="font-family:courier;font-size:10pt"><span class=pp>#include</span> &lt;cstdio&gt;
+<span class=pp>#include</span> &lt;iostream&gt;
+<span class=pp>#include</span> &lt;vector&gt;
+
+<span class=keyword>using</span> <span class=keyword>namespace</span> std;
+
+<span class=keyword>typedef</span> <span class=keyword>struct</span> node {
+    <span class=keyword>int</span> data;
+    <span class=keyword>struct</span> node *left=nullptr,*right=nullptr;
+}node;
+
+<span class=keyword>inline</span> <span class=keyword>bool</span> bstinsertion(node *curnode,<span class=keyword>int</span> key){
+    <span class=keyword>if</span>(key&lt;curnode-&gt;data){
+        <span class=keyword>if</span>(curnode-&gt;left==nullptr){
+            node *newnode;
+            newnode=<span class=keyword>new</span> node;
+            newnode-&gt;data=key;
+            curnode-&gt;left=newnode;
+            <span class=keyword>return</span> 1;
+        }
+        bstinsertion(curnode-&gt;left,key);
+    }
+    <span class=keyword>else</span>{
+        <span class=keyword>if</span>(curnode-&gt;right==nullptr){
+            node *newnode;
+            newnode=<span class=keyword>new</span> node;
+            newnode-&gt;data=key;
+            curnode-&gt;right=newnode;
+            <span class=keyword>return</span> 1;
+        }
+        bstinsertion(curnode-&gt;right,key);
+    }
+    <span class=keyword>return</span> 0;
+}
+
+<span class=keyword>inline</span> <span class=keyword>bool</span> inordertraversal(node *curnode,vector&lt;<span class=keyword>int</span>&gt; &amp;arr){
+    <span class=keyword>if</span>(curnode==nullptr){
+        <span class=keyword>return</span> 1;
+    }
+    inordertraversal(curnode-&gt;left,arr);
+    arr.push_back(curnode-&gt;data);
+    inordertraversal(curnode-&gt;right,arr);
+    <span class=keyword>return</span> 1;
+}
+
+<span class=keyword>inline</span> <span class=keyword>bool</span> preordertraversal(node *curnode,vector&lt;<span class=keyword>int</span>&gt; &amp;arr){
+    <span class=keyword>if</span>(curnode==nullptr){
+        <span class=keyword>return</span> 1;
+    }
+    arr.push_back(curnode-&gt;data);
+    preordertraversal(curnode-&gt;left,arr);
+    preordertraversal(curnode-&gt;right,arr);
+    <span class=keyword>return</span> 1;
+}
+
+<span class=keyword>inline</span> <span class=keyword>bool</span> postordertraversal(node *curnode,vector&lt;<span class=keyword>int</span>&gt; &amp;arr){
+    <span class=keyword>if</span>(curnode==nullptr){
+        <span class=keyword>return</span> 1;
+    }
+    postordertraversal(curnode-&gt;left,arr);
+    postordertraversal(curnode-&gt;right,arr);
+    arr.push_back(curnode-&gt;data);
+    <span class=keyword>return</span> 1;
+}
+
+<span class=keyword>inline</span> <span class=keyword>void</span> display(vector&lt;<span class=keyword>int</span>&gt; &amp;arr){
+    <span class=keyword>for</span>(<span class=keyword>auto</span> i:arr){
+        cout&lt;&lt;i&lt;&lt;&quot; &quot;;
+    }
+    cout&lt;&lt;endl;
+    arr.erase(arr.begin(),arr.end());
+}
+
+<span class=keyword>int</span> main(){
+    node *root;
+    root=<span class=keyword>new</span> node;
+    root-&gt;data=10;
+    bstinsertion(root,5);
+    bstinsertion(root,15);
+    bstinsertion(root,2);
+    bstinsertion(root,5);
+    bstinsertion(root,1);
+    bstinsertion(root,22);
+    <span class=comment>//
+</span>    vector&lt;<span class=keyword>int</span>&gt; arr;
+    inordertraversal(root,arr);
+    printf(&quot;Inorder traversal:: &quot;);
+    display(arr);
+    preordertraversal(root,arr);
+    printf(&quot;Preorder traversal:: &quot;);
+    display(arr);
+    postordertraversal(root,arr);
+    printf(&quot;Postorder traversal:: &quot;);
+    display(arr);
+}
+</pre>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>

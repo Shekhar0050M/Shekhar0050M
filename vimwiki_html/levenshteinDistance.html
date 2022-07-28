@@ -1,19 +1,84 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="Stylesheet" type="text/css" href="style.css">
-<title>levenshteindistance</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Stylesheet" type="text/css" href="style.css">
+    <title>levenshteindistance</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
-<p>
-In this problem we have to find the minimum number of assertion ,deletion,or changind character are required to make both string similar.
-Algortihm is given see and do as required.
-T.C.O(N*M)
-S.C. O(N*M)
-</p>
+    <p>
+        In this problem we have to find the minimum number of assertion ,deletion,or changind character are required to
+        make both string similar.
+        Algortihm is given see and do as required.
+        T.C.O(N*M)
+        S.C. O(N*M)
+    </p>
+    <table>
+        <tr>
+            <td>
 
+                <head>
+                    <style>
+                        .keyword {
+                            color: rgb(0, 0, 255);
+                        }
+
+                        .comment {
+                            color: rgb(0, 128, 0);
+                        }
+
+                        .pp {
+                            color: rgb(0, 0, 255);
+                        }
+                    </style>
+                    <pre style="font-family:courier;font-size:10pt"><span class=pp>#include</span> &lt;cstdio&gt;
+<span class=pp>#include</span> &lt;iostream&gt;
+<span class=pp>#include</span> &lt;string&gt;
+
+<span class=keyword>using</span> <span class=keyword>namespace</span> std;
+
+<span class=keyword>inline</span> <span class=keyword>int</span> algoguymethod(string str1,string str2){
+    <span class=keyword>int</span> str1size=str1.size(),str2size=str2.size();
+    <span class=keyword>int</span> arr[str1size+1][str2size+1];
+    arr[0][0]=0;
+    <span class=keyword>for</span>(<span class=keyword>int</span> i=1;i&lt;=str2size;i++){
+        arr[0][i]=arr[0][i-1]+1;
+    }
+    <span class=keyword>for</span>(<span class=keyword>int</span> j=1;j&lt;=str2size;j++){
+        arr[j][0]=arr[j-1][0]+1;
+    }
+
+    <span class=keyword>for</span>(<span class=keyword>int</span> i=1;i&lt;=str1size;i++){
+        <span class=keyword>for</span>(<span class=keyword>int</span> j=1;j&lt;=str2size;j++){
+            <span class=keyword>if</span>(str1[i-1]==str2[j-1]){
+                arr[i][j]=arr[i-1][j-1];
+            }
+            <span class=keyword>else</span>{
+                arr[i][j]=min({arr[i-1][j-1],arr[i][j-1],arr[i-1][j]})+1;
+            }
+        }
+    }
+    <span class=comment>//for(int i=0;i&lt;=str1size;i++){
+</span>        <span class=comment>//for(int j=0;j&lt;=str2size;j++){
+</span>            <span class=comment>//cout&lt;&lt;arr[i][j]&lt;&lt;&quot; &quot;;
+</span>        <span class=comment>//}
+</span>        <span class=comment>//cout&lt;&lt;&quot;\n&quot;;
+</span>    <span class=comment>//}
+</span>    <span class=keyword>return</span> arr[str1size][str2size];
+}
+
+<span class=keyword>int</span> main(){
+    string str1=&quot;abc&quot;,str2=&quot;yabd&quot;;
+    printf(&quot;Answer is:: %d&quot;,algoguymethod(str1,str2));
+}
+</pre>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>

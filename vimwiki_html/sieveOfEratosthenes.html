@@ -1,16 +1,62 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="Stylesheet" type="text/css" href="style.css">
-<title>Sieve of Eratosthenes</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Stylesheet" type="text/css" href="style.css">
+    <title>Sieve of Eratosthenes</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
-<p>
-It is used to find the prime numbers from 0 to n in O(NloglogN) T.C. and O(N) S.C.
-</p>
+    <p>
+        It is used to find the prime numbers from 0 to n in O(NloglogN) T.C. and O(N) S.C.
+    </p>
+    <table>
+        <tr>
+            <td>
 
+                <head>
+                    <style>
+                        .keyword {
+                            color: rgb(0, 0, 255);
+                        }
+
+                        .comment {
+                            color: rgb(0, 128, 0);
+                        }
+
+                        .pp {
+                            color: rgb(0, 0, 255);
+                        }
+                    </style>
+                    <pre style="font-family:courier;font-size:10pt"><span class=keyword>public</span> <span class=keyword>class</span> SieveOfEratosthenes{
+    <span class=keyword>public</span> <span class=keyword>static</span> <span class=keyword>void</span> main(String[] args){
+        <span class=keyword>int</span> n=2000000;
+        printAllPrimes(n);
+    }
+    <span class=keyword>private</span> <span class=keyword>static</span> <span class=keyword>void</span> printAllPrimes(<span class=keyword>int</span> n){
+        <span class=keyword>int</span>[] sets = <span class=keyword>new</span> <span class=keyword>int</span>[n+1];
+        sets[0]=sets[1]=1;
+        <span class=keyword>for</span>(<span class=keyword>int</span> i=2;i&lt;=Math.sqrt(n);i++){
+            <span class=keyword>if</span>(sets[i]==0){
+                <span class=keyword>for</span>(<span class=keyword>int</span> j=i*i;j&lt;=n;j=j+i){
+                    sets[j]=1;
+                }
+            }
+        }
+        <span class=keyword>for</span>(<span class=keyword>int</span> i=0;i&lt;=n;i++){
+            <span class=keyword>if</span>(sets[i]==0)
+                System.out.print(i+&quot; &quot;);
+        }
+    }
+}
+
+</pre>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>

@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <style>
+        .keyword {
+            color: rgb(0, 0, 255);
+        }
+
+        .comment {
+            color: rgb(0, 128, 0);
+        }
+
+        .pp {
+            color: rgb(0, 0, 255);
+        }
+    </style>
+
+<body>
+    <pre style="font-family:courier;font-size:10pt"><span class=keyword>public</span> <span class=keyword>class</span> FactorialModuloP{
+    <span class=keyword>public</span> <span class=keyword>static</span> <span class=keyword>void</span> main(String[] args){
+        <span class=keyword>int</span> a=7,p=3;
+        <span class=keyword>int</span> xx=FactorialModuloP(a,p);
+        System.out.println(xx);
+    }
+    <span class=keyword>private</span> <span class=keyword>static</span> <span class=keyword>int</span> FactorialModuloP(<span class=keyword>int</span> a, <span class=keyword>int</span> p){
+        <span class=keyword>int</span>[] stepCalc = <span class=keyword>new</span> <span class=keyword>int</span>[a];
+        stepCalc[0]=1;
+        <span class=keyword>for</span>(<span class=keyword>int</span> i=1;i&lt;a;i++){
+            stepCalc[i]=(stepCalc[i-1]*i)%p;
+        }
+        <span class=keyword>int</span> res=1;
+        <span class=keyword>while</span>(a&gt;1){
+            <span class=keyword>if</span>((a/p)%2==1){
+                res=p-res;
+            }
+            res=res*stepCalc[a%p]%p;
+            a/=p;
+        }
+        <span class=keyword>return</span> res;
+    }
+}
+
+</pre>
+</body>
+
+</html>

@@ -1,18 +1,80 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="Stylesheet" type="text/css" href="style.css">
-<title>minmaxstackconstruction</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Stylesheet" type="text/css" href="style.css">
+    <title>minmaxstackconstruction</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
-<p>
-In this problem we will create a structure in which we will apply a certain algorithm school with we can always accept the minimum and maximum element of a stack.
-T.C. O(1)
-S.C. O(1)
-</p>
+    <p>
+        In this problem we will create a structure in which we will apply a certain algorithm school with we can always
+        accept the minimum and maximum element of a stack.
+        T.C. O(1)
+        S.C. O(1)
+    </p>
+    <table>
+        <tr>
+            <td>
 
+                <head>
+                    <style>
+                        .keyword {
+                            color: rgb(0, 0, 255);
+                        }
+
+                        .comment {
+                            color: rgb(0, 128, 0);
+                        }
+
+                        .pp {
+                            color: rgb(0, 0, 255);
+                        }
+                    </style>
+                    <pre style="font-family:courier;font-size:10pt"><span class=pp>#include</span> &lt;cstdio&gt;
+<span class=pp>#include</span> &lt;iostream&gt;
+<span class=pp>#include</span> &lt;utility&gt;
+<span class=pp>#include</span> &lt;vector&gt;
+<span class=pp>#include</span> &lt;stack&gt;
+
+<span class=keyword>using</span> <span class=keyword>namespace</span> std;
+
+<span class=keyword>inline</span> <span class=keyword>void</span> insert(vector&lt;pair&lt;int64_t,int64_t&gt;&gt; &amp;minMaxStack,stack&lt;int64_t&gt; &amp;stack,int64_t value){
+    <span class=keyword>if</span>(stack.empty()){
+        minMaxStack.push_back(make_pair(value,value));
+        stack.push(value);
+        <span class=keyword>return</span>;
+    }
+    minMaxStack.push_back(make_pair(min(minMaxStack[minMaxStack.size()-1].first,value),max(minMaxStack[minMaxStack.size()-1].second,value)));
+    stack.push(value);
+}
+
+<span class=keyword>inline</span> <span class=keyword>void</span> getMin(vector&lt;pair&lt;int64_t,int64_t&gt;&gt; &amp;minMaxStack){
+    printf(&quot;%ld &quot;,minMaxStack[minMaxStack.size()-1].first);
+}
+
+<span class=keyword>inline</span> <span class=keyword>void</span> getMax(vector&lt;pair&lt;int64_t,int64_t&gt;&gt; &amp;minMaxStack){
+    printf(&quot;%ld &quot;,minMaxStack[minMaxStack.size()-1].second);
+}
+
+<span class=keyword>inline</span> <span class=keyword>void</span> peek(stack&lt;int64_t&gt; &amp;stack){
+    cout&lt;&lt;stack.top()&lt;&lt;&quot; &quot;;
+}
+
+<span class=keyword>int</span> main(){
+    vector&lt;pair&lt;int64_t,int64_t&gt;&gt; minMaxStack;
+    stack&lt;int64_t&gt; stack;
+    insert(minMaxStack,stack,5);
+    insert(minMaxStack,stack,7);
+    insert(minMaxStack,stack,2);
+}
+</pre>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>

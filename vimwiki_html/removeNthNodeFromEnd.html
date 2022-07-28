@@ -1,17 +1,104 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="Stylesheet" type="text/css" href="style.css">
-<title>removenthnodefromend</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Stylesheet" type="text/css" href="style.css">
+    <title>removenthnodefromend</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
-<p>
-Very intuitive and new approach to soove using two pointer.
-T.C. O(N) / S.C. O(1)
-</p>
+    <p>
+        Very intuitive and new approach to soove using two pointer.
+        T.C. O(N) / S.C. O(1)
+    </p>
+    <table>
+        <tr>
+            <td>
 
+                <head>
+                    <style>
+                        .keyword {
+                            color: rgb(0, 0, 255);
+                        }
+
+                        .comment {
+                            color: rgb(0, 128, 0);
+                        }
+
+                        .pp {
+                            color: rgb(0, 0, 255);
+                        }
+                    </style>
+                    <pre style="font-family:courier;font-size:10pt"><span class=pp>#include</span> &lt;cstdio&gt;
+<span class=pp>#include</span> &lt;iostream&gt;
+
+<span class=keyword>using</span> <span class=keyword>namespace</span> std;
+
+<span class=keyword>typedef</span> <span class=keyword>struct</span> node {
+    int64_t data;
+    <span class=keyword>struct</span> node* next=nullptr;
+}node;
+
+node* createsll(){
+    node *root,*curnode,*newnode;
+    root=<span class=keyword>new</span> node;
+    root-&gt;data=0;
+    curnode=root;
+    <span class=keyword>for</span>(int64_t i=1;i&lt;10;i++){
+        newnode=<span class=keyword>new</span> node;
+        newnode-&gt;data=i;
+        curnode-&gt;next=newnode;
+        curnode=curnode-&gt;next;
+    }
+    <span class=keyword>return</span> root;
+}
+
+<span class=keyword>void</span> printll(node *root){
+    node *curnode=root;
+    <span class=keyword>while</span>(curnode!=nullptr){
+        printf(&quot;%ld &quot;,curnode-&gt;data);
+        curnode=curnode-&gt;next;
+    }
+}
+
+<span class=keyword>void</span> deletenode(node *bdel,node *todel,node *afdel){
+    node *temp;
+    temp=todel;
+    bdel-&gt;next=afdel;
+    todel-&gt;next=nullptr;
+    free(temp);
+}
+
+<span class=keyword>void</span> posofdelnode(node *root){
+    node *prevnode,*ptr1=root,*ptr2=root,*curnnode;
+    int64_t k;
+    printf(&quot;Enter the node you want to delete:: &quot;);
+    scanf(&quot;%ld&quot;,&amp;k);
+    <span class=keyword>while</span>(k--){
+        ptr2=ptr2-&gt;next;
+    }
+    <span class=keyword>while</span>(ptr2!=nullptr){
+        prevnode=ptr1;
+        ptr1=ptr1-&gt;next;
+        curnnode=ptr1-&gt;next;
+        ptr2=ptr2-&gt;next;
+    }
+    deletenode(prevnode,ptr1,curnnode);
+}
+
+<span class=keyword>int</span> main(){
+    node *root=createsll();
+    printll(root);
+    posofdelnode(root);
+    printll(root);
+}
+</pre>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>

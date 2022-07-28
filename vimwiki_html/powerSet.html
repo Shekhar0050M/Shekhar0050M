@@ -1,18 +1,85 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="Stylesheet" type="text/css" href="style.css">
-<title>powerset</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Stylesheet" type="text/css" href="style.css">
+    <title>powerset</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
-<p>
-In this problem, we have to find all the subsets of the given array.
-Iterative method T.C. O(2ⁿ*n) \ S.C O(2ⁿ*n)
-Recursive method its garbage iterative is enough.
-</p>
+    <p>
+        In this problem, we have to find all the subsets of the given array.
+        Iterative method T.C. O(2ⁿ*n) \ S.C O(2ⁿ*n)
+        Recursive method its garbage iterative is enough.
+    </p>
+    <table>
+        <tr>
+            <td>
 
+                <head>
+                    <style>
+                        .keyword {
+                            color: rgb(0, 0, 255);
+                        }
+
+                        .comment {
+                            color: rgb(0, 128, 0);
+                        }
+
+                        .pp {
+                            color: rgb(0, 0, 255);
+                        }
+                    </style>
+                    <pre style="font-family:courier;font-size:10pt"><span class=pp>#include</span> &lt;cstdio&gt;
+<span class=pp>#include</span>&lt;iostream&gt;
+<span class=pp>#include</span> &lt;vector&gt;
+
+<span class=keyword>using</span> <span class=keyword>namespace</span> std;
+
+<span class=keyword>inline</span> <span class=keyword>void</span> iterativemethod(vector&lt;vector&lt;<span class=keyword>int</span>&gt;&gt; &amp;powerset,vector&lt;<span class=keyword>int</span>&gt; &amp;arr,<span class=keyword>int</span> n){
+    <span class=keyword>int</span> sz=0;
+    vector&lt;<span class=keyword>int</span>&gt; currentvec;
+    powerset.push_back({});
+    <span class=keyword>for</span>(<span class=keyword>int</span> i=0;i&lt;n;i++){
+        sz=powerset.size();
+        <span class=keyword>for</span>(<span class=keyword>int</span> j=0;j&lt;sz;j++){
+            <span class=keyword>for</span>(<span class=keyword>auto</span> k:powerset[j]){
+                currentvec.push_back(k);
+            }
+            currentvec.push_back(arr[i]);
+            powerset.push_back(currentvec);
+            currentvec.clear();
+        }
+    }
+}
+
+<span class=keyword>inline</span> <span class=keyword>void</span> printarr(vector&lt;vector&lt;<span class=keyword>int</span>&gt;&gt; &amp;powerset){
+    <span class=keyword>for</span>(<span class=keyword>auto</span> i:powerset){
+        cout&lt;&lt;&quot;[ &quot;;
+        <span class=keyword>for</span>(<span class=keyword>auto</span> j:i){
+            cout&lt;&lt;j&lt;&lt;&quot; &quot;;
+        }
+        cout&lt;&lt;&quot;]\n&quot;;
+    }
+}
+
+<span class=keyword>int</span> main(){
+    vector&lt;<span class=keyword>int</span>&gt; arr;
+    <span class=keyword>for</span>(<span class=keyword>int</span> i=1;i&lt;10;i++){
+        arr.push_back(i);
+    }
+    vector&lt;vector&lt;<span class=keyword>int</span>&gt;&gt; powerset;
+    iterativemethod(powerset,arr,arr.size());
+    printf(&quot;Iterative method:: \n&quot;);
+    printarr(powerset);
+}
+</pre>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>

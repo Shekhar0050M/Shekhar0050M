@@ -1,18 +1,79 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="Stylesheet" type="text/css" href="style.css">
-<title>singlecyclecheck</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Stylesheet" type="text/css" href="style.css">
+    <title>singlecyclecheck</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
-<p>
-In this problem, we have to find the presemce of single cycle in our array in which the cycle constitutes all array.
-T.C. O(N)
-S.C. O(1)
-</p>
+    <p>
+        In this problem, we have to find the presemce of single cycle in our array in which the cycle constitutes all
+        array.
+        T.C. O(N)
+        S.C. O(1)
+    </p>
+    <table>
+        <tr>
+            <td>
 
+                <head>
+                    <style>
+                        .keyword {
+                            color: rgb(0, 0, 255);
+                        }
+
+                        .comment {
+                            color: rgb(0, 128, 0);
+                        }
+
+                        .pp {
+                            color: rgb(0, 0, 255);
+                        }
+                    </style>
+                    <pre style="font-family:courier;font-size:10pt"><span class=pp>#include</span> &lt;algorithm&gt;
+<span class=pp>#include</span> &lt;cstdio&gt;
+<span class=pp>#include</span> &lt;iostream&gt;
+<span class=pp>#include</span> &lt;numeric&gt;
+
+<span class=keyword>using</span> <span class=keyword>namespace</span> std;
+
+<span class=keyword>inline</span> <span class=keyword>int</span> getnextindex(<span class=keyword>int</span> arr[],<span class=keyword>int</span> currentindex,<span class=keyword>int</span> n){
+    <span class=keyword>int</span> jump=(currentindex+arr[currentindex])%n;
+    <span class=keyword>if</span>(jump&lt;0){
+        <span class=keyword>return</span> n+jump;
+    }
+    <span class=keyword>return</span> jump;
+}
+
+<span class=keyword>inline</span> <span class=keyword>bool</span> mymethod(<span class=keyword>int</span> arr[],<span class=keyword>int</span> n){
+    <span class=keyword>int</span> numberfocount=0,currentindex=0;
+    <span class=keyword>while</span>(numberfocount&lt;n){
+        <span class=keyword>if</span>(numberfocount&gt;0 &amp;&amp; currentindex==0){
+            <span class=keyword>return</span> 0;
+        }
+        numberfocount+=1;
+        currentindex=getnextindex(arr,currentindex,n);
+    }
+    <span class=keyword>return</span> 1;
+}
+
+<span class=keyword>int</span> main(){
+    <span class=keyword>int</span> arr[]={2,3,1,-4,-4,2},n=<span class=keyword>sizeof</span>(arr)/<span class=keyword>sizeof</span>(arr[0]);
+    <span class=keyword>if</span>(mymethod(arr,n)){
+        printf(&quot;It is single cyclic.\n&quot;);
+    }
+    <span class=keyword>else</span>{
+        printf(&quot;Not single cyclic.\n&quot;);
+    }
+}
+</pre>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>

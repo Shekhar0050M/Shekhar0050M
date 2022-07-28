@@ -1,17 +1,89 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="Stylesheet" type="text/css" href="style.css">
-<title>groupanagrams</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Stylesheet" type="text/css" href="style.css">
+    <title>groupanagrams</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
-<p>
-S.C. O(wN)
-T.C. O(nlogw+logn+n)
-</p>
+    <p>
+        S.C. O(wN)
+        T.C. O(nlogw+logn+n)
+    </p>
+    <table>
+        <tr>
+            <td>
 
+                <head>
+                    <style>
+                        .keyword {
+                            color: rgb(0, 0, 255);
+                        }
+
+                        .comment {
+                            color: rgb(0, 128, 0);
+                        }
+
+                        .pp {
+                            color: rgb(0, 0, 255);
+                        }
+                    </style>
+                    <pre style="font-family:courier;font-size:10pt"><span class=pp>#include</span> &lt;iostream&gt;
+<span class=pp>#include</span> &lt;string&gt;
+<span class=pp>#include</span> &lt;utility&gt;
+<span class=pp>#include</span> &lt;vector&gt;
+
+<span class=keyword>using</span> <span class=keyword>namespace</span> std;
+
+<span class=keyword>inline</span> <span class=keyword>void</span> mymethod(vector&lt;string&gt; &amp;group,vector&lt;vector&lt;string&gt;&gt; &amp;answer){
+    int64_t k=0;
+    string sz;
+    vector&lt;pair&lt;string,string&gt;&gt; mymap;
+    <span class=keyword>for</span>(<span class=keyword>auto</span> i:group){
+        sz=i;
+        sort(sz.begin(),sz.end());
+        mymap.push_back(make_pair(sz,i));
+    }
+    sort(mymap.begin(),mymap.end());
+    <span class=keyword>int</span> sizeo=group.size();
+    answer[0].push_back(mymap[0].second);
+    <span class=keyword>for</span>(<span class=keyword>int</span> i=1;i&lt;sizeo;i++){
+        <span class=keyword>if</span>(mymap[i].first==mymap[i-1].first){
+            answer[k].push_back(mymap[i].second);
+        }
+        <span class=keyword>else</span>{
+            k++;
+            answer[k].push_back(mymap[i].second);
+        }
+    }
+}
+
+<span class=keyword>inline</span> <span class=keyword>void</span> myprintsets(vector&lt;vector&lt;string&gt;&gt; &amp;answer){
+    <span class=keyword>for</span>(<span class=keyword>auto</span> i:answer){
+        <span class=keyword>if</span>(i.size()==0){
+            <span class=keyword>break</span>;
+        }
+        <span class=keyword>for</span>(<span class=keyword>auto</span> j:i){
+            cout&lt;&lt;j&lt;&lt;&quot; &quot;;
+        }
+        cout&lt;&lt;endl;
+    }
+}
+
+<span class=keyword>int</span> main(){
+    vector&lt;string&gt; group{&quot;yo&quot;,&quot;act&quot;,&quot;flop&quot;,&quot;tac&quot;,&quot;cat&quot;,&quot;oy&quot;,&quot;olfp&quot;};
+    vector&lt;vector&lt;string&gt;&gt; answer(group.size());
+    mymethod(group,answer);
+    
+}
+</pre>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>

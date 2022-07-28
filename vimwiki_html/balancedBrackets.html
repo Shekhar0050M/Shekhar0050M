@@ -1,18 +1,84 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="Stylesheet" type="text/css" href="style.css">
-<title>balancedbrackets</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Stylesheet" type="text/css" href="style.css">
+    <title>balancedbrackets</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
-<p>
-In this problem, we have to check if the given pair of brackets are balanced or not.
-T.C. O(N)
-S.C. O(1)
-</p>
+    <p>
+        In this problem, we have to check if the given pair of brackets are balanced or not.
+        T.C. O(N)
+        S.C. O(1)
+    </p>
+    <table>
+        <tr>
+            <td>
 
+                <head>
+                    <style>
+                        .keyword {
+                            color: rgb(0, 0, 255);
+                        }
+
+                        .comment {
+                            color: rgb(0, 128, 0);
+                        }
+
+                        .pp {
+                            color: rgb(0, 0, 255);
+                        }
+                    </style>
+                    <pre style="font-family:courier;font-size:10pt"><span class=pp>#include</span> &lt;cstdio&gt;
+<span class=pp>#include</span> &lt;iostream&gt;
+<span class=pp>#include</span> &lt;stack&gt;
+
+<span class=keyword>using</span> <span class=keyword>namespace</span> std;
+
+<span class=keyword>inline</span> int64_t checkIfSame(<span class=keyword>char</span> k,string str){
+    <span class=keyword>int</span> n=str.size();
+    <span class=keyword>for</span>(<span class=keyword>int</span> i=0;i&lt;n;i++){
+        <span class=keyword>if</span>(str[i]==k){
+            <span class=keyword>return</span> i;
+        }
+    }
+    <span class=keyword>return</span> -1;
+}
+
+<span class=keyword>inline</span> <span class=keyword>void</span> balancedBrackets(string str){
+    string openingBracket=&quot;({[&quot;,closingBracket=&quot;)}]&quot;;
+    <span class=keyword>int</span> x=0;
+    stack&lt;<span class=keyword>char</span>&gt; mystack;
+    <span class=keyword>for</span>(<span class=keyword>auto</span> i:str){
+        x=checkIfSame(i,closingBracket);
+        <span class=keyword>if</span>(x==-1){
+            mystack.push(i);
+        }
+        <span class=keyword>else</span>{
+            <span class=keyword>if</span>(openingBracket[x]==mystack.top()){
+                mystack.pop();
+            }
+            <span class=keyword>else</span>{
+                printf(&quot;Not balanced&quot;);
+                <span class=keyword>return</span>;
+            }
+        }
+    }
+    printf(&quot;Balanced&quot;);
+}
+
+<span class=keyword>int</span> main(){
+    string str=&quot;(([]()()){})&quot;;
+    balancedBrackets(str);
+}
+</pre>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>

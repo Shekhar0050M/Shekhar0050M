@@ -1,30 +1,177 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="Stylesheet" type="text/css" href="style.css">
-<title>bstconstruction</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Stylesheet" type="text/css" href="style.css">
+    <title>bstconstruction</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
-<p>
-T.C.Best case O(log(n))
-</p>
-<blockquote>
-Worst case O(N) singly linked list
-</blockquote>
-<p>
-S.C. 
-</p>
-<blockquote>
-Recursive:
-Insertion O(N)
-Searching Average O(log(N))
-Worst O(N)
-Iterative:
-O(1)
-</blockquote>
+    <p>
+        T.C.Best case O(log(n))
+    </p>
+    <blockquote>
+        Worst case O(N) singly linked list
+    </blockquote>
+    <p>
+        S.C.
+    </p>
+    <blockquote>
+        Recursive:
+        Insertion O(N)
+        Searching Average O(log(N))
+        Worst O(N)
+        Iterative:
+        O(1)
+    </blockquote>
+    <table>
+        <tr>
+            <td>
 
+                <head>
+                    <style>
+                        .keyword {
+                            color: rgb(0, 0, 255);
+                        }
+
+                        .comment {
+                            color: rgb(0, 128, 0);
+                        }
+
+                        .pp {
+                            color: rgb(0, 0, 255);
+                        }
+                    </style>
+                    <pre style="font-family:courier;font-size:10pt"><span class=pp>#include</span> &lt;cstdio&gt;
+<span class=pp>#include</span>&lt;iostream&gt;
+
+<span class=keyword>using</span> <span class=keyword>namespace</span> std;
+
+<span class=keyword>typedef</span> <span class=keyword>struct</span> node {
+    <span class=keyword>int</span> data;
+    <span class=keyword>struct</span> node *left=nullptr,*right=nullptr;
+}node;
+
+<span class=keyword>inline</span> <span class=keyword>bool</span> bstsearch(node *curnode,<span class=keyword>int</span> key){
+    <span class=keyword>if</span>(key==curnode-&gt;data){
+        <span class=keyword>return</span> <span class=keyword>true</span>;
+    }
+    <span class=keyword>else</span> <span class=keyword>if</span>(key&lt;curnode-&gt;data){
+        bstsearch(curnode-&gt;left,key);
+    }
+    <span class=keyword>else</span>{
+        bstsearch(curnode-&gt;right,key);
+    }
+    <span class=keyword>return</span> <span class=keyword>false</span>;
+}
+
+<span class=keyword>inline</span> <span class=keyword>bool</span> bstinsertion(node *curnode,<span class=keyword>int</span> key){
+    <span class=keyword>if</span>(key&lt;curnode-&gt;data){
+        <span class=keyword>if</span>(curnode-&gt;left==nullptr){
+            node *newnode;
+            newnode=<span class=keyword>new</span> node;
+            newnode-&gt;data=key;
+            curnode-&gt;left=newnode;
+            <span class=keyword>return</span> 1;
+        }
+        bstinsertion(curnode-&gt;left,key);
+    }
+    <span class=keyword>else</span>{
+        <span class=keyword>if</span>(curnode-&gt;right==nullptr){
+            node *newnode;
+            newnode=<span class=keyword>new</span> node;
+            newnode-&gt;data=key;
+            curnode-&gt;right=newnode;
+            <span class=keyword>return</span> 1;
+        }
+        bstinsertion(curnode-&gt;right,key);
+    }
+    <span class=keyword>return</span> 0;
+}
+
+<span class=keyword>inline</span> <span class=keyword>bool</span> bstdisplay(node *curnode){
+    <span class=keyword>if</span>(curnode==nullptr){
+        <span class=keyword>return</span> 0;
+    }
+    printf(&quot;%d &quot;,curnode-&gt;data);
+    bstdisplay(curnode-&gt;left);
+    bstdisplay(curnode-&gt;right);
+    <span class=keyword>return</span> 0;
+}
+
+<span class=comment>//Deletion is hard , read with concentration
+</span>
+<span class=keyword>inline</span> <span class=keyword>bool</span> bstdeletion(node *prevnode,node *curnode,<span class=keyword>int</span> key){
+    <span class=keyword>if</span>(key==curnode-&gt;data){
+        <span class=keyword>if</span>(curnode-&gt;left==nullptr &amp;&amp; curnode-&gt;right==nullptr){
+            node *n=curnode;
+            <span class=keyword>if</span>(prevnode-&gt;left==curnode){
+                prevnode-&gt;left=nullptr;
+            }
+            <span class=keyword>else</span>{
+                prevnode-&gt;right=nullptr;
+            }
+            <span class=keyword>delete</span> n;
+            <span class=keyword>return</span> 1;
+        }
+        <span class=keyword>else</span> <span class=keyword>if</span>(curnode-&gt;right==nullptr){
+            node *n=curnode;
+            prevnode-&gt;left=n-&gt;left;
+            <span class=keyword>delete</span> n;
+            <span class=keyword>return</span> 1;
+        }
+        <span class=keyword>else</span>{
+            node *n=curnode-&gt;right;
+            prevnode=curnode;
+            <span class=keyword>while</span>(n-&gt;left!=nullptr){
+                prevnode=n;
+                n=n-&gt;left;
+            }
+            <span class=keyword>int</span> k=n-&gt;data;
+            bstdeletion(nullptr,curnode,n-&gt;data);
+            curnode-&gt;data=k;
+            <span class=keyword>return</span> 1;
+        }
+    }
+    <span class=keyword>else</span> <span class=keyword>if</span>(key&lt;curnode-&gt;data){
+        bstdeletion(curnode,curnode-&gt;left,key);
+    }
+    <span class=keyword>else</span>{
+        bstdeletion(curnode,curnode-&gt;right,key);
+    }
+    <span class=keyword>return</span> 0;
+}
+
+<span class=keyword>int</span> main(){
+    node *root;
+    root=<span class=keyword>new</span> node;
+    root-&gt;data=10;
+    bstinsertion(root,5);
+    bstinsertion(root,15);
+    bstinsertion(root,2);
+    bstinsertion(root,5);
+    bstinsertion(root,1);
+    bstinsertion(root,13);
+    bstinsertion(root,22);
+    bstinsertion(root,14);
+    bstdisplay(root);
+    printf(&quot;\n&quot;);
+    <span class=comment>//if(bstsearch(root,14)){
+</span>        <span class=comment>//printf(&quot;Present.\n&quot;);
+</span>    <span class=comment>//}
+</span>    <span class=comment>//else{
+</span>        <span class=comment>//printf(&quot;Not present.\n&quot;);
+</span>    <span class=comment>//}
+</span>    bstdeletion(nullptr,root,10);
+    bstdisplay(root);
+}
+</pre>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>

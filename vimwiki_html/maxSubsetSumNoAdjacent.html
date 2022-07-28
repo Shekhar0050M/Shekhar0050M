@@ -1,16 +1,71 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="Stylesheet" type="text/css" href="style.css">
-<title>max-subset-sum-noadjacent</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Stylesheet" type="text/css" href="style.css">
+    <title>max-subset-sum-noadjacent</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
-<p>
-See the code.
-</p>
+    <p>
+        See the code.
+    </p>
+    <table>
+        <tr>
+            <td>
 
+                <head>
+                    <style>
+                        .keyword {
+                            color: rgb(0, 0, 255);
+                        }
+
+                        .comment {
+                            color: rgb(0, 128, 0);
+                        }
+
+                        .pp {
+                            color: rgb(0, 0, 255);
+                        }
+                    </style>
+                    <pre style="font-family:courier;font-size:10pt"><span class=pp>#include</span> &lt;algorithm&gt;
+<span class=pp>#include</span> &lt;iostream&gt;
+
+<span class=keyword>using</span> <span class=keyword>namespace</span> std;
+
+<span class=comment>//T.C.O(N) / S.C. O(N)
+</span><span class=keyword>inline</span> <span class=keyword>int</span> mthd1(<span class=keyword>int</span> arr[],<span class=keyword>int</span> n){
+    <span class=keyword>int</span> maxsum[n];
+    maxsum[0]=arr[0];
+    maxsum[1]=max(arr[0],arr[1]);
+    <span class=keyword>for</span>(<span class=keyword>int</span> i=2;i&lt;n;i++){
+        maxsum[i]=max(maxsum[i-1],maxsum[i-2]+arr[i]);
+    }
+    <span class=keyword>return</span> maxsum[n-1];
+}
+
+<span class=comment>//T.C.O(N) / S.C. O(1)
+</span><span class=keyword>inline</span> <span class=keyword>int</span> mthd2(<span class=keyword>int</span> arr[],<span class=keyword>int</span> n){
+    <span class=keyword>int</span> maxvalue=0,first=arr[0],second=max(arr[0],arr[1]);
+    <span class=keyword>for</span>(<span class=keyword>int</span> i=2; i&lt;n; i++){
+        maxvalue=max(first+arr[i],second);
+        first=second;
+        second=maxvalue;
+    }
+    <span class=keyword>return</span> maxvalue;
+}
+
+<span class=keyword>int</span> main(){
+    <span class=keyword>int</span> arr[]={7,10,12,7,9,14},n=<span class=keyword>sizeof</span>(arr)/<span class=keyword>sizeof</span>(arr[0]);
+    cout&lt;&lt;mthd1(arr,n)&lt;&lt;&quot; &quot;&lt;&lt;mthd2(arr,n);
+}
+</pre>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>

@@ -1,18 +1,61 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="Stylesheet" type="text/css" href="style.css">
-<title>Gray Code</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Stylesheet" type="text/css" href="style.css">
+    <title>Gray Code</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
-<p>
-Gray code is a binary numeral system in which two successive value differ by 1 bit.
-Just memorize the code and everything will be fine.
-Is useful in Tower of Hanoi problem.
-</p>
+    <p>
+        Gray code is a binary numeral system in which two successive value differ by 1 bit.
+        Just memorize the code and everything will be fine.
+        Is useful in Tower of Hanoi problem.
+    </p>
+    <table>
+        <tr>
+            <td>
 
+                <head>
+                    <style>
+                        .keyword {
+                            color: rgb(0, 0, 255);
+                        }
+
+                        .comment {
+                            color: rgb(0, 128, 0);
+                        }
+
+                        .pp {
+                            color: rgb(0, 0, 255);
+                        }
+                    </style>
+                    <pre style="font-family:courier;font-size:10pt"><span class=keyword>public</span> <span class=keyword>class</span> GrayCode{
+    <span class=keyword>public</span> <span class=keyword>static</span> <span class=keyword>void</span> main(String[] args){
+        <span class=keyword>int</span> n=20;
+        <span class=keyword>int</span> fcg = findGrayCode(n);
+        System.out.println(fcg);
+        <span class=keyword>int</span> ifcg = findInverseGrayCode(fcg);
+        System.out.println(ifcg);
+    }
+    <span class=keyword>private</span> <span class=keyword>static</span> <span class=keyword>int</span> findGrayCode(<span class=keyword>int</span> n) {
+        <span class=keyword>return</span> n ^ (n &gt;&gt; 1);
+    }
+    <span class=keyword>private</span> <span class=keyword>static</span> <span class=keyword>int</span> findInverseGrayCode(<span class=keyword>int</span> g) {
+        <span class=keyword>int</span> n=0;
+        <span class=keyword>for</span>(;g&gt;0;g&gt;&gt;=1) {
+            n^=g;
+        }
+        <span class=keyword>return</span> n;
+    }
+}
+</pre>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>
