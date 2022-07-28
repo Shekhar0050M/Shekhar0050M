@@ -1,22 +1,65 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="Stylesheet" type="text/css" href="style.css">
-<title>palindromecheck</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Stylesheet" type="text/css" href="style.css">
+    <title>palindromecheck</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
-<p>
-Simple palindrome check
-T.C. O(N)
-S.C. O(1)
-</p>
+    <p>
+        Simple palindrome check
+        T.C. O(N)
+        S.C. O(1)
+    </p>
 
-<p>
-Second Method can be dynamic programming S.C. O(N)
-</p>
+    <p>
+        Second Method can be dynamic programming S.C. O(N)
+    </p>
+
+    <table>
+        <tr>
+            <td>
+
+                <head>
+                    <style>
+                        .keyword {
+                            color: rgb(0, 0, 255);
+                        }
+
+                        .comment {
+                            color: rgb(0, 128, 0);
+                        }
+
+                        .pp {
+                            color: rgb(0, 0, 255);
+                        }
+                    </style>
+
+                <body>
+                    <pre style="font-family:courier;font-size:10pt"><span class=pp>#include</span> &lt;iostream&gt;
+
+<span class=keyword>using</span> <span class=keyword>namespace</span> std;
+
+<span class=keyword>int</span> main(){
+    <span class=keyword>char</span> s[]=&quot;abcdcba&quot;;
+    <span class=keyword>int</span> k=7;
+    <span class=keyword>for</span>(<span class=keyword>int</span> i=0;i&lt;k/2+1;i++){
+        <span class=keyword>if</span>(s[i]!=s[k-1-i]){
+            cout&lt;&lt;&quot;NOT A PALINDROME&quot;&lt;&lt;endl;
+            <span class=keyword>return</span> 0;
+        }
+    }
+    cout&lt;&lt;&quot;PALINDROME&quot;&lt;&lt;endl;
+}
+</pre>
+            </td>
+        </tr>
+    </table>
 
 </body>
+
 </html>

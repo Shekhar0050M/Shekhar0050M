@@ -29,44 +29,99 @@
             increment in the first and decrement in the last and keep going until we get the sum. O(n)
 
     </ol>
-    <div>
         <div>
-            <div id="highlighter_607755" class="syntaxhighlighter nogutter  java">
-                <table border="0" cellpadding="0" cellspacing="0">
-                    <tbody>
-                        <tr>
-                            <td class="code">
-                                <div class="container">
-                                    <div class="line number1 index0 alt2"><code
-                                            class="java comments">// A Java program to print "Hello World" </code></div>
-                                    <div class="line number2 index1 alt1"><code class="java keyword">public</code> <code
-                                            class="java keyword">class</code> <code class="java plain">GFG { </code>
-                                    </div>
-                                    <div class="line number3 index2 alt2"><code
-                                            class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code
-                                            class="java keyword">public</code> <code class="java keyword">static</code>
-                                        <code class="java keyword">void</code> <code
-                                            class="java plain">main(String args[]) </code></div>
-                                    <div class="line number4 index3 alt1"><code
-                                            class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code
-                                            class="java plain">{ </code></div>
-                                    <div class="line number5 index4 alt2"><code
-                                            class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code
-                                            class="java plain">System.out.println(</code><code
-                                            class="java string">"Hello World"</code><code class="java plain">); </code>
-                                    </div>
-                                    <div class="line number6 index5 alt1"><code
-                                            class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code
-                                            class="java plain">} </code></div>
-                                    <div class="line number7 index6 alt2"><code class="java plain">}</code></div>
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table><button class="runIdeBtn" onclick="redirect( 'highlighter_607755', 'java' )">Run on IDE</button>
-            </div>
+            <table>
+                <html>
+<head>
+<style>
+.keyword{color:rgb(0,0,255);}
+.comment{color:rgb(0,128,0);}
+.pp{color:rgb(0,0,255);}
+</style>
+<body>
+<pre style="font-family:courier;font-size:10pt"><span class=pp>#include</span> &lt;algorithm&gt;
+<span class=pp>#include</span>&lt;iostream&gt;
+<span class=pp>#include</span>&lt;unordered_map&gt;
+
+<span class=keyword>using</span> <span class=keyword>namespace</span> std;
+
+<span class=comment>//O(n²) TC / O(1) SC
+</span><span class=keyword>inline</span> <span class=keyword>int</span>* nestedloop(<span class=keyword>int</span> arr[],<span class=keyword>int</span> sum,<span class=keyword>int</span> n){
+    <span class=keyword>static</span> <span class=keyword>int</span> array[2]={0};
+    <span class=keyword>for</span>(<span class=keyword>int</span> i=0;i&lt;n;i++){
+        <span class=keyword>for</span>(<span class=keyword>int</span> j=i+1;j&lt;n;j++){
+            <span class=keyword>if</span>(arr[i]+arr[j]==sum){
+                array[0]=arr[i];
+                array[1]=arr[j];
+                <span class=keyword>return</span> array;
+            }
+        }
+    }
+    <span class=keyword>return</span> array;
+}
+
+
+<span class=comment>//O(nlogn) TC / O(1) SC
+</span><span class=keyword>inline</span> <span class=keyword>int</span>* twopointer(<span class=keyword>int</span> arr[],<span class=keyword>int</span> sum,<span class=keyword>int</span> n){
+    <span class=keyword>static</span> <span class=keyword>int</span> array[2]={0};
+    <span class=keyword>int</span> begin=0,end=n-1;
+    <span class=keyword>for</span>(<span class=keyword>int</span> i=0;i&lt;n;i++){
+        <span class=keyword>if</span>(begin==end){
+            <span class=keyword>break</span>;
+        }
+        <span class=keyword>if</span>(arr[begin]+arr[end]&lt;sum){
+            begin++;
+        }
+        <span class=keyword>else</span> <span class=keyword>if</span>(arr[begin]+arr[end]&gt;sum){
+            end--;
+        }
+        <span class=keyword>else</span> <span class=keyword>if</span>(arr[begin]+arr[end]==sum){
+            <span class=keyword>break</span>;
+        }
+    }
+    array[0]=arr[begin];
+    array[1]=arr[end];
+    <span class=keyword>return</span> array;
+}
+
+<span class=comment>//O(n) TC / O(n) SC
+</span><span class=keyword>inline</span> <span class=keyword>int</span>* hashmaping(<span class=keyword>int</span> arr[],<span class=keyword>int</span> sum,<span class=keyword>int</span> n){
+    <span class=keyword>static</span> <span class=keyword>int</span> array[2]={0};
+    unordered_map&lt;<span class=keyword>int</span>,<span class=keyword>int</span>&gt; nums;
+    <span class=keyword>for</span>(<span class=keyword>int</span> i=0;i&lt;n;i++){
+        <span class=keyword>if</span>(nums.find(sum-arr[i])==nums.end()){
+            nums[arr[i]]=1;
+        }
+        <span class=keyword>else</span>{
+            array[0]=sum-arr[i];
+            array[1]=arr[i];
+            <span class=keyword>return</span> array;
+        }
+    }
+    <span class=keyword>return</span> array;
+}
+
+<span class=keyword>inline</span> <span class=keyword>void</span> print(<span class=keyword>int</span> array[]){
+    <span class=keyword>for</span>(<span class=keyword>int</span> i=0;i&lt;2;i++){
+        cout&lt;&lt;array[i]&lt;&lt;&quot; &quot;;
+    }
+    cout&lt;&lt;endl;
+}
+
+<span class=keyword>int</span> main(){
+    <span class=keyword>int</span> arr[]={3,5,-4,8,11,1,-1,6},sum=10,n=<span class=keyword>sizeof</span>(arr)/<span class=keyword>sizeof</span>(arr[0]);
+    <span class=keyword>int</span> *ptr=nestedloop(arr,sum,n);
+    print(ptr);
+    ptr=twopointer(arr,sum,n);
+    print(ptr);
+    ptr=hashmaping(arr,sum,n);
+    print(ptr);
+}
+</pre></body>
+</html>
+
+            </table>
         </div>
-    </div>
 </body>
 
 </html>

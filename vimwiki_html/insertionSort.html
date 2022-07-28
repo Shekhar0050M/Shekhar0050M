@@ -1,23 +1,70 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="Stylesheet" type="text/css" href="style.css">
-<title>insertionsort</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Stylesheet" type="text/css" href="style.css">
+    <title>insertionsort</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
-<p>
-T.C. Worst O(n²)
-</p>
-<blockquote>
-Best O(n)
-</blockquote>
-    
-<p>
-S.C. O(1)
-</p>
+    <p>
+        T.C. Worst O(n²)
+    </p>
+    <blockquote>
+        Best O(n)
+    </blockquote>
+
+    <p>
+        S.C. O(1)
+    </p>
+
+    <table>
+        <tr>
+            <td>
+
+                <head>
+                    <style>
+                        .keyword {
+                            color: rgb(0, 0, 255);
+                        }
+
+                        .comment {
+                            color: rgb(0, 128, 0);
+                        }
+
+                        .pp {
+                            color: rgb(0, 0, 255);
+                        }
+                    </style>
+
+                <body>
+                    <pre style="font-family:courier;font-size:10pt"><span class=pp>#include</span>&lt;iostream&gt;
+
+<span class=keyword>using</span> <span class=keyword>namespace</span> std;
+
+<span class=keyword>int</span> main(){
+    <span class=keyword>int</span> mainarr[]={8,5,2,9,5,6,3},n=<span class=keyword>sizeof</span>(mainarr)/<span class=keyword>sizeof</span>(mainarr[0]),key=0,j=0;
+    <span class=keyword>for</span>(<span class=keyword>int</span> i=1;i&lt;n;i++){
+        key=mainarr[i];
+        j=i-1;
+        <span class=keyword>while</span>(j&gt;=0 &amp;&amp; mainarr[j]&gt;key){
+            mainarr[j+1]=mainarr[j];
+            j--;
+        }
+        mainarr[j+1]=key;
+    }
+    <span class=keyword>for</span>(<span class=keyword>auto</span> i:mainarr){
+        cout&lt;&lt;i&lt;&lt;&quot; &quot;;
+    }
+}
+</pre>
+            </td>
+        </tr>
+    </table>
 
 </body>
+
 </html>

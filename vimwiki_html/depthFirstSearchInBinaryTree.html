@@ -1,20 +1,107 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="Stylesheet" type="text/css" href="style.css">
-<title>depth first search in binary tree</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Stylesheet" type="text/css" href="style.css">
+    <title>depth first search in binary tree</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
-<p>
-depth first search is almost same as iterating through each not in place we don't print in just store it in a stack
-</p>
+    <p>
+        depth first search is almost same as iterating through each not in place we don't print in just store it in a
+        stack
+    </p>
 
-<p>
-O(V+E) T.C. / O(V) S.C.
-</p>
+    <p>
+        O(V+E) T.C. / O(V) S.C.
+    </p>
+    <table>
+        <tr>
+            <td>
 
+                <style>
+                    .keyword {
+                        color: rgb(0, 0, 255);
+                    }
+
+                    .comment {
+                        color: rgb(0, 128, 0);
+                    }
+
+                    .pp {
+                        color: rgb(0, 0, 255);
+                    }
+                </style>
+                <pre style="font-family:courier;font-size:10pt"><span class=pp>#include</span> &lt;cstdio&gt;
+<span class=pp>#include</span> &lt;iostream&gt;
+<span class=pp>#include</span>&lt;stack&gt;
+
+<span class=keyword>using</span> <span class=keyword>namespace</span> std;
+
+<span class=keyword>typedef</span> <span class=keyword>struct</span> node{
+    <span class=keyword>int</span> data;
+    <span class=keyword>struct</span> node *left,*right;
+}tree;
+
+tree* create(){
+    <span class=keyword>int</span> x;
+    tree *newnode;
+    newnode=<span class=keyword>new</span> tree;
+    scanf(&quot;%d&quot;,&amp;x);
+    <span class=keyword>if</span>(x==-1){
+        <span class=keyword>return</span> 0;
+    }
+    newnode-&gt;data=x;
+    newnode-&gt;left=create();
+    newnode-&gt;right=create();
+    <span class=keyword>return</span> newnode;
+}
+
+<span class=keyword>void</span> display(tree *node){
+    <span class=keyword>if</span>(node==NULL){
+        <span class=keyword>return</span>;
+    }
+    printf(&quot;Data is %d&quot;,node-&gt;data);
+    display(node-&gt;left);
+    display(node-&gt;right);
+    <span class=keyword>return</span>;
+}
+
+<span class=keyword>void</span> depthfirstsearch(tree *node,stack&lt;<span class=keyword>int</span>&gt; &amp;a){
+    <span class=keyword>if</span>(node==NULL){
+        <span class=keyword>return</span>;
+    }
+    a.push(node-&gt;data);
+    depthfirstsearch(node-&gt;left,a);
+    depthfirstsearch(node-&gt;right,a);
+}
+
+<span class=keyword>void</span> displaystack(stack&lt;<span class=keyword>int</span>&gt; &amp;a){
+    <span class=keyword>if</span>(a.empty()){
+        <span class=keyword>return</span>;
+    }
+    <span class=keyword>int</span> x=a.top();
+    a.pop();
+    displaystack(a);
+    printf(&quot;Data in stack:: %d\n&quot;,x);
+    a.push(x);
+}
+
+<span class=keyword>int</span> main(){
+    tree *root;
+    stack&lt;<span class=keyword>int</span>&gt; a;
+    root=create();
+    <span class=comment>//display(root);
+</span>    depthfirstsearch(root,a);
+    displaystack(a);
+}
+</pre>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>

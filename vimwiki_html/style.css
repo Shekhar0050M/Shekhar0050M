@@ -185,3 +185,12 @@ code {
   border: 1px solid #ccc;
   background-color: #f9f9f9;
 }
+
+.syntaxhighlighter {
+  width: 100% !important;
+  margin: 1em 0 1em 0 !important;
+  position: relative !important;
+  overflow: auto !important;
+  overflow-y: hidden !important;
+  font-size: 1em !important;
+}
