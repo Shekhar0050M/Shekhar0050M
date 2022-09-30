@@ -15,11 +15,43 @@ public class apartmentHunting {
         arr.add(new ArrayList<>(Arrays.asList("G", "Sc")));
         arr.add(new ArrayList<>(Arrays.asList("Sc")));
         arr.add(new ArrayList<>(Arrays.asList("Sc", "St")));
-        lessEfficient(arr);
+        moreEfficient(arr);
     }
 
     private static void moreEfficient(ArrayList<ArrayList<String>> arr) {
-        
+        int n=arr.size();
+        int[] g = new int[n];
+        int[] Sc = new int[n];
+        int[] St = new int[n];
+        Arrays.fill(g,n);
+        Arrays.fill(Sc,n);
+        Arrays.fill(St,n);
+        for(int i=0;i<n;i++){
+            if(blockContainsGym(arr.get(i))){
+                g[i]=0;
+            }
+            if(blockContainsSchool(arr.get(i))){
+                Sc[i]=0;
+            }
+            if(blockContainsStore(arr.get(i))){
+                St[i]=0;
+            }
+        }
+        for(int i=1;i<n;i++){
+            g[i]=Math.min(g[i],g[i-1]+1);
+            Sc[i]=Math.min(Sc[i],Sc[i-1]+1);
+            St[i]=Math.min(St[i],St[i-1]+1);
+        }
+        for(int i=n-2;i>=0;i--){
+            g[i]=Math.min(g[i],g[i+1]+1);
+            Sc[i]=Math.min(Sc[i],Sc[i+1]+1);
+            St[i]=Math.min(St[i],St[i+1]+1);
+        }
+        ArrayList<ArrayList<Integer>> gScSt = new ArrayList<>();
+        for(int i=0;i<n;i++){
+            gScSt.add(new ArrayList<>(Arrays.asList(g[i],Sc[i],St[i])));
+        }
+        System.out.println(gScSt);
     }
 
     private static void lessEfficient(ArrayList<ArrayList<String>> arr) {
