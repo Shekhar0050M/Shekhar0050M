@@ -15,15 +15,15 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-- 🔭 I’m currently working on improving my coding skills in ABAP and Java.
-- 🌱 I’m currently learning problem solving on leecode.
-- 👯 I’m looking to collaborate on android development projects.
-- 🤔 I’m looking for help with kotlin class files.
-- 💬 Ask me about my android development project.
+- 🔭 I’m improving my coding skills in ABAP and Java.
+- 🌱 I’m currently learning problem-solving on Leetcode.
+- 👯 I’m looking to collaborate on Android development projects.
+- 🤔 I’m looking for help with Kotlin class files.
+- 💬 Ask me about my Android development project.
 - 📫 How to reach me: shekhar0050m@gmail.com
 - 😄 Pronouns: He/Him
-- ⚡ Fun fact: Searching shekhar0050m on web will tell others about me.
-- Profile Views:Profile views: ![](https://komarev.com/ghpvc/?username=shekhar0050m)
+- ⚡ Fun fact: Searching shekhar0050m online will tell others about me.
+- ![](https://komarev.com/ghpvc/?username=shekhar0050m)
 
 <br>
 <h2>📊 Github Stats</h2>
