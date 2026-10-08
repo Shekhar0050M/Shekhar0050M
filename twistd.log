@@ -1,0 +1,35 @@
+2026-10-07T21:36:40+0530 [-] Loading /home/shekhar0050m/secure/bin/opencanary.tac...
+2026-10-07T21:36:41+0530 [-] Loaded.
+2026-10-07T21:36:41+0530 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 26.4.0 (/home/shekhar0050m/secure/bin/python 3.14.7) starting up.
+2026-10-07T21:36:41+0530 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-10-07T21:36:41+0530 [-] CanaryGit starting on 9418
+2026-10-07T21:36:41+0530 [opencanary.modules.git.CanaryGit#info] Starting factory <opencanary.modules.git.CanaryGit object at 0x766ed21a16a0>
+2026-10-07T21:36:41+0530 [-] CanaryHttpServiceSite starting on 8080
+2026-10-07T21:36:41+0530 [opencanary.modules.http.CanaryHttpServiceSite#info] Starting factory <opencanary.modules.http.CanaryHttpServiceSite object at 0x766ed21a2120>
+2026-10-07T21:36:41+0530 [-] SQLFactory starting on 3306
+2026-10-07T21:36:41+0530 [opencanary.modules.mysql.SQLFactory#info] Starting factory <opencanary.modules.mysql.SQLFactory object at 0x766ed21a23c0>
+2026-10-07T21:36:41+0530 [-] CanaryRedis starting on 6379
+2026-10-07T21:36:41+0530 [opencanary.modules.redis.CanaryRedis#info] Starting factory <opencanary.modules.redis.CanaryRedis object at 0x766ed21a2510>
+2026-10-07T21:36:41+0530 [-] HoneyPotSSHFactory starting on 2222
+2026-10-07T21:36:41+0530 [opencanary.modules.ssh.HoneyPotSSHFactory#info] Starting factory <opencanary.modules.ssh.HoneyPotSSHFactory object at 0x766ed21a27b0>
+2026-10-07T21:37:01+0530 [twisted.python.log#info] "127.0.0.1" - - [07/Oct/2026:16:06:59 +0000] "POST /index.html HTTP/1.1" 200 1118 "-" "curl/8.22.0"
+2026-10-07T21:37:43+0530 [opencanary.modules.ssh.HoneyPotTransport#debug] kex alg=b'curve25519-sha256' key alg=b'rsa-sha2-512'
+2026-10-07T21:37:43+0530 [opencanary.modules.ssh.HoneyPotTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2026-10-07T21:37:43+0530 [opencanary.modules.ssh.HoneyPotTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2026-10-07T21:37:43+0530 [opencanary.modules.ssh.HoneyPotTransport#debug] NEW KEYS
+2026-10-07T21:37:43+0530 [opencanary.modules.ssh.HoneyPotTransport#debug] starting service b'ssh-userauth'
+2026-10-07T21:37:44+0530 [opencanary.modules.ssh.HoneyPotSSHUserAuthServer#debug] b'fakeusr' trying auth b'none'
+2026-10-07T21:37:44+0530 [opencanary.modules.ssh.HoneyPotTransport#info] connection lost
+2026-10-07T21:42:41+0530 [twisted.internet.base#info] Received SIGTERM, shutting down.
+2026-10-07T21:42:41+0530 [-] (TCP Port 2222 Closed)
+2026-10-07T21:42:41+0530 [opencanary.modules.ssh.HoneyPotSSHFactory#info] Stopping factory <opencanary.modules.ssh.HoneyPotSSHFactory object at 0x766ed21a27b0>
+2026-10-07T21:42:41+0530 [-] (TCP Port 6379 Closed)
+2026-10-07T21:42:41+0530 [opencanary.modules.redis.CanaryRedis#info] Stopping factory <opencanary.modules.redis.CanaryRedis object at 0x766ed21a2510>
+2026-10-07T21:42:41+0530 [-] (TCP Port 3306 Closed)
+2026-10-07T21:42:41+0530 [opencanary.modules.mysql.SQLFactory#info] Stopping factory <opencanary.modules.mysql.SQLFactory object at 0x766ed21a23c0>
+2026-10-07T21:42:41+0530 [-] (TCP Port 8080 Closed)
+2026-10-07T21:42:41+0530 [opencanary.modules.http.CanaryHttpServiceSite#info] Stopping factory <opencanary.modules.http.CanaryHttpServiceSite object at 0x766ed21a2120>
+2026-10-07T21:42:41+0530 [-] (TCP Port 9418 Closed)
+2026-10-07T21:42:41+0530 [opencanary.modules.git.CanaryGit#info] Stopping factory <opencanary.modules.git.CanaryGit object at 0x766ed21a16a0>
+2026-10-07T21:42:41+0530 [twisted.internet.base#info] Main loop terminated.
+2026-10-07T21:42:41+0530 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
